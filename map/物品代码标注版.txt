@@ -1,0 +1,338 @@
+★┉┉┉┉┉┉┉┉┉普通┉┉┉┉┉┉┉┉┉★      ★┉┉┉┉┉┉┉┉┉扩展┉┉┉┉┉┉┉┉┉★      ★┉┉┉┉┉┉┉┉┉精华┉┉┉┉┉┉┉┉┉┉┉★
+
+英━━━━━━━━━汉━━━━━━代码━编号      英━━━━━━━━━汉━━━━━━代码━编号      英━━━━━━━━━汉━━━━━━━━代码━编号
+
+一.装甲
+
+1.头盔
+Cap-----------------帽子----------cap---1001      War Hat-------------战帽----------xap---1047      Shako---------------军帽--------------uap---1117
+Skull Cap-----------骷髅帽--------skp---1002      Sallet--------------輕便頭盔------xkp---1048      Hydraskull----------九头蛇头盖骨圆帽--ukp---1118
+Helm----------------头盔----------hlm---1003      Casque--------------無頰頭盔------xlm---1049      Armet---------------活动头盔----------ulm---1119
+Full Helm-----------高级头盔------fhl---1004      Basinet-------------轻钢盔--------xhl---1050      Giant Conch---------巨贝头盔----------uhl---1120
+Great Helm----------卓越头盔------ghm---1005      Winged Helm---------翼盔----------xhm---1051      Spired Helm---------螺旋頭盔----------uhm---1121
+Crown---------------皇冠----------crn---1006      Grand Crown---------巨皇冠--------xrn---1052      Corona--------------头冠--------------urn---1122
+Mask----------------面具----------msk---1007      Death Mask----------死亡面具------xsk---1053      Demonhead-----------恶魔头盖骨面具----usk---1123
+Bone Helm-----------白骨头盔------bhm---1044      Grim Helm-----------残酷头盔------xh9---1090      Bone Visage---------骸骨面罩----------uh9---1160
+
+2.盔甲
+Quilted Armor-------布甲----------qui---1008      Ghost Armor---------鬼魂戰甲------xui---1054      Dusk Shroud---------灰暮寿衣----------uui---1124
+Leather Armor-------皮甲----------lea---1009      Serpentskin---------海蛇皮甲------xea---1055      Wyrmhide------------古龙皮------------uea---1125
+Hard Leather--------硬皮甲--------hla---1010      Demonhide Armor-----魔皮戰甲------xla---1056      Scarab Husk---------圣甲虫壳皮甲------ula---1126
+Studded Leather-----镶嵌甲--------stu---1011      Trellised Armor-----盘绕战甲------xtu---1057      Wire Fleece---------線羊毛皮甲--------utu---1127
+Ring Mail-----------锁环甲--------rng---1012      Linked Mail---------連扣戰甲------xng---1058      Diamond Mail--------钻石锁子甲--------ung---1128
+Scale Mail----------鳞甲----------scl---1013      Tigulated-Mail------提格萊特戰甲--xcl---1059      Loricated Mail------甲壳铠鳞甲--------ucl---1129
+Chain Mail----------锁子甲--------chn---1014      Mesh Armor----------織網戰甲------xhn---1060      Boneweave-----------骸骨链甲----------uhn---1130
+Breast Plate--------胸甲----------brs---1015      Cuirass-------------護胸甲--------xrs---1061      Great Hauberk-------巨型鳞铠胸甲------urs---1131
+Splint Mail---------板甲----------spl---1016      Russet Armor--------罗瑟战甲------xpl---1062      Balrog Skin---------炎魔皮板甲--------upl---1132
+Plate Mail----------铠甲----------plt---1017      Templar Coat--------聖堂武士外袍--xlt---1063      Hellforge Plate-----地狱锻甲----------ult---1133
+Field Plate---------实战铠甲------fld---1018      Sharktooth----------鲨齿战甲------xld---1064      Kraken Shell--------海妖壳甲----------uld---1134
+Gothic Plate--------哥德战甲------gth---1019      Embossed Plate------凸纹战甲------xth---1065      Lacquered Plate-----漆甲--------------uth---1135
+Full Plate Mail-----高级战甲------ful---1020      Chaos Armor---------混沌战甲------xul---1066      Shadow Plate--------阴影铠甲----------uul---1136
+Ancient Armor-------古代装甲------aar---1021      Ornate Armor--------华丽战甲------xar---1067      Sacred Armor--------神圣盔甲----------uar---1137
+Light Plate---------轻型装甲------ltp---1022      Mage Plate----------法師鎧甲------xtp---1068      Archon Plate--------执政官铠甲--------utp---1138
+
+3.盾
+Buckler-------------圆盾----------buc---1023      Defender------------防御盾--------xuc---1069      Heater--------------防寒圆盾----------uuc---1139
+Small Shield--------小盾牌--------sml---1024      Round Shield--------圆型盾--------xml---1070      Luna----------------月精靈護盾--------uml---1140
+Large Shield--------大盾牌--------lrg---1025      Scutum--------------鳞盾----------xrg---1071      Hyperion------------亥伯龙盾----------urg---1141
+Kite Shield---------轻盾----------kit---1026      Dragon Shield-------龙盾----------xit---1072      Monarch-------------統治者大盾--------uit---1142
+Tower Shield--------塔盾----------tow---1027      Pavise--------------大盾----------xow---1073      Aegis---------------塔盾--------------uow---1143
+Gothic Shield-------哥德盾牌------gts---1028      Ancient Shield------古代之盾------xts---1074      Ward----------------保护盾牌----------uts---1144
+Bone Shield---------白骨盾牌------bsh---1045      Grim Shield---------冷酷之盾------xsh---1091      Troll Nest----------洞穴巨魔巢穴骨盾--ush---1161
+Spiked Shield-------尖刺盾牌------spk---1046      Barbed Shield-------倒刺护盾------xpk---1092      Blade Barrier-------刀刃刺盾----------upk---1162
+
+4.手套
+Leather Gloves------皮手套--------lgl---1029      Demonhide Glove-----魔皮手套------xlg---1075      Bramble Mitts-------荆棘连指手套------ulg---1145
+Heavy Gloves--------重手套--------vgl---1030      Sharkskin Glove-----鲨皮手套------xvg---1076      Vampirebone Gloves--吸血鬼骸骨手套----uvg---1146
+Chain Gloves--------锁链手套------mgl---1031      Heavy Bracers-------重型手镯------xmg---1077      Vambraces-----------吸血鬼手套--------umg---1147
+Light Gauntlets-----轻型铁手套----tgl---1032      Battle Gauntlet-----战场手套------xtg---1078      Crusader Gaunt------十字军铁手套------utg---1148
+Gauntlets-----------铁手套--------hgl---1033      War Gauntlets-------巨战手套------xhg---1079      Ogre Gauntlets------食人魔铁手套------uhg---1149
+
+5.靴
+Boots---------------皮靴----------lbt---1034      Demonhide Boots-----魔皮靴--------xlb---1080      Wyrmhide Boots------飞龙皮靴----------ulb---1150
+Heavy Boots---------重靴----------vbt---1035      Sharkskin Boots-----鯊皮之靴------xvb---1081      Scarabshell Bts-----圣甲虫壳靴--------uvb---1151
+Chain Boots---------锁链靴--------mbt---1036      Mesh Boots----------織網之靴------xmb---1082      Boneweave Boots-----骸骨靴------------umb---1152
+Light Plate---------轻型金属靴----tbt---1037      Battle-Boots--------戰場之靴------xtb---1083      Mirrored Boots------镜化靴------------utb---1153
+Greaves-------------护胫----------hbt---1038      War Boots-----------巨戰之靴------xhb---1084      Myrmidon Greave-----急速靴------------uhb---1154
+
+6.腰带
+Sash----------------饰带----------lbl---1039      Demonhide Sash------魔皮勳帶------zlb---1085      Spiderweb Sash------蛛网腰带----------ulc---1155
+Light Belt----------轻扣带--------vbl---1040      Sharkskin Belt------鲨皮腰带------zvb---1086      Vampirefang Blt-----吸血鬼燎牙腰帶----uvc---1156
+Belt----------------扣带----------mbl---1041      Mesh Belt-----------织网腰带------zmb---1087      Mithril Coil--------秘银腰带----------umc---1157
+Heavy Belt----------重扣带--------tbl---1042      Battle Belt---------戰場腰帶------ztb---1088      Troll Belt----------洞穴巨魔腰带------utc---1158
+Plated Belt---------金属扣带------hbl---1043      War Belt------------巨戰腰帶------zhb---1089      Colossus Girdle-----巨神腰带----------uhc---1159
+
+7.Druid Pelts 德鲁伊毛皮
+Wolf Head-----------狼头----------dr1---1093      Alpha Helm----------阿尔发头盔----dr6---1163      Blood Spirit--------血腥之灵----------drb---1183
+Hawk Helm-----------飞鹰头盔------dr2---1094      Griffon Headress----狮鹫兽头盔----dr7---1164      Sun Spirit----------太阳之灵----------drc---1184
+Antlers-------------鹿角----------dr3---1095      Hunter's Guise------猎人的伪装----dr8---1165      Earth Spirit--------大地之灵----------drd---1185
+Falcon Mask---------猎鹰面具------dr4---1096      Sacred Feathers-----神圣羽毛------dr9---1166      Sky Spirit----------天空之灵----------dre---1186
+Spirit Mask---------灵魂狼头面具--dr5---1097      Totemic Mask--------图腾面具狼盔--dra---1167      Dream Spirit--------幽梦之灵----------drf---1187
+
+8.Barbarian Helms 野蛮人头盔
+Jawbone Cap---------颚骨帽--------ba1---1098      Jawbone Visor-------颚骨面甲------ba6---1168      Carnage Helm--------屠杀头盔----------bab---1188
+Fanged Helm---------尖牙盔--------ba2---1099      Lion Helm-----------狮头尖盔------ba7---1169      Fury Visor----------暴怒面甲----------bac---1189
+Horned Helm---------角盔----------ba3---1100      Rage Mask-----------狂怒面具刺盔--ba8---1170      Destroyer Helm------毁灭者头盔--------bad---1190
+Assualt Helmet------突击盔--------ba4---1101      Savage Helmet-------蛮族头盔------ba9---1171      Conqueror Crown-----征服者皇冠面甲----bae---1191
+Avenger Guard-------复仇者之盔----ba5---1102      Slayer Guard--------杀手防护面甲--baa---1172      Guardian Crown------守护者皇冠面甲----baf---1192
+
+9.Paladin Shields 游侠盾牌
+Targe---------------小盾----------pa1---1103      Akaran Targe--------亚克南圆盾----pa6---1173      Sacred Targe--------神圣小盾----------pab---1193
+Rondache------------轻圆盾--------pa2---1104      Akaran Rondache-----亚克南轻圆盾--pa7---1174      Sacred Rondache-----神圣轻圆盾--------pac---1194
+Heraldic Shield-----纹章盾--------pa3---1105      Protector Shld------防守者盾牌----pa8---1175      Kurast Shield-------库拉斯特之盾------pad---1195
+Aerin Shield--------艾文之盾------pa4---1106      Guilded Shield------饰金盾牌------pa9---1176      Zakarum Shield------撒卡兰坶盾牌------pae---1196
+Crown Shield--------皇冠之盾------pa5---1107      Royal Shield--------皇家盾牌------paa---1177      Vortex Shield-------旋风盾------------paf---1197
+
+10.Necromancer Shrunken Heads 男巫盾牌
+Preserved Head------防腐之首------ne1---1108      Mummified Trphy-----木乃伊印记----ne6---1178      Minion Skull--------随待之骨----------neb---1198
+Zombie Head---------僵尸之首------ne2---1109      Fetish Trophy-------物神印记------ne7---1179      Hellspawn Skull-----地狱爪之骨--------nec---1199
+Unraveller Head-----揭露者之首----ne3---1110      Sexton Trophy-------司事印记------ne8---1180      Overseer Skull------监视者之骨--------ned---1200
+Gargoyle Head-------石像鬼之首----ne4---1111      Cantor Trophy-------领唱者印记----ne9---1181      Succubae Skull------女妖之骨----------nee---1201
+Demon Head----------恶魔之首------ne5---1112      Heirophant Trphy----祭司印记------nea---1182      Bloodlord Skull-----血王之骨----------nef---1202
+
+
+二.武器
+
+1.Axe 斧
+Hand Axe------------手斧----------hax---1         Hatchet-------------小斧----------9ha---94        Tomahawk------------战戟--------------7ha---197
+Axe-----------------斧------------axe---2         Cleaver-------------切肉斧--------9ax---95        Small Crescent------弯月斧------------7ax---198
+Double Axe----------双刃斧--------2ax---3         Twin Axe------------强化双斧------92a---96        Ettin Axe-----------双头斧------------72a---199
+Military Pick-------军用锹--------mpi---4         Crowbill------------喙钳----------9mp---97        War Spike-----------战刺--------------7mp---200
+War Axe-------------巨战斧--------wax---5         Naga----------------纳卡----------9wa---98        Berserker Axe-------狂战士斧----------7wa---201
+Large Axe-----------巨斧----------lax---6         Military Axe--------军斧----------9la---99        Feral Axe-----------猛禽斧------------7la---202
+Broad Axe-----------阔斧----------bax---7         Bearded Axe---------钩斧----------9ba---100       Silver Edged Axe----银刃斧------------7ba---203
+Battle Axe----------战斗斧--------btx---8         Tabar---------------战斗斧--------9bt---101       Decapitator---------斩首斧------------7bt---204
+Great Axe-----------卓越之斧------gax---9         Gothic Axe----------哥德之斧------9ga---102       Champion Axe--------豪杰斧------------7ga---205
+Giant Axe-----------大斧----------gix---10        Ancient Axe---------古代之斧------9gi---103       Glorious Axe--------荣光之斧----------7gi---206
+
+2.Maces 钉头锤
+Club----------------木棒----------clb---15        Cudgel--------------棍棒----------9cl---108       Truncheon-----------战仪杖------------7cl---211
+Spiked Club---------狼牙棒--------spc---19        Barbed Club---------倒钩槌--------9sp---112       Tyrant Club---------暴君之棒----------7sp---215
+Mace----------------钉头锤--------mac---20        Flanged Mace--------凸缘钉头锤----9ma---113       Reinforced Mace-----强化钉头锤--------7ma---216
+Morning Star--------流星锤--------mst---21        Jagged Star---------锯齿流星锤----9mt---114       Devil Star----------恶魔流星锤--------7mt---217
+Flail---------------连枷----------fla---22        Knout---------------铁皮鞭--------9fl---115       Scourge-------------天罚之锤----------7fl---218
+War Hammer----------巨战铁槌------whm---23        Battle Hammer-------战斗铁槌------9wh---116       Legendary Mallt-----传说之锤----------7wh---219
+Maul----------------大木棍--------mau---24        War Club------------巨战木棍------9m9---117       Ogre Maul-----------食人魔之槌--------7m7---220
+Great Maul----------卓越巨棍------gma---25        Martel de Fer-------战槌----------9gm---118       Thunder Maul--------雷槌--------------7gm---221
+
+3.Swords 剑
+Short Swrod---------短剑----------ssd---26        Gladius-------------羅馬短劍------9ss---119       Falcata-------------短剑--------------7ss---222
+Scimitar------------弯刀----------scm---27        Cutlass-------------微彎劍--------9sm---120       Ataghan-------------土耳其剑----------7sm---223
+Saber---------------军刀----------sbr---28        Shamshir------------虛偽之刃------9sb---121       Elegant Blade-------优雅之剑----------7sb---224
+Falchion------------弯形大刀------flc---29        Tulwar--------------圓月彎刀------9fc---122       Hydra Edge----------九头蛇刃----------7fc---225
+Crystal Sword-------水晶剑--------crs---30        Dimensional Bld-----空間之刃------9cr---123       Phase Blade---------幻化之刃----------7cr---226
+Broad Sword---------阔剑----------bsd---31        Battle Sword--------戰鬥劍--------9bs---124       Conquest Sword------征服之剑----------7bs---227
+Long Sword----------长剑----------lsd---32        Rune Sword----------符文劍--------9ls---125       Cryptic Sword-------神秘之剑----------7ls---228
+War Sword-----------巨战之剑------wsd---33        Ancient Sword-------古代之劍------9wd---126       Mythical Sword------秘仪之剑----------7wd---229
+Two handed-Swrd-----双手剑--------2hs---34        Espadon-------------斬鐵劍--------92h---127       Legend Sword--------传说之剑----------72h---230
+Claymore------------双刃大刀------clm---35        Dacian Falx---------雙刃鎌--------9cm---128       Highland Blade------高地之剑----------7cm---231
+Giant Sword---------大剑----------gis---36        Tusk Sword----------長牙劍--------9gs---129       Balrog Blade--------炎魔之刃----------7gs---232
+Bastard Sword-------巨剑----------bsw---37        Gothic Sword--------哥德劍--------9b9---130       Champion Sword------冠軍之劍----------7b7---233
+Flamberge-----------双手饰剑------flb---38        Zweihander----------韓瑞德之劍----9fb---131       Colossal Sword------巨神之剑----------7fb---234
+Great Sword---------卓越之剑------gsd---39        Executioner Swr-----死刑之劍------9gd---132       Colossus Blade------巨神之刃----------7gd---235
+
+4.Daggers 匕首
+Dagger--------------匕首----------dgr---40        Poignard------------锐匕----------9dg---133       Bone Knife----------骸骨小刀----------7dg---236
+Dirk----------------长匕首--------dir---41        Rondel--------------诗歌匕首------9di---134       Mithral Point-------秘银小刀----------7di---237
+Kriss---------------波形刀--------kri---42        Cinquedeas----------强波刀--------9kr---135       Fanged Knife--------齿缘小刀----------7kr---238
+Blade---------------短刀----------bld---43        Stilleto------------小剑----------9bl---136       Legend Spike--------传说尖刺----------7bl---239
+
+5.Throwing 投掷武器
+Throwing Knife------飞刀----------tkf---44        Battle Dart---------战斗飞镖------9tk---137       Flying Knife--------飞刀--------------7tk---240
+Throwing Axe--------飞斧----------tax---45        Francisca-----------法兰飞斧------9ta---138       Flying Axe----------飞斧--------------7ta---241
+Balanced Knife------平衡小刀------bkf---46        War Dart------------巨战飞镖------9bk---139       Winged Knife--------翼刀--------------7bk---242
+Balanced Axe--------平衡斧--------bal---47        Hurlbat-------------短战戟--------9b8---140       Winged Axe----------翼斧--------------7b8---243
+
+6.Javelins 标枪
+Javelin-------------标枪----------jav---48        War Javelin---------巨战标枪------9ja---141       Hyperion Javeln-----亥伯龙之枪--------7ja---244
+Pilum---------------短标枪--------pil---49        Great Pilum---------卓越标枪------9pi---142       Stygian Pilum-------冥河标枪----------7pi---245
+Short Spear---------短矛----------ssp---50        Simbilan------------锐矛----------9s9---143       Balrog Spear--------炎魔之矛----------7s7---246
+Glaive--------------大长刀--------glv---51        Spiculum------------阔针长矛------9gl---144       Ghost Glaive--------鬼魂尖枪----------7gl---247
+Throwing Spear------飞矛----------tsp---52        Harpoon-------------鱼叉----------9ts---145       Winged Harpoon------翼鱼叉------------7ts---248
+
+7.Spears 长矛
+Spear---------------长矛----------spr---53        War Spear-----------巨战长矛------9sr---146       Hyperion Spear------亥伯龙之矛--------7sr---249
+Trident-------------三叉戟--------tri---54        Fuscina-------------魔鬼之叉------9tr---147       Stygian Pike--------冥河之枪----------7tr---250
+Brandistock---------叉------------brn---55        War Fork------------巨战之叉------9br---148       Mancatcher----------刺人枪------------7br---251
+Spetum--------------大战戟--------spt---56        Yari----------------三叉长枪------9st---149       Ghost Spear---------鬼魂之矛----------7st---252
+Pike----------------矛------------pik---57        Lance---------------长枪----------9p9---150       War Pike------------战枪--------------7p7---253
+
+8.Polearms 长杆武器
+Bardiche------------大砍刀--------bar---58        Lochaber Axe--------罗佳伯斧------9b7---151       Ogre Axe------------食人魔之斧--------7o7---254
+Voulge--------------钩镰枪--------vou---59        Bill----------------比尔长刀------9vo---152       Colossus Voulge-----巨神之斧----------7vo---255
+Scythe--------------镰刀----------scy---60        Battle Scythe-------战斗镰刀------9s8---153       Thresher------------锐利之斧----------7s8---256
+Poleaxe-------------长柄战斧------pax---61        Partizan------------战戟----------9pa---154       Cryptic Axe---------神秘之斧----------7pa---257
+Halberd-------------长戟----------hal---62        Bec de Corbin-------双锋战戟------9h9---155       Great Poleaxe-------巨长斧------------7h7---258
+War Scythe----------巨战镰刀------wsc---63        Grim Scythe---------残酷镰刀------9wc---156       Giant Thresher------鲛尾巨斧----------7wc---259
+
+9.Bows 弓
+Short Bow-----------短弓----------sbw---69        Edge Bow------------锋锐之弓------8sb---162       Spider Bow----------蜘蛛弓------------6sb---265
+Hunter's Bow--------猎弓----------hbw---70        Razor Bow-----------剃刀之弓------8hb---163       Blade Bow-----------刀锋弓------------6hb---266
+Long Bow------------长弓----------lbw---71        Cedar Bow-----------杉木弓--------8lb---164       Shadow Bow----------阴影弓------------6lb---267
+Composite Bow-------组合弓--------cbw---72        Double Bow----------双弓----------8cb---165       Great Bow-----------巨弓--------------6cb---268
+Short Battle Bow----短战斗弓------sbb---73        Short Siege Bow-----短攻城弓------8s8---166       Diamond Bow---------钻石弓------------6s7---269
+Long Battle Bow-----长战斗弓------lbb---74        Large Siege Bow-----长攻城弓------8l8---167       Crusader Bow--------十字軍之弓--------6l7---270
+Short War Bow-------短巨战弓------swb---75        Rune Bow------------符文之弓------8sw---168       Ward Bow------------庇护之弓----------6sw---271
+Long War Bow--------长巨战弓------lwb---76        Gothic Bow----------哥德弓--------8lw---169       Hydra Bow-----------九头蛇弓----------6lw---272
+
+10.Crossbows 弩
+Light Crossbow------轻十字弓------lxb---77        Arbalest------------石弓----------8lx---170       Pellet Bow----------弹丸弓------------6lx---273
+Crossbow------------十字弓--------mxb---78        Siege Crossbow------攻城十字弓----8mx---171       Gorgon Crossbow-----蛇魔女十字弓------6mx---274
+Heavy Crossbow------重十字弓------hxb---79        Ballista------------弩弓----------8hx---172       Colossus Crossbow---巨神十字弓--------6hx---275
+Repeating Crossbow--连射十字弓----rxb---80        Chu Ko Nu-----------巧工弩--------8rx---173       Demon Crossbow------恶魔十字弓--------6rx---276
+
+11.Staves 棍棒
+Short Staff---------短棍----------sst---64        Jo Staff------------乔木棒--------8ss---157       Walking Stick-------手杖--------------6ss---260
+Long Staff----------长棍----------lst---65        Quarter staff-------六尺棍--------8ls---158       Stalagmite----------钟乳石之杖--------6ls---261
+Gnarled Staff-------多节棍--------gst---66        Cedar Staff---------杉木之棍------8cs---159       Elder Staff---------长老之杖----------6cs---262
+Battle Staff--------战斗法杖------bst---67        Gothic Staff--------哥德之棍------8bs---160       Shillelagh----------树皮之杖----------6bs---263
+War Staff-----------巨战法杖------wst---68        Rune Staff----------符文之棍------8ws---161       Archon Staff--------执政官之杖--------6ws---264
+
+12.Wands 法杖
+Wand----------------法杖----------wnd---11        Burnt Wand----------燒焦之杖------9wn---104       Polished Wand-------洗练法杖----------7wn---207
+Yew Wand------------紫杉之杖------ywn---12        Petrified Wand------净化之杖------9yw---105       Ghost Wand----------鬼魂之杖----------7yw---208
+Bone Wand-----------骨杖----------bwn---13        Tomb Wand-----------古墓之杖------9bw---106       Lich Wand-----------巫妖法杖----------7bw---209
+Grim Wand-----------残酷之杖------gwn---14        Grave Wand----------墓地之杖------9gw---107       Unearthed Wand------破隐法杖----------7gw---210
+
+13.Scepters 权杖
+Sceptre-------------权杖----------scp---16        Rune Sceptre--------符文权杖------9sc---109       Mighty Sceptre------强威权杖----------7sc---212
+Grand Sceptre-------雄伟权杖------gsc---17        Holy Water Spri-----圣水喷杖------9qs---110       Seraph Rod----------炽天使法杖--------7qs---213
+War Sceptre---------巨战权杖------wsp---18        Divine Sceptre------神属权杖------9ws---111       Caduceus------------神使之杖----------7ws---214
+
+14.Assassin Katars 刺客拳剑
+Katar---------------拳剑----------ktr---176       Quhab---------------格斗刃--------9ar---183       Suwayyah------------近身刃------------7ar---190
+Wrist Blade---------腕刀----------wrb---177       Wrist Spike---------腕刺----------9wb---184       Wrist Sword---------腕剑--------------7wb---191
+Hatchet Hands-------斧手----------axf---178       Fascia--------------格斗爪--------9xf---185       War Fist------------战拳--------------7xf---192
+Cestus--------------腰刀----------ces---179       Hand Scythe---------手镰----------9cs---186       Battle Cestus-------斗腰刀------------7cs---193
+Claws---------------爪------------clw---180       Greater Claws-------巨爪----------9lw---187       Feral Claws---------猛禽爪------------7lw---194
+Blade Talons--------刃爪----------btl---181       Greater Talons------巨鹰爪--------9tw---188       Runic Talons--------符纹爪------------7tw---195
+Scissors Katar------剪咬刀--------skr---182       Scissors Quhab------格斗剪--------9qr---189       Scissors Suwayh-----近身剪------------7qr---196
+
+15.Sorceress Orbs 女巫法球
+Eagle Orb-----------鹰之法珠------ob1---277       Glowing Orb---------灵光法珠------ob6---287       Heavenly Stone------天堂之石----------obb---297
+Sacred Globe--------神圣天球------ob2---278       Crystalline Glb-----水晶天球------ob7---288       Eldritch Orb--------怪异之球----------obc---298
+Smoked Sphere-------烟雾之球------ob3---279       Cloudy Sphere-------云雾之球------ob8---289       Demon Heart---------恶魔之心----------obd---299
+Clasped Orb---------握扣法珠------ob4---280       Sparkling Ball------闪耀之珠------ob9---290       Vortex Orb----------漩涡球------------obe---300
+Dragon Stone--------杰瑞德之石----ob5---281       Swirling Crystl-----涡流水晶------oba---291       Dimensional Shrd----次元碎片----------obf---301
+
+16.Amazon Weapons 亚玛逊武器
+Stag Bow------------男性之弓------am1---282       Ashwood Bow---------灰木之弓------am6---292       Matriarchal Bow-----女族长之弓--------amb---302
+Reflex Bow----------反射之弓------am2---283       Ceremonial Bow------祭典之弓------am7---293       Grnd-Matron Bow-----大院长之弓--------amc---303
+Maiden Spear--------女士之矛------am3---284       Ceremonial Spr------祭典之矛------am8---294       Matriarchal Spr-----女族长之矛--------amd---304
+Maiden Pike---------女士长矛------am4---285       Ceremonial Pike-----祭典长矛------am9---295       Matriarchal Pik-----女族长之长矛------ame---305
+Maiden Javelin------女士标枪------am5---286       Ceremonial Jav------祭典标枪------ama---296       Matriarchal Jav-----女族长之标枪------amf---306
+
+
+三.Other Items 其他
+
+1.Circlet 头环
+Circlet---头环----ci0--1113
+Coronet---宝冠----ci1--1114
+Tiara-----三重冠--ci2--1115
+Diadem----权冠----ci3--1116
+
+2.Potion 药剂
+Rejuvenation Potion-------回复活力药剂-------rvs--2008
+Full Rejuvenation Potion--全面回复活力药剂---rvl--2009
+Stamina Potion------------体力药剂-----------vps--2006
+Antidote Potion-----------解毒剂-------------yps--2007
+Thawing Potion------------解冻剂-------------wms--2010
+
+3.Gem Type 宝石
+Chipped Amethyst-----碎裂的紫宝石----gcv--2050
+Chipped Diamond------碎裂的钻石------gcw--2075
+Chipped Emerald------碎裂的绿宝石----gcg--2065
+Chipped Ruby---------碎裂的红宝石----gcr--2070
+Chipped Saphire------碎裂的蓝宝石----gcb--2060
+Chipped Skull--------碎裂的骷髅------skc--2090
+Chipped Topaz--------碎裂的黄宝石----gcy--2055
+
+Flawed Amethyst------裂开的紫宝石----gfv--2051
+Flawed Diamond-------裂开的钻石------gfw--2076
+Flawed Emerald-------裂开的绿宝石----gfg--2066
+Flawed Ruby----------裂开的红宝石----gfr--2071
+Flawed Saphire-------裂开的蓝宝石----gfb--2061
+Flawed Skull---------裂开的骷髅------skf--2091
+Flawed Topaz---------裂开的黄宝石----gfy--2056
+
+Amethyst-------------紫宝石----------gsv--2052
+Diamond--------------钻石------------gsw--2077
+Emerald--------------绿宝石----------gsg--2067
+Ruby-----------------红宝石----------gsr--2072
+Saphire--------------蓝宝石----------gsb--2062
+Skull----------------骷髅------------sku--2092
+Topaz----------------黄宝石----------gsy--2057
+
+Flawless Amethyst----无瑕疵紫宝石----gzv--2053
+Flawless Diamond-----无瑕疵钻石------glw--2078
+Flawless Emerald-----无瑕疵绿宝石----glg--2068
+Flawless Ruby--------无瑕疵红宝石----glr--2073
+Flawless Saphire-----无瑕疵蓝宝石----glb--2063
+Flawless Skull-------无瑕疵骷髅------skl--2093
+Flawless Topaz-------无瑕疵黄宝石----gly--2058
+
+Perfect Diamond------完美钻石--------gpw--2079
+Perfect Amethyst-----完美紫宝石------gpv--2054
+Perfect Sapphire-----完美蓝宝石------gpb--2064
+Perfect Topaz--------完美黄宝石------gpy--2059
+Perfect Ruby---------完美红宝石------gpr--2074
+Perfect Skull--------完美骷髅--------skz--2094
+Perfect Emerald------完美绿宝石------gpg--2069
+
+4.Rune 符文
+01--El-----------r01----2103
+02--Eld----------r02----2104
+03--Tir----------r03----2105
+04--Nef----------r04----2106
+05--Eth----------r05----2107
+06--Ith----------r06----2108
+07--Tal----------r07----2109
+08--Ral----------r08----2110
+09--Ort----------r09----2111
+10--Thul---------r10----2112
+11--Amn----------r11----2113
+12--Sol----------r12----2114
+13--Shael--------r13----2115
+14--Dol----------r14----2116
+15--Hel----------r15----2117
+16--Io-----------r16----2118
+17--Lum----------r17----2119
+18--Ko-----------r18----2120
+19--Fal----------r19----2121
+20--Lem----------r20----2122
+21--Pul----------r21----2123
+22--Um-----------r22----2124
+23--Mal----------r23----2125
+24--Ist----------r24----2126
+25--Gul----------r25----2127
+26--Vex----------r26----2128
+27--Ohm----------r27----2129
+28--Lo-----------r28----2130
+29--Sur----------r29----2131
+30--Ber----------r30----2132
+31--Jah----------r31----2133
+32--Cham---------r32----2134
+33--Zod----------r33----2135
+
+5.Charm 护身符
+Charm Small----小护身符---------cm1---2096
+Charm Large----大型护身符-------cm2---2097
+Charm Grand----超大型护身符-----cm3---2098
+
+6.Scrolls 卷轴
+Identify Scroll-------辩视卷轴-----------isc--2023
+Town Portal Scroll----城镇传送卷轴-------tsc--2022
+
+7.Tomes 书
+Tome of Identify------辩视之书-----------ibk--2012
+Tome of Town Portal---城镇传送之书-------tbk--2011
+
+8.Misc
+Arrows----------箭矢-------aqv---2019
+Bolts-----------十字弓弹---cqv---2021
+Jewel-----------珠宝-------jew---2026
+Skeleton-Key----钥匙-------key---2036
+amulet----------项链-------amu---2013
+gold------------黄金-------gld---2016
+ring------------戒指-------rin---2015
+Ear-------------耳朵-------ear---2049

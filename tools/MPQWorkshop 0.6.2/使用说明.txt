@@ -1,0 +1,91 @@
+精彩库游戏网http://www.jcku.com/
+----------------------------------
+                '''
+               (0 0)
+   +------oOO---(_)---OOo-----+
+   |                          |
+   |       精彩库游戏网       |
+   |       Www.Jcku.Com       |
+   |                          |
+   +--------------------------+
+              |__|__|
+               || ||
+              ooO Ooo
+
+MPQWorkshop 6.2 汉化版：
+星际争霸资源编辑工具，整合提取背景图片、过场动画、各族背景音乐、单位音效，含音乐动画版就是利用此工具编辑而成，有能力的朋友也可以编辑出个性化的星际争霸（过场动画、简报图片、背景音乐、单位音效都可以替换编辑）
+
+MPQWorkshop v0.6.2  内置文件说明
+
+SC_data.txt为星际原版的目录
+SCBW_data.txt为星际母巢版的目录
+SCBW1.10_data.txt为最新的1.10版本目录
+SCALL_data.txt为以上文件的总和目录（推荐）
+Diablo I.txt为暗黑1的目录
+Diablo II LOD.txt为暗黑2毁灭之王的目录
+Diablo II.txt为暗黑2原版的目录
+Hellfire.txt为暗黑1地狱火的目录
+Lords of Magic.txt
+Warcraft II BNE.txt为魔兽2黑潮的目录
+Warcraft III ROC Beta.txt为魔兽3混乱之治测试版的目录
+Warcraft III ROC.txt为魔兽3混乱之治的目录
+Warcraft III TFT.txt为魔兽3冰封王座的目录
+
+
+
+
+
+精彩库游戏玩家必备软件
+======================================================================
+1，Microsoft .NET Framework(未安装会提示：应用程序正常初始化(0xc000*****)失败)
+2.0版下载:http://www.jcku.com/soft/15744.html
+3.5版下载:http://www.jcku.com/soft/25559.html
+4.0版下载:http://www.jcku.com/soft/29213.html
+
+2,Visual C++运行库(各种未知错误如“配置不正确”或其他错误)
+C++ 2005运行库下载:http://www.jcku.com/soft/13875.html
+C++ 2008运行库下载:http://www.jcku.com/soft/12487.html
+C++ 2010运行库下载:http://www.jcku.com/soft/32452.html
+
+3,DirectX9.0C最新版(缺少d3dx9_xx.dll:如d3dx9_40\41...)
+2010年2月最新版下载:http://www.jcku.com/soft/1874.html
+
+4,化繁为简V2.13版(解决一些游戏中可能出现乱码等情况)
+下载地址:http://www.jcku.com/soft/12448.html
+
+5,OpenAL(Open Audio Library自由软件界的跨平台音效API)
+下载地址:http://www.jcku.com/soft/32455.html
+
+6,NVIDIA PhysX物理加速驱动最新9.09.0814版
+下载地址:http://www.jcku.com/soft/25567.html
+
+7,Mipony最新版(一款免费的网盘资源批量下载工具,支持115网盘,RayFile和国外流行的 Megaupload,Rapidshare,Hotfile等等)
+下载地址:http://www.jcku.com/soft/32094.html
+
+8,XLiveRedist 最新版Games For Windows Live V3.0.89.0（提示找不到xlive.dll文件）
+下载地址:http://www.jcku.com/soft/32456.html
+Games For Windows Live V3.2下载：http://www.jcku.com/soft/32457.html
+
+9,ZD Soft Game Recorder中文特别版(游戏截图器,游戏录像机与游戏基准测试工具,支持几乎所有的PC游戏)
+下载地址:http://www.jcku.com/soft/25023.html
+
+10,DOS环境模拟器DosBox0.61(可以通过此软件来实现虚拟的Dos环境来重现许多老游戏的风采，老游戏迷必备)
+下载地址:http://www.jcku.com/dl/mnq/20100521/29408.html
+
+11,金山游侠5最新版(游戏修改软件：提供游戏修改、屏幕截图、变速齿轮、专用修改器制作等基本功能，附带游戏寻呼机。)
+下载地址:http://www.jcku.com/pcgames/20071223/2306.html
+
+12,Microsoft AppLocale中文版(微软出名的WinXP下最佳内码转换工具,可以解决Windows XP下显示繁体中文游戏的乱码问题)
+下载地址:http://www.jcku.com/soft/12447.html
+
+13,模拟光驱软件
+DAEMON Tools Lite 4.35.6简体中文版(最佳模拟光驱软件)
+下载地址:http://www.jcku.com/soft/14134.html
+Alcohol 120% V1.9.8.7612简体中文汉化版
+下载地址:http://www.jcku.com/soft/14133.html
+最方便的单文件模拟光驱LevinISO中文版(支持多种镜像格式，体积小巧，更好的是他只有一个EXE文件，不要安装重启，不可以用)
+下载地址:http://www.jcku.com/soft/31549.html
+======================================================================
+另外目前很多国产软件以及汉化等安装程序捆绑流氓插件，大家在安装的时候务必留意每一步的Next！我们不会接任何捆绑插件的广告。
+======================================================================
+本站为非营利性站点，所有资源均是网上搜集或私下交流学习之用，任何涉及商业盈利目的均不得使用，否则产生的一切后果将由您自己承担!本站仅仅提供一个观摩学习的环境，将不对任何资源负法律责任。所有资源请在下载后24小时内删除。

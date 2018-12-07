@@ -1,0 +1,55 @@
+type	name	bits	desc	cond1	condvar1	condval1	cond2	condvar2	condval2	comment
+BYTE	nGems	3	Number of Gems	0	unk51	0				x
+DWRD	dwGUID	32	GUID							x
+BYTE	iLevel	7	Drop level							x
+BYTE	iQual	4	Quality							x
+BOOL	bVarGfx	1	Variable Graphic flag							x
+BYTE	iVarGfx	3	Variable Graphic Number	0	bVarGfx	1				x
+BOOL	bClass	1	Class Info Flag							x
+WORD	wClass	11	Class Info	0	bClass	1				x
+										x
+FILE	types.txt	0	Type bits	0	iQual	2				x
+										x
+BYTE	loQual	3	Low Quality sub-type	0	iQual	1				x
+BYTE	hiQual	3	Hi Quality sub-type	0	iQual	3				x
+WORD	wPrefix	11	Magic Prefix	0	iQual	4				x
+WORD	wSuffix	11	Magic Suffix	0	iQual	4				x
+WORD	wSetId	12	Set ID	0	iQual	5				x
+BYTE	wRname1	8	First Rare Name	0	iQual	6				x
+BYTE	wRname2	8	Second Rare Name	0	iQual	6				x
+										x
+BOOL	bPref1	1	Prefix 1 flag	0	iQual	6				x
+WORD	wPref1	11	Prefix 1	0	iQual	6	0	bPref1	1	x
+BOOL	bSuff1	1	Suffix 1 flag	0	iQual	6				x
+WORD	wSuff1	11	Suffix 1	0	iQual	6	0	bSuff1	1	x
+										x
+BOOL	bPref2	1	Prefix 2 flag	0	iQual	6				x
+WORD	wPref2	11	Prefix 2	0	iQual	6	0	bPref2	1	x
+BOOL	bSuff2	1	Suffix 2 flag	0	iQual	6				x
+WORD	wSuff2	11	Suffix 2	0	iQual	6	0	bSuff2	1	x
+										x
+BOOL	bPref3	1	Prefix 3 flag	0	iQual	6				x
+WORD	wPref3	11	Prefix 3	0	iQual	6	0	bPref3	1	x
+BOOL	bSuff3	1	Suffix 3 flag	0	iQual	6				x
+WORD	wSuff3	11	Suffix 3	0	iQual	6	0	bSuff3	1	x
+										x
+BYTE	wRname1	8	First Rare Name	0	iQual	8				x
+BYTE	wRname2	8	Second Rare Name	0	iQual	8				x
+										x
+BOOL	bPref1	1	Prefix 1 flag	0	iQual	8				x
+WORD	wPref1	11	Prefix 1	0	iQual	8	0	bPref1	1	x
+BOOL	bSuff1	1	Suffix 1 flag	0	iQual	8				x
+WORD	wSuff1	11	Suffix 1	0	iQual	8	0	bSuff1	1	x
+										x
+BOOL	bPref2	1	Prefix 2 flag	0	iQual	8				x
+WORD	wPref2	11	Prefix 2	0	iQual	8	0	bPref2	1	x
+BOOL	bSuff2	1	Suffix 2 flag	0	iQual	8				x
+WORD	wSuff2	11	Suffix 2	0	iQual	8	0	bSuff2	1	x
+										x
+BOOL	bPref3	1	Prefix 3 flag	0	iQual	8				x
+WORD	wPref3	11	Prefix 3	0	iQual	8	0	bPref3	1	x
+BOOL	bSuff3	1	Suffix 3 flag	0	iQual	8				x
+WORD	wSuff3	11	Suffix 3	0	iQual	8	0	bSuff3	1	x
+										x
+WORD	wUniId	12	Unique ID	0	iQual	7				x
+										x

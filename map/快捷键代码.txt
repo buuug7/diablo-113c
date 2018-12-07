@@ -1,0 +1,38 @@
+VK_BACK:                    ÍË¸ñ¼ü¡û
+VK_TAB:                     Tab¼ü
+VK_PAUSE:                   PauseBreaK¼ü
+VK_SPACE:                   ¿Õ¸ñ¼ü
+VK_END:                     End¼ü
+VK_HOME:                    Home¼ü
+VK_INSERT:                  Insert¼ü
+VK_DELETE:                  Delete¼ü
+VK_UP:                      ÉÏ¡ü
+VK_DOWN:                    ÏÂ¡ý
+VK_LEFT:                    ×ó¡û
+VK_RIGHT:                   ÓÒ¡ú
+
+VK_0 ~~ VK_9  :             ´ó¼üÅÌ 0 ~~ 9
+
+VK_A ~~ VK_Z :              A ~~ Z
+
+VK_NUMPAD0 ~~ VK_NUMPAD9 :  Ð¡¼üÅÌ0~9
+VK_MULTIPLY:                Ð¡¼üÅÌ  *  ºÅ 
+VK_ADD:                     Ð¡¼üÅÌ + ºÅ
+VK_SUBTRACT:                Ð¡¼üÅÌ - ºÅ
+VK_DIVIDE:                  Ð¡¼üÅÌ / ºÅ
+
+VK_F1 ~~ VK_F12 :           F1 ~~ F12
+
+VK_SCROLL:                  SCROLL Lock¼ü
+
+VK_OEM_1:                   ';:' 
+VK_OEM_PLUS:                '+' 
+VK_OEM_MINUS:               '-' 
+VK_OEM_COMMA:               ', <' 
+VK_OEM_PERIOD:              '. >' 
+VK_OEM_2:                   '/?'
+VK_OEM_3:                   '`~'
+VK_OEM_4:                   '[{' 
+VK_OEM_5:                   '\|' 
+VK_OEM_6:                   ']}' 
+VK_OEM_7:                   ''"' 

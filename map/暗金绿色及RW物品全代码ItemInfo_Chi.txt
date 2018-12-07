@@ -1,0 +1,1342 @@
+//-----------------------物品信息Beta------------------------
+//
+//使用方法: 主CFG中，加命令Item ExtInfo Toggle : 1 , -1
+//设置命令Item ExtInfo File Eng: "ItemInfo.cfg" 和Item ExtInfo File Chi: "ItemInfo.cfg" 指向此文件
+//两个命令分别对应英文版和中文版，游戏内会自动判断语言来加载
+//命令Default ExtInfo Colour用来设置默认颜色
+//
+//暗金UniqueItemInfo   绿色SetItemInfo 神符之语RuneWordInfo  符文RuneInfo
+//普通物品NormalItemInfo[物品编号][类型]，物品编号同主CFG配置,具体看相应段说明
+//
+//将所需要的显示的物品信息填写在大括号中间，不要和大括号同行(大括号所在行的字符无效)
+//为保证加载正常,尽量不要在大括号所在行加内容
+//最多40行，因为有些物品本身显示的很宽，所以每行显示内容尽量简短，太宽会显示不下(40行已经显示不下了)
+//支持中文，字符数尽量少，512个Unicode字符占1K的内存
+//
+//保留字符： %  &  @ (后面不跟数字可以使用)
+//&号如果后面跟数字，将作为合成公式处理
+//@号如果后面跟数字，将作为神符之语公式处理
+//%号如果后面跟数字(或者字母A B C),将作为颜色代码处理
+//加颜色的方法和给ETH字符串着色的方法一样，代码  %1 - %c (或%12)
+//字符串是从后往前解析的，所以加在后面的颜色会影响前面的颜色，注意修正
+//
+//要分行可以用分割线或者留含1个以上空格的行，无字符空行会被忽略
+//只能一个编号一个配置，不支持范围设定
+
+//用UltraEdit编辑的话着色方案选择java会看的清楚些
+
+//第一部分
+//打孔公式，可以设置20个，后面需要用到的地方，在物品信息里加 &0 (0-19)，最好独立行
+//合成公式部分必须放在最前面，不要更改！！
+CubeMain[0]={//盔甲打孔公式
+打孔公式
+Tal(7)+Thul(10)+完美黄宝石
+}
+CubeMain[1]={//头盔打孔公式
+打孔公式
+Tal(8)+Thul(10)+完美蓝宝石
+}
+CubeMain[2]={//盾牌打孔公式
+打孔公式
+Tal(7)+Thul(11)+完美红宝石
+}
+CubeMain[3]={//武器打孔公式
+打孔公式
+Tal(8)+Thul(11)+完美紫宝石
+}
+CubeMain[4]={//普通暗金武器升级公式
+普通==>扩展
+Ral(8)+Sol(12)+完美绿宝石
+}
+CubeMain[5]={//普通暗金防具升级公式
+普通==>扩展
+Ral(7)+Sol(13)+完美白宝石
+}
+CubeMain[6]={//扩展暗金武器升级公式
+扩展==>精华
+Ral(17)+Sol(21)+完美绿宝石
+}
+CubeMain[7]={//扩展暗金防具升级公式
+扩展==>精华
+Ral(18)+Sol(20)+完美白宝石
+}
+CubeMain[8]={//非资SOJ打孔
+3 完美骷髅 + 1 乔丹之石(SOJ)
+}
+CubeMain[9]={//
+}
+CubeMain[10]={//
+}
+CubeMain[11]={//
+}
+CubeMain[12]={//
+}
+CubeMain[13]={//
+}
+CubeMain[14]={//
+}
+CubeMain[15]={//
+}
+CubeMain[16]={//
+}
+CubeMain[17]={//
+}
+CubeMain[18]={//
+}
+CubeMain[19]={//
+}
+
+//第二部分
+//暗金部分，已列出所有暗金物品，编号不要改动
+UniqueItemInfo[0]={//牙齿 The Gnasher 手斧Hand Axe
+}
+UniqueItemInfo[1]={//死亡之铲 Deathspade 斧Axe
+}
+UniqueItemInfo[2]={//肩胛骨 Bladebone 双刃斧ouble Axe
+}
+UniqueItemInfo[3]={//切开骷髅 Skull Splitter 军用锹Military Pick
+}
+UniqueItemInfo[4]={//火钩之伤 Rakescar 巨战斧War Axe
+}
+UniqueItemInfo[5]={//费屈玛之斧 Axe of Fechmar 巨斧Large Axe
+}
+UniqueItemInfo[6]={//血块之铲 Goreshovel 阔斧Broad Axe
+}
+UniqueItemInfo[7]={//族长 The Chieftain 战斗斧Battle Axe
+}
+UniqueItemInfo[8]={//脑袋 Brainhew 卓越之斧Great Axe
+}
+UniqueItemInfo[9]={//巨大无比 Humongous 大斧Giant Axe
+}
+UniqueItemInfo[10]={//衣洛的火炬 Torch of Iro 法杖Wand
+}
+UniqueItemInfo[11]={//漩涡 Maelstrom 紫杉之杖Yew Wand
+}
+UniqueItemInfo[12]={//墓穴之脊 Gravenspine 骨杖Bone Wand
+}
+UniqueItemInfo[13]={//乌米的恸哭 Ume's Lament 残酷之杖Grim Wand
+}
+UniqueItemInfo[14]={//凶猛橡树 Felloak 木棒Club
+}
+UniqueItemInfo[15]={//敲击丧钟者 Knell Striker 权杖Sceptre
+}
+UniqueItemInfo[16]={//腐蚀的把手 Rusthandle 雄伟权杖Grand Scepter
+}
+UniqueItemInfo[17]={//暴风眼 Stormeye 巨战权杖 War Sceptre
+}
+UniqueItemInfo[18]={//坚硬的指甲 Stoutnail  狼牙棒Spiked Club
+}
+UniqueItemInfo[19]={//压碎的凸边 Crushflange 钉头锤Mace
+}
+UniqueItemInfo[20]={//血升 Bloodrise 流星锤Morning Star
+}
+UniqueItemInfo[21]={//坦-杜-里-嘎将军 The General's Tan Do Li Ga  连枷Flail
+}
+UniqueItemInfo[22]={//铁石 Ironstone 巨战铁槌War Hammer
+}
+UniqueItemInfo[23]={//碎骨 Bonesnap 大木棍Maul
+}
+UniqueItemInfo[24]={//铁制大锤 Steeldriver 卓越巨棍Great Maul
+}
+UniqueItemInfo[25]={//瑞克撒特的挽歌 Rixot's Keen  短剑Short Swrod
+}
+UniqueItemInfo[26]={//血红新月 Blood Crescent 弯刀Scimitar
+}
+UniqueItemInfo[27]={//格林提斯的肉叉 Skewer of Krintiz 军刀Saber
+}
+UniqueItemInfo[28]={//闪耀的镰刀 Gleamscythe 短剑Falcata
+}
+UniqueItemInfo[29]={//碧蓝怒火 Azurewrath 水晶剑Crystal Sword(未开放)
+}
+UniqueItemInfo[30]={//格瑞斯华尔德的锐利 Griswold's Edge 阔剑Broad Sword
+}
+UniqueItemInfo[31]={//地狱瘟疫 Hellplague 长剑Long Sword
+}
+UniqueItemInfo[32]={//库尔温的尖端 Culwen's Point 巨战之剑War Sword
+}
+UniqueItemInfo[33]={//影之牙 Shadowfang 双手剑2-Handed Sword 
+}
+UniqueItemInfo[34]={//剥皮灵魂 Soulflay 双刃大刀Claymore
+}
+UniqueItemInfo[35]={//金麦尔的锥子 Kinemil's Awl 大剑Giant Sword
+}
+UniqueItemInfo[36]={//黑色之舌 Blacktongue 巨剑Bastard Sword
+}
+UniqueItemInfo[37]={//粗齿大锯 Ripsaw 双手饰剑Flamberge
+}
+UniqueItemInfo[38]={//族长 The Patriarch 卓越之剑Great Sword
+}
+UniqueItemInfo[39]={//海鸥 Gull 匕首Dagger
+}
+UniqueItemInfo[40]={//迪格勒 The Diggler 长匕首Dirk
+}
+UniqueItemInfo[41]={//坦杜之玉 The Jade Tan Do 波形刀Kris
+}
+UniqueItemInfo[42]={//妖怪碎片 Spectral Shard 短刀Blade
+}
+UniqueItemInfo[43]={//张龙 The Dragon Chang 长矛Spear
+}
+UniqueItemInfo[44]={//剃刀之叉 Razortine 三叉戟Trident
+}
+UniqueItemInfo[45]={//血之偷 Bloodthief 叉Brandistock
+}
+UniqueItemInfo[46]={//雅该长矛 Lance of Yaggai 大战戟Spetum
+}
+UniqueItemInfo[47]={//坦之血杖 The Tannr Gorerod 矛Pike
+}
+UniqueItemInfo[48]={//迪马克之劈砍 Dimoak's Hew 大砍刀Bardiche
+}
+UniqueItemInfo[49]={//铁刺棒 Steelgoad 钩镰枪Voulge
+}
+UniqueItemInfo[50]={//灵魂采集者 Soul Harvest 镰刀Scythe
+}
+UniqueItemInfo[51]={//战斗支系 The Battlebranch 长柄战斧Poleaxe
+}
+UniqueItemInfo[52]={//烦恼诗集 Woestave 长戟Halberd
+}
+UniqueItemInfo[53]={//冷酷开膛手 The Grim Reaper  巨战镰刀War Scythe
+}
+UniqueItemInfo[54]={//祸根之灰 Bane Ash 短棍Short Staff
+}
+UniqueItemInfo[55]={//海蛇之王 Serpent Lord 长棍Long Staff
+}
+UniqueItemInfo[56]={//拉撒罗斯之螺旋 Spire of Lazarus 多节棍Gnarled Staff
+}
+UniqueItemInfo[57]={//火精灵 The Salamander 战斗法杖Battle Staff
+}
+UniqueItemInfo[58]={//铁检棒 The Iron Jang Bong 巨战法杖War Staff
+}
+UniqueItemInfo[59]={//勇气之眼 Pluckeye 短弓Short Bow
+}
+UniqueItemInfo[60]={//凋谢之戒 Witherstring 猎弓Hunter's Bow
+}
+UniqueItemInfo[61]={//渡鸟之爪 Raven Claw 长弓Long Bow
+鸟工
+}
+UniqueItemInfo[62]={//萝格之弓 Rogue's Bow 组合弓Composite Bow
+}
+UniqueItemInfo[63]={//暴风之击 Stormstrike 短战斗弓Short Battle Bow
+}
+UniqueItemInfo[64]={//凋谢之画 Wizendraw 长战斗弓Long Battle Bow
+}
+UniqueItemInfo[65]={//作响的地狱 Hellclap 短巨战弓Short War Bow
+}
+UniqueItemInfo[66]={//爆裂的吠叫 Blastbark 长巨战弓Long War Bow
+}
+UniqueItemInfo[67]={//引导乌鸦 Leadcrow 轻十字弓Light Crossbow
+}
+UniqueItemInfo[68]={//灵液之刺 Ichorsting 十字弓Crossbow
+}
+UniqueItemInfo[69]={//投掷地狱 Hellcast 重十字弓Heavy Crossbow
+}
+UniqueItemInfo[70]={//毁灭投石者 Doomslinger 连射十字弓Repeating Crossbow
+}
+UniqueItemInfo[71]={//毕格因的软帽 Biggin's Bonnet 帽子Cap
+}
+UniqueItemInfo[72]={//塔因头盔 Tarnhelm 骷髅帽Skull Cap
+}
+UniqueItemInfo[73]={//光荣布帽 Coif of Glory 头盔Helm
+}
+UniqueItemInfo[74]={//黄昏深处 Duskdeep 高级头盔Full Helm
+}
+UniqueItemInfo[75]={//蠕虫骷髅 Wormskull 白骨头盔Bone Helm
+}
+UniqueItemInfo[76]={//怒号长牙 Howltusk 卓越头盔Great Helm
+}
+UniqueItemInfo[77]={//不死皇冠 Undead Crown 皇冠Crown
+}
+UniqueItemInfo[78]={//恐惧之脸 The Face of Horror 面具Mask
+}
+UniqueItemInfo[79]={//薄暮外观 Greyform 布甲Quilted Armor
+}
+UniqueItemInfo[80]={//眨眼蝙蝠的外观 Blinkbat's Form 皮甲Leather Armor
+}
+UniqueItemInfo[81]={//百夫长 The Centurion 硬皮甲Hard Leather
+}
+UniqueItemInfo[82]={//抽动的挣扎 Twitchthroe 镶嵌甲Studded Leather
+}
+UniqueItemInfo[83]={//扩散黑暗 Darkglow 锁环甲Ring Mail
+}
+UniqueItemInfo[84]={//鹰甲 Hawkmail 鳞甲Scale Mail
+Y+
+}
+UniqueItemInfo[85]={//火花之甲 Sparking Mail 锁子甲Chain Mail
+}
+UniqueItemInfo[86]={//毒液牢房 Venom Ward 胸甲Breast Plate
+}
+UniqueItemInfo[87]={//冰雪眨眼 Iceblink 板甲Splint Mail
+}
+UniqueItemInfo[88]={//骨肉 Boneflesh 铠甲Plate Mail
+}
+UniqueItemInfo[89]={//石之毛 Rockfleece 实战铠甲Field Plate
+}
+UniqueItemInfo[90]={//作响之笼 Rattlecage 哥德战甲Gothic Plate
+}
+UniqueItemInfo[91]={//黄金之皮 Goldskin 高级战甲Full Plate Mail
+}
+UniqueItemInfo[92]={//胜利者之丝绸 Silks of the Victor 古代装甲AncientArmor
+}
+UniqueItemInfo[93]={//天堂装束 Heavenly Garb 轻型装甲Light Plate
+}
+UniqueItemInfo[94]={//新月小盾 Pelta Lunata 圆盾Buckler
+}
+UniqueItemInfo[95]={//阴影圆盘 Umbral Disk 小盾牌Small Shield
+}
+UniqueItemInfo[96]={//暴风公会 Stormguild 大盾牌Large Shield
+}
+UniqueItemInfo[97]={//无眼之墙 Wall of the Eyeless 白骨盾牌Bone Shield
+}
+UniqueItemInfo[98]={//剑背之架 Swordback Hold 尖刺盾牌Spiked Shield
+}
+UniqueItemInfo[99]={//作响的金属 Steelclash 轻盾Kite Shield
+}
+UniqueItemInfo[100]={//贝弗提的纪念 Bverrit Keep 塔盾Tower Shield
+}
+UniqueItemInfo[101]={//囚房 The Ward 哥德盾牌Gothic Shield
+}
+UniqueItemInfo[102]={//柏克之手 The Hand of Broc 皮手套Leather Gloves
+}
+UniqueItemInfo[103]={//血拳 Bloodfist 重手套Heavy Gloves
+}
+UniqueItemInfo[104]={//运气守护 Chance Guards 锁链手套Chain Gloves
+&5
+&7
+}
+UniqueItemInfo[105]={//法师之拳 Magefist 轻型铁手套Light Gauntlets
+&5
+&7
+}
+UniqueItemInfo[106]={//霜燃 Frostburn 铁手套Gauntlets
+}
+UniqueItemInfo[107]={//热靴刺 Hotspur 皮靴Leather Boots
+}
+UniqueItemInfo[108]={//血脚 Gorefoot 重靴Heavy Boots
+}
+UniqueItemInfo[109]={//凯松的征服 Treads of Cthon 锁链靴Chain Boots
+}
+UniqueItemInfo[110]={//小妖精脚趾 Goblin Toe 轻型金属靴Light Plate Boots
+&5
+&7
+}
+UniqueItemInfo[111]={//泪之臀 Tearhaunch 护胫Greaves
+}
+UniqueItemInfo[112]={//雷尼摩 Lenymo 饰带Sash
+}
+UniqueItemInfo[113]={//蛇索 Snakecord 轻扣带Light Belt
+}
+UniqueItemInfo[114]={//夜烟 Nightsmoke 扣带Belt
+}
+UniqueItemInfo[115]={//金色包袱 Goldwrap 重扣带Heavy Belt
+&5
+&7
+} 
+UniqueItemInfo[116]={//锋利扣带 Bladebuckle 金属扣带Plated Belt
+}
+UniqueItemInfo[117]={//诺科蓝遗物 Nokozan Relic 项链Amulet
+}
+UniqueItemInfo[118]={//艾利屈之眼 The Eye of Etlich 项链Amulet
+}
+UniqueItemInfo[119]={//玛哈姆橡木古董 The Mahim-Oak Curio 项链Amulet
+}
+UniqueItemInfo[120]={//拿各的戒指 Nagelring 戒指Ring
+}
+UniqueItemInfo[121]={//玛那得的治疗 Manald Heal 戒指Ring
+}
+UniqueItemInfo[122]={//乔丹之石 The Stone of Jordan 戒指Ring
+SOJ
+}
+UniqueItemInfo[123]={//蝮蛇护符 项链Amulet
+}
+UniqueItemInfo[124]={//国王之杖Staff
+}
+UniqueItemInfo[125]={//赫拉迪克法杖Staff
+}
+UniqueItemInfo[126]={//地狱熔炉铁锤Hammer
+}
+UniqueItemInfo[127]={//克林姆的连枷Flail
+}
+UniqueItemInfo[128]={//克林姆的意志Flail
+}
+//以下只有资料片有
+UniqueItemInfo[129]={//冷杀 Coldkill 小斧Hatchet
+}
+UniqueItemInfo[130]={//屠夫之瞳 Butcher's Pupil 切肉斧Cleaver
+}
+UniqueItemInfo[131]={//岛击 Islestrike 强化双斧Twin Axe
+}
+UniqueItemInfo[132]={//庞贝之怒 Pompeii's Wrath 喙钳Crowbill
+}
+UniqueItemInfo[133]={//蛇神守护者 Guardian Naga 纳卡Naga
+}
+UniqueItemInfo[134]={//战爵之证 Warlord's Trust 军斧Military Axe
+}
+UniqueItemInfo[135]={//钢铁魔咒 Spellsteel 钩斧Bearded Axe
+}
+UniqueItemInfo[136]={//暴风骑士 Stormrider 战斗斧Tabar
+}
+UniqueItemInfo[137]={//碎骨者之刃 Boneslayer Blade 哥德之斧Gothic Axe
+}
+UniqueItemInfo[138]={//牛头怪 The Minotaur 古代之斧Ancient Axe
+}
+UniqueItemInfo[139]={//自杀支系 Suicide Branch 燒焦之杖Burnt Wand
+}
+UniqueItemInfo[140]={//凯恩碎片 Carin Shard 净化之杖Petrified Wand
+}
+UniqueItemInfo[141]={//李奥瑞克王的武器 Arm of King Leoric 古墓之杖Tomb Wand
+}
+UniqueItemInfo[142]={//黑手之钥 Blackhand Key 墓地之杖Grave Wand
+}
+UniqueItemInfo[143]={//暗族碎灭者 Dark Clan Crusher 棍棒Cudgel
+}
+UniqueItemInfo[144]={//撒卡兰姆之手 Zakarum's Hand 符文权杖Rune Scepter
+}
+UniqueItemInfo[145]={//恶臭散布者 The Fetid Sprinkler 圣水喷杖Holy Water Sprinkler
+}
+UniqueItemInfo[146]={//祝福之光之手 Hand of Blessed Light  神属权杖Divine Scepter
+}
+UniqueItemInfo[147]={//血肉裁决者 Fleshrender 倒钩槌Barbed Club
+}
+UniqueItemInfo[148]={//尖啸冰霜 Sureshrill Frost 凸缘钉头锤Flanged Mace
+}
+UniqueItemInfo[149]={//落月 Moonfall 锯齿流星锤Jagged Star
+}
+UniqueItemInfo[150]={//贝西尔的漩涡 Baezil's Vortex 铁皮鞭Knout
+}
+UniqueItemInfo[151]={//撼地者 Earthshaker 战斗铁槌Battle Hammer
+}
+UniqueItemInfo[152]={//血树残株 Bloodtree Stump 巨战木棍War Club
+}
+UniqueItemInfo[153]={//痛苦木槌 The Gavel of Pain 战槌Martel de Fer
+}
+UniqueItemInfo[154]={//血书 Bloodletter 羅馬短劍Gladius息
+}
+UniqueItemInfo[155]={//冰钢之眼 Coldsteel Eye 微彎劍Cutlass
+}
+UniqueItemInfo[156]={//六角之火 Hexfire 虛偽之刃Shamshir
+}
+UniqueItemInfo[157]={//阿里巴巴之刃 Blade of Ali Baba 圓月彎刀Tulwar
+}
+UniqueItemInfo[158]={//金瑟的裂缝 Ginther's Rift 空間之刃Dimensional Blade
+}
+UniqueItemInfo[159]={//击头者 Headstriker 戰鬥劍Battle Sword
+&4
+&6
+}
+UniqueItemInfo[160]={//疫病带原者 Plague Bearer 符文劍Rune Sword
+}
+UniqueItemInfo[161]={//亚特拉斯 The Atlantean 古代之劍Ancient Sword
+}
+UniqueItemInfo[162]={//克林铁-弗姆 Crainte Vomir 斬鐵劍Espadon
+}
+UniqueItemInfo[163]={//兵之王 Bing Sz Wang 雙刃鎌Dacian Falx
+}
+UniqueItemInfo[164]={//卑劣躯壳 The Vile Husk 長牙劍Tusk Sword
+}
+UniqueItemInfo[165]={//云裂 Cloudcrack 哥德劍Gothic Sword
+}
+UniqueItemInfo[166]={//特迪斯法雷-芙法米 Todesfaelle Flamme  韓瑞德之劍Zweihander
+}
+UniqueItemInfo[167]={//剑卫 Swordguard 死刑之劍Executioner Sword
+}
+UniqueItemInfo[168]={//裂脊者 Spineripper 锐匕Poignard
+}
+UniqueItemInfo[169]={//刻心者 Heart Carver 诗歌匕首Rondel
+}
+UniqueItemInfo[170]={//黑沼之锋 Blackbog's Sharp 强波刀Cinquedeas
+}
+UniqueItemInfo[171]={//暴风尖刺 Stormspike 小剑Stilleto
+}
+UniqueItemInfo[172]={//穿刺者 The Impaler 巨战长矛War Spear
+}
+UniqueItemInfo[173]={//水魔陷阱 Kelpie Snare 魔鬼之叉Fuscina
+&6
+}
+UniqueItemInfo[174]={//噬魂叉 Soulfeast Tine 巨战之叉War Fork
+}
+UniqueItemInfo[175]={//宏-森丹 Hone Sundan 三叉长枪Yari
+&6
+}
+UniqueItemInfo[176]={//荣耀的尖塔 Spire of Honor 长枪Lance
+}
+UniqueItemInfo[177]={//刮肉者 The Meat Scraper 罗佳伯斧Lochaber Axe
+}
+UniqueItemInfo[178]={//黑水之刃 Blackleach Blade 比尔长刀Bill
+}
+UniqueItemInfo[179]={//阿西娜的忿怒 Athena's Wrath 战斗镰刀Battle Scythe
+}
+UniqueItemInfo[180]={//皮尔-通把-考恩特 Pierre Tombale Couant 战戟Partizan
+}
+UniqueItemInfo[181]={//胡索丹-依弗 Husoldal Evo 双锋战戟Bec-de-Corbin
+}
+UniqueItemInfo[182]={//惊怖焰亡灵 Grim's Burning Dead 残酷镰刀Grim Scythe
+}
+UniqueItemInfo[183]={//摆动剃刀 Razorswitch 乔木棒Jo Staff
+}
+UniqueItemInfo[184]={//肋骨粉碎者 Ribcracker 六尺棍Quarter Staff
+}
+UniqueItemInfo[185]={//五彩的怒气 Chromatic Ire 杉木之棍Cedar Staff
+}
+UniqueItemInfo[186]={//扭曲之矛 Warpspear 哥德之棍Gothic Staff
+}
+UniqueItemInfo[187]={//骷髅收集者 Skull Collector 符文之棍Rune Staff
+}
+UniqueItemInfo[188]={//天击 Skystrike 锋锐之弓Edge Bow
+}
+UniqueItemInfo[189]={//撕裂之钩 Riphook 剃刀之弓Razor Bow
+}
+UniqueItemInfo[190]={//社角久子 Kuko Shakaku 杉木弓CedarBow
+}
+UniqueItemInfo[191]={//无休止的冰雹 Endlesshail 双弓Double Bow
+}
+UniqueItemInfo[192]={//狂野之弦 Witchwild String 短攻城弓Short Siege Bow
+}
+UniqueItemInfo[193]={//岩壁杀手 Cliffkiller 长攻城弓Long Siege Bow
+}
+UniqueItemInfo[194]={//巫师之怒 Magewrath 符文之弓Rune Bow
+}
+UniqueItemInfo[195]={//金击圆弧 Goldstrike Arch 哥德弓Gothic Bow
+}
+UniqueItemInfo[196]={//兰格-布里瑟 Langer Briser 石弓Arbalest
+}
+UniqueItemInfo[197]={//毒液怪 Pus Spitter 攻城十字弓Siege Crossbow
+}
+UniqueItemInfo[198]={//布理撒-多-凯南 Buriza-Do 弩弓Kyanon Balista
+}
+UniqueItemInfo[199]={//恶魔机器 Demon Machine 巧工弩Chu-Ko-Nu
+}
+UniqueItemInfo[200]={//装甲 Armor(无耻的分割线)
+}
+UniqueItemInfo[201]={//粗野之冠 Peasant Crown 战帽War Hat
+}
+UniqueItemInfo[202]={//岩石制动器 Rockstopper 輕便頭盔Sallet
+}
+UniqueItemInfo[203]={//偷取骷髅 Stealskull 無頰頭盔Casque
+}
+UniqueItemInfo[204]={//暗视之盔 Darksight Helm 轻钢盔Basinet
+}
+UniqueItemInfo[205]={//女神之翼 Valkyrie Wing 翼盔Winged Helm
+}
+UniqueItemInfo[206]={//盗贼皇冠 Crown of Thieves 巨皇冠Grand Crown
+}
+UniqueItemInfo[207]={//黑角面具 Blackhorn's Face 死亡面具Death Mask
+}
+UniqueItemInfo[208]={//吸血鬼的凝视 Vampire Gaze 残酷头盔Grim Helm
+&7
+}
+UniqueItemInfo[209]={//灵魂帷幕 The Spirit Shroud 鬼魂戰甲Ghost Armor
+}
+UniqueItemInfo[210]={//蛇魔法师之皮 Skin of the Vipermagi 海蛇皮甲SerpentSkin Armor
+&7
+}
+UniqueItemInfo[211]={//剥皮者之皮 Skin of the Flayed One 魔皮戰甲Demonhide Armor
+}
+UniqueItemInfo[212]={//掷铁 Iron Pelt 盘绕战甲Tresllised Armor
+}
+UniqueItemInfo[213]={//灵魂熔炉 Spirit Forge 連扣戰甲Linked Mail
+}
+UniqueItemInfo[214]={//鸦鸣 Crow Caw 提格萊特戰甲Tigulated Mail
+}
+UniqueItemInfo[215]={//谢夫特斯坦布 Shaftstop 織網戰甲Mesh Armor
+&7
+}
+UniqueItemInfo[216]={//都瑞尔的壳 Duriel's Shell 护胸甲Cuirass
+&7
+}
+UniqueItemInfo[217]={//诗寇蒂的愤怒 Skullder's Ire 罗瑟战甲Russet Armor
+&7
+}
+UniqueItemInfo[218]={//守护天使 Guardian Angel 聖堂武士外袍Templar Coat
+&7
+}
+UniqueItemInfo[219]={//排齿 Toothrow 鲨齿战甲Sharktooth Armor
+}
+UniqueItemInfo[220]={//亚特玛的哭喊 Atma's Wail 凸纹战甲Embossed Plate
+}
+UniqueItemInfo[221]={//黑色黑帝斯 Black Hades 混沌战甲Chaos Armor
+}
+UniqueItemInfo[222]={//尸体的哀伤 Corpsemourn 华丽战甲Ornate Armor
+}
+UniqueItemInfo[223]={//魁黑刚的智慧 Que-Hegan's Wisdom 法師鎧甲Mage Plate
+}
+UniqueItemInfo[224]={//维斯尔坦特 Visceratuant 防御盾Defender
+}
+UniqueItemInfo[225]={//摩西祝福之环 Moser's Blessed Circle 圆型盾Round Shield
+}
+UniqueItemInfo[226]={//风暴追逐者 Stormchaser 鳞盾Scutum
+}
+UniqueItemInfo[227]={//魔龙的非难 Tiamat's Rebuke 龙盾Dragon Shield
+}
+UniqueItemInfo[228]={//基尔克的圣堂 Gerke's Sanctuary 大盾Pavise
+}
+UniqueItemInfo[229]={//罗达门特之球体 Radament's Sphere 古代之盾Ancient Shield
+}
+UniqueItemInfo[230]={//警戒之墙 Lidless Wall 冷酷之盾Grim Shield
+}
+UniqueItemInfo[231]={//长枪守卫 Lance Guard 倒刺护盾Barbed Shield
+}
+UniqueItemInfo[232]={//剧毒之抓 Venom Grip 魔皮手套Demonhide Gloves
+}
+UniqueItemInfo[233]={//墓穴的抚弄 Gravepalm 鲨皮手套Sharkskin Gloves
+}
+UniqueItemInfo[234]={//食尸鬼外皮 Ghoulhide 重型手镯Heavy Bracers
+}
+UniqueItemInfo[235]={//熔岩角羊 Lava Gout 战场手套Battle Guantlets
+}
+UniqueItemInfo[236]={//地狱之嘴 Hellmouth 巨战手套War Gauntlets
+}
+UniqueItemInfo[237]={//地狱阔步 Infernostride 魔皮靴Demonhide Boots
+}
+UniqueItemInfo[238]={//水上飘 Waterwalk 鯊皮之靴Sharkskin Boots
+&7
+}
+UniqueItemInfo[239]={//纱织 Silkweave 織網之靴Mesh Boots
+}
+UniqueItemInfo[240]={//战争旅者 War Traveler 戰場之靴Battle Boots
+&7
+}
+UniqueItemInfo[241]={//蚀肉骑士 Gore Rider 巨戰之靴War Boots
+}
+UniqueItemInfo[242]={//长串之耳 String of Ears 魔皮勳帶Demonhide Sash
+}
+UniqueItemInfo[243]={//剃刀之尾 Razortail 鲨皮腰带Sharkskin Belt
+&7
+}
+UniqueItemInfo[244]={//阴影陷阱 Gloom's Trap 织网腰带Mesh Belt
+}
+UniqueItemInfo[245]={//雪之冲突 Snowclash 戰場腰帶 Battle Belt
+}
+UniqueItemInfo[246]={//雷神之力 Thundergod's Vigor 巨戰腰帶War Belt
+&7
+}
+UniqueItemInfo[247]={//一股邪恶力量(神秘的精华分割线)
+}
+UniqueItemInfo[248]={//谐角之冠 Harlequin Crest 军帽Shako
+}
+UniqueItemInfo[249]={//钢铁面纱 Veil of Steel 螺旋頭盔Spired Helm
+}
+UniqueItemInfo[250]={//斗士的祸根 The Gladiator's Bane 線羊毛皮甲Wire Fleece
+}
+UniqueItemInfo[251]={//阿凯尼的荣耀 Arkaine's Valor 炎魔皮板甲Balrog Skin
+}
+UniqueItemInfo[252]={//黑橡树盾 Blackoak Shield 月精靈護盾Luna
+}
+UniqueItemInfo[253]={//暴风之盾 Stormshield 統治者大盾Monarch
+}
+UniqueItemInfo[254]={//地狱毁灭者 Hellslayer 斩首斧Decapitator
+}
+UniqueItemInfo[255]={//希梅斯特的掠夺 Messerschmidt's Reaver  豪杰斧Champion Axe
+}
+UniqueItemInfo[256]={//巴拉那之星 Baranar's Star 恶魔流星锤Devil Star
+}
+UniqueItemInfo[257]={//史恰佛之锤 Schaefer's Hammer 传说之槌Legendary Mallet
+}
+UniqueItemInfo[258]={//碎脑锤 The Cranium Basher 雷锤Thunder Maul
+}
+UniqueItemInfo[259]={//光之军刀 Lightsabre 幻化之刃Phase Blade
+}
+UniqueItemInfo[260]={//末日毁灭者 Doombringer 冠军之剑Champion Sword
+}
+UniqueItemInfo[261]={//祖父 The Grandfather 巨神之刃Colossus Blade
+}
+UniqueItemInfo[262]={//巫师之刺 Wizardspike 骸骨小刀Bone Knife
+}
+UniqueItemInfo[263]={//收缩戒指 Constricting Ring 戒指Ring(未开放)
+}
+UniqueItemInfo[264]={//暴风尖塔 Stormspire 鲛尾巨斧Giant Thresher
+}
+UniqueItemInfo[265]={//鹰号角 Eaglehorn 十字軍之弓Crusader Bow
+}
+UniqueItemInfo[266]={//风之力 Windforce 九头蛇弓Hydra Bow
+}
+UniqueItemInfo[267]={//指环 Rings(邪恶的分割线)
+}
+UniqueItemInfo[268]={//布尔凯索之戒 Bul-Kathos' Wedding Band 婚戒
+}
+UniqueItemInfo[269]={//猫眼 The Cat's Eye
+}
+UniqueItemInfo[270]={//旭日东升 The Rising Sun
+}
+UniqueItemInfo[271]={//新月 Crescent Moon
+}
+UniqueItemInfo[272]={//马拉的万花筒 Mara's Kaleidoscope
+}
+UniqueItemInfo[273]={//亚特玛的圣甲虫 Atma's Scarab
+}
+UniqueItemInfo[274]={//矮人之星 Dwarf Star
+}
+UniqueItemInfo[275]={//乌鸦之霜 Raven Frost
+}
+UniqueItemInfo[276]={//大君之怒 Highlord's Wrath
+}
+UniqueItemInfo[277]={//萨拉森的机会 Saracen's Chance
+}
+UniqueItemInfo[278]={//指定职业(职业的分割线)
+}
+UniqueItemInfo[279]={//亚瑞特的面容 Arreat's Face  杀手防护面甲Slayer Guard
+&7
+}
+UniqueItemInfo[280]={//侏儒 Homunculus 祭司印记Heirophant Trophy
+&7
+}
+UniqueItemInfo[281]={//泰坦的复仇 Titan's Revenge 祭奠标枪Ceremonial Javelin
+&6
+}
+UniqueItemInfo[282]={//雷山德的指标 Lycander's Aim 祭典之弓Ceremonial Bow
+}
+UniqueItemInfo[283]={//雷山德的侧腹 Lycander's Flank 祭典之矛Ceremonial Pike
+}
+UniqueItemInfo[284]={//眼球 The Oculus 涡流水晶Swirling Crystal
+&6
+}
+UniqueItemInfo[285]={//撒卡兰姆使者 Herald of Zakarum  饰金盾牌Guilded Shield
+&7
+}
+UniqueItemInfo[286]={//巴特克的猛击 Bartuc's Cut-Throat 巨鹰爪Greater Talons
+}
+UniqueItemInfo[287]={//加尔的长发 Jalal's Mane Totemic Mask图腾面具狼盔
+}
+UniqueItemInfo[288]={//圆凿 The Scalper 法兰飞斧Francisca
+}
+UniqueItemInfo[289]={//血月 Bloodmoon 优雅之剑elegant blade
+}
+UniqueItemInfo[290]={//魔灵杀手 Djinn Slayer 土耳其剑ataghan
+}
+UniqueItemInfo[291]={//死亡碎片 Deathbit 战斗飞镖battle dart
+}
+UniqueItemInfo[292]={//战争之鸟 Warshrike 翼刀winged knife
+}
+UniqueItemInfo[293]={//内脏吸管 Gut Siphon 恶魔十字弓demon crossbow
+}
+UniqueItemInfo[294]={//刀锋边缘 Razor's Edge 战戟tomahawk
+}
+UniqueItemInfo[295]={//血块撕裂者 Gore Ripper(啥玩意？)
+}
+UniqueItemInfo[296]={//恶魔爪牙 Demon Limb 暴君之棒tyrant club
+}
+UniqueItemInfo[297]={//钢影 Steel Shade 活动头盔armet
+}
+UniqueItemInfo[298]={//盗墓者 Tomb Reaver 神秘之斧cryptic axe
+}
+UniqueItemInfo[299]={//死亡之网 Death's Web 破隐法杖unearthed wand
+}
+UniqueItemInfo[300]={//大自然的和平 Nature's Peace
+}
+UniqueItemInfo[301]={//碧蓝怒火 Azurewrath 幻化之刃phase blade
+}
+UniqueItemInfo[302]={//炽天使之韵 Seraph's Hymn 项链
+}
+UniqueItemInfo[303]={//撒卡兰姆的救赎 Zakarum's Salvation 未知
+}
+UniqueItemInfo[304]={//裂肉者 Fleshripper 齿缘小刀fanged knife
+}
+UniqueItemInfo[305]={//厌恶 Odium  厌恶?
+}
+UniqueItemInfo[306]={//地平线的台风 Horizon's Tornado 天罚之锤scourge
+}
+UniqueItemInfo[307]={//碎石者 Stone Crusher 传说之锤legendary mallet
+}
+UniqueItemInfo[308]={//碧玉爪 Jade Talon  腕剑wrist sword
+}
+UniqueItemInfo[309]={//影舞者 Shadow Dancer 急速靴myrmidon greaves
+}
+UniqueItemInfo[310]={//地狱之吻 Cerebus' Bite 血腥之灵blood spirit
+}
+UniqueItemInfo[311]={//泰瑞尔的力量 Tyrael's Might  神圣盔甲sacred armor
+}
+UniqueItemInfo[312]={//吸魂者 Soul Drainer 吸血鬼手套Vambraces
+}
+UniqueItemInfo[313]={//符文大师 Rune Master 双头斧ettin axe
+}
+UniqueItemInfo[314]={//死亡之刀 Death Cleaver 狂战士斧berserker axe
+}
+UniqueItemInfo[315]={//刽子手的裁决 Executioner's Justice  荣光之斧glorious axe
+}
+UniqueItemInfo[316]={//石乌鸦 Stoneraven 女族长之矛matriarchal spear
+}
+UniqueItemInfo[317]={//海王利维亚桑 Leviathan 海妖壳甲kraken shell
+}
+UniqueItemInfo[318]={//拉苏克的斗士 Larzuk's Champion 啊？
+}
+UniqueItemInfo[319]={//鬼火投射者 Wisp Projector 戒指
+}
+UniqueItemInfo[320]={//石像鬼之噬 Gargoyle's Bite 翼鱼叉winged harpoon
+}
+UniqueItemInfo[321]={//撕裂者 Lacerator 翼斧winged axe
+}
+UniqueItemInfo[322]={//梅格之歌的教训 Mang Song's Lesson  执政官之杖archon staff
+}
+UniqueItemInfo[323]={//蝮蛇叉 Viperfork  刺人枪Mancatcher
+}
+UniqueItemInfo[324]={//永恒边界 Ethereal Edge  银刃斧silver-edged axe
+}
+UniqueItemInfo[325]={//恶魔号角的边缘 Demonhorn's Edge  毁灭者头盔destroyer helm
+}
+UniqueItemInfo[326]={//死神的丧钟 The Reaper's Toll 锐利之斧thresher
+}
+UniqueItemInfo[327]={//灵魂看守者 Spirit Keeper 大地之灵 earth spirit
+}
+UniqueItemInfo[328]={//地狱拷问 Hellrack 巨神十字弓colossus crossbow
+}
+UniqueItemInfo[329]={//阿尔玛-尼格拉 Alma Negra  神圣轻圆盾sacred rondache
+}
+UniqueItemInfo[330]={//魔力肇生 Darkforce Spawn 血王之骨bloodlord skull
+}
+UniqueItemInfo[331]={//戮夫刃 Widowmaker 庇护之弓ward bow
+}
+UniqueItemInfo[332]={//血鸟的袭击 Blood Raven's Charge  女族长之弓matriarchal bow
+}
+UniqueItemInfo[333]={//鬼火焰 Ghostflame 传说尖刺legend spike
+}
+UniqueItemInfo[334]={//影杀者 Shadow Killer 斗腰刀battle cestus
+}
+UniqueItemInfo[335]={//碎片贪婪者 Gimmershred 飞斧flying axe
+}
+UniqueItemInfo[336]={//格利风之眼 Griffon's Eye 权冠diadem
+QG/GLF
+}
+UniqueItemInfo[337]={//风之锤 Windhammer 食人魔之槌ogre maul
+}
+UniqueItemInfo[338]={//雷击 Thunderstroke 女族长之标枪matriarchal javelin
+}
+UniqueItemInfo[339]={//重残 Giant Maimer 身残志坚
+}
+UniqueItemInfo[340]={//恶魔之王 Demon's Arch 炎魔之矛balrog spear
+}
+UniqueItemInfo[341]={//骨焰 Boneflame 女妖之骨succubae skull
+}
+UniqueItemInfo[342]={//铁柱 Steel Pillar 战枪war pike
+}
+UniqueItemInfo[343]={//夜翼面纱 Nightwing's Veil 螺旋头盔spired helm
+}
+UniqueItemInfo[344]={//年纪之冠 Crown of Ages 头冠corona
+}
+UniqueItemInfo[345]={//安达利尔的面貌 Andariel's Visage 恶魔头盖骨面具demonhead
+}
+UniqueItemInfo[346]={//黑暗恐惧 Darkfear 活动头盔armet
+}
+UniqueItemInfo[347]={//龙鳞 Dragonscale  撒卡兰坶盾牌zakarum shield
+}
+UniqueItemInfo[348]={//钢铁铠甲 Steel Carapace 阴影铠甲shadow plate
+}
+UniqueItemInfo[349]={//梅杜莎的凝视 Medusa's Gaze 塔盾aegis
+}
+UniqueItemInfo[350]={//乌鸦之王 Ravenlore 天空之灵sky spirit
+}
+UniqueItemInfo[351]={//白骨阴影 Boneshade  巫妖法杖lich wand
+}
+UniqueItemInfo[352]={//冥府乌鸦 Nethercrow 死亡鸟
+}
+UniqueItemInfo[353]={//火焰号叫 Flamebellow 炎魔之刃balrog blade
+}
+UniqueItemInfo[354]={//死亡深度 Death's Fathom 次元碎片dimensional shard
+}
+UniqueItemInfo[355]={//狼嚎 Wolfhowl 怒面甲fury visor
+}
+UniqueItemInfo[356]={//魂系结界 Spirit Ward 保护盾牌ward
+}
+UniqueItemInfo[357]={//奇拉的守护 Kira's Guardian 三重冠tiara
+}
+UniqueItemInfo[358]={//奥玛斯的长袍 Ormus' Robes 灰暮寿衣dusk shroud
+}
+UniqueItemInfo[359]={//基得的运气 Gheed's Fortune 护身符charm
+}
+UniqueItemInfo[360]={//暴风之结 Stormlash 天罚之锤scourge
+}
+UniqueItemInfo[361]={//海拉柏得的国度 Halaberd's Reign  征服者皇冠面甲conqueror crown
+}
+UniqueItemInfo[362]={//瓦瑞夫的令牌 Warriv's Warder--------
+}
+UniqueItemInfo[363]={//尖刺根源 Spike Thorn 刀刃刺盾blade barrier
+}
+UniqueItemInfo[364]={//卓古拉之握 Dracul's Grasp 吸血鬼骸骨手套vampirebone gloves
+}
+UniqueItemInfo[365]={//冰霜之风 Frostwind 神秘之剑cryptic sword
+}
+UniqueItemInfo[366]={//圣堂武士的力量 Templar's Might 神圣盔甲sacred armor
+}
+UniqueItemInfo[367]={//艾斯屈塔的脾气 Eschuta's Temper 怪异之球eldritch orb
+}
+UniqueItemInfo[368]={//火蜥蜴之爪 Firelizard's Talons 猛禽爪feral claws
+}
+UniqueItemInfo[369]={//沙暴之旅 Sandstorm Trek 圣甲虫壳靴scarabshell boots
+}
+UniqueItemInfo[370]={//骨髓行走 Marrowwalk 骸骨靴boneweave boots 
+}
+UniqueItemInfo[371]={//天堂之光 Heaven's Light 强威权杖mighty scepter
+}
+UniqueItemInfo[372]={//人鱼的齿轮 Merman's Sprocket 强大的齿轮
+}
+UniqueItemInfo[373]={//蜘蛛之网 Arachnid Mesh 蛛网腰带spiderweb sash
+}
+UniqueItemInfo[374]={//吸血圣王之圈 Nosferatu's Coil 吸血鬼燎牙腰帶vampirefang belt
+}
+UniqueItemInfo[375]={//金属网格 Metalgrid
+}
+UniqueItemInfo[376]={//维尔登戈的心结 Verdungo's Hearty Cord 秘银腰带mithril coil
+}
+UniqueItemInfo[377]={//席嘉德的隐藏 Siggard's Stealth 
+}
+UniqueItemInfo[378]={//腐肉之风 Carrion Wind
+}
+UniqueItemInfo[379]={//巨骷髅 Giant Skull 骸骨面罩bone visage
+}
+UniqueItemInfo[380]={//爱斯特龙之铁的保护区 Astreon's Iron Ward 神使之杖caduceus
+}
+UniqueItemInfo[381]={//毁灭 Annihilus
+}
+UniqueItemInfo[382]={//爱理欧克之针 Arioc's Needle  亥伯龙之矛hyperion spear
+}
+UniqueItemInfo[383]={//鹤嘴 Cranebeak 战刺war spike
+}
+UniqueItemInfo[384]={//诺德的蚀肉药 Nord's Tenderizer 战仪杖truncheon
+}
+UniqueItemInfo[385]={//大地变形者 Earth Shifter 雷槌thunder maul
+}
+UniqueItemInfo[386]={//死灵夜翔 Wraith Flight 鬼魂尖枪ghost glaive
+}
+UniqueItemInfo[387]={//破骨 Bonehew 人魔之斧ogre axe
+}
+UniqueItemInfo[388]={//安戴尔的智慧 Ondal's Wisdom  长老之杖elder staff
+}
+UniqueItemInfo[389]={//忏悔者 The Redeemer 强威权杖mighty scepter
+}
+UniqueItemInfo[390]={//猎头人的荣耀 Head Hunter's Glory 洞穴巨魔巢穴骨盾troll nest
+}
+UniqueItemInfo[391]={//碎钢 Steelrend 食人魔铁手套ogre gauntlets
+}
+UniqueItemInfo[392]={//彩虹刻面 Rainbow Facet(死电)
+}
+UniqueItemInfo[393]={//彩虹刻面 Rainbow Facet(死冰)
+}
+UniqueItemInfo[394]={//彩虹刻面 Rainbow Facet(死火)
+}
+UniqueItemInfo[395]={//彩虹刻面 Rainbow Facet(死毒)
+}
+UniqueItemInfo[396]={//彩虹刻面 Rainbow Facet(活电)
+}
+UniqueItemInfo[397]={//彩虹刻面 Rainbow Facet(活冰)
+}
+UniqueItemInfo[398]={//彩虹刻面 Rainbow Facet(活火)
+}
+UniqueItemInfo[399]={//彩虹刻面 Rainbow Facet(活毒)
+}
+UniqueItemInfo[400]={//地狱火炬 Hellfire Torch
+}
+UniqueItemInfo[401]={//一股邪恶力量
+}
+
+//第三部分
+//绿色部分，已列出所有绿色装备，编号不要改动
+SetItemInfo[0]={//希弗伯的防护 Civerb's Ward
+}
+SetItemInfo[1]={//希弗伯的图案 Civerb's Icon
+}
+SetItemInfo[2]={//希弗伯的短棍 Civerb's Cudgel
+}
+SetItemInfo[3]={//哈斯拉柏的铁后跟 Hsarus' Iron Heel
+}
+SetItemInfo[4]={//哈斯拉柏的铁后跟 Hsarus' Iron Fist
+}
+SetItemInfo[5]={//哈斯拉柏的铁胸衣 Hsarus' Iron Stay
+}
+SetItemInfo[6]={//克雷得劳之牙 Cleglaw's Tooth
+}
+SetItemInfo[7]={//克雷得劳之爪 Cleglaw's Claw
+}
+SetItemInfo[8]={//克雷得劳之钳 Cleglaw's Pincers
+}
+SetItemInfo[9]={//依雷撒的项圈 Iratha's Collar
+}
+SetItemInfo[10]={//依雷撒的袖口 Iratha's Cuff
+}
+SetItemInfo[11]={//依雷撒的线圈 Iratha's Coil
+}
+SetItemInfo[12]={//依雷撒之绳 Iratha's Cord
+}
+SetItemInfo[13]={//依森哈德的光之烙铁 Isenhart's Lightbrand
+}
+SetItemInfo[14]={//依森哈德的闪避 Isenhart's Parry
+}
+SetItemInfo[15]={//依森哈德的外壳 Isenhart's Case
+}
+SetItemInfo[16]={//依森哈德的号角 Isenhart's Horns
+}
+SetItemInfo[17]={//维达拉之倒刺 Vidala's Barb
+}
+SetItemInfo[18]={//维达拉的距毛 Vidala's Fetlock
+}
+SetItemInfo[19]={//维达拉的突袭 Vidala's Ambush
+}
+SetItemInfo[20]={//维达拉的陷阱 Vidala's Snare
+}
+SetItemInfo[21]={//米拉伯佳之球 Milabrega's Orb
+}
+SetItemInfo[22]={//米拉伯佳之杖 Milabrega's Rod
+}
+SetItemInfo[23]={//米拉伯佳的王冠 Milabrega's Diadem
+}
+SetItemInfo[24]={//米拉伯佳之袍 Milabrega's Robe
+}
+SetItemInfo[25]={//卡珊之尺 Cathan's Rule
+}
+SetItemInfo[26]={//卡珊之网 Cathan's Mesh
+}
+SetItemInfo[27]={//卡珊的容貌 Cathan's Visage
+}
+SetItemInfo[28]={//卡珊的魔咒 Cathan's Sigil
+}
+SetItemInfo[29]={//卡珊的封印 Cathan's Seal
+}
+SetItemInfo[30]={//坦克雷的鸦嘴钳 Tancred's Crowbill
+}
+SetItemInfo[31]={//坦克雷的脊柱 Tancred's Spine
+}
+SetItemInfo[32]={//坦克雷的平头钉 Tancred's Hobnails
+}
+SetItemInfo[33]={//坦克雷的怪诞 Tancred's Weird
+}
+SetItemInfo[34]={//坦克雷之骷髅 Tancred's Skull
+}
+SetItemInfo[35]={//西刚的挑战 Sigon's Gage
+}
+SetItemInfo[36]={//西刚之面甲 Sigon's Visor
+}
+SetItemInfo[37]={//西刚的遮蔽 Sigon's Shelter
+}
+SetItemInfo[38]={//西刚的木鞋 Sigon's Sabot
+}
+SetItemInfo[39]={//西刚的披肩 Sigon's Wrap
+}
+SetItemInfo[40]={//西刚的守护 Sigon's Guard
+}
+SetItemInfo[41]={//地狱头骨 Infernal Cranium
+}
+SetItemInfo[42]={//地狱火炬 Infernal Torch
+}
+SetItemInfo[43]={//地狱符号 Infernal Sign
+}
+SetItemInfo[44]={//狂战士的头戴 Berserker's Headgear
+}
+SetItemInfo[45]={//狂战士的锁子甲 Berserker's Hauberk
+}
+SetItemInfo[46]={//狂战士的手斧 Berserker's Hatchet
+}
+SetItemInfo[47]={//死亡之手 Death's Hand
+}
+SetItemInfo[48]={//死亡的守护 Death's Guard
+}
+SetItemInfo[49]={//死亡之触 Death's Touch
+}
+SetItemInfo[50]={//天使的镰刀 Angelic Sickle
+}
+SetItemInfo[51]={//天使的披风 Angelic Mantle
+}
+SetItemInfo[52]={//天使之光 Angelic Halo
+}
+SetItemInfo[53]={//天使之翼 Angelic Wings
+}
+SetItemInfo[54]={//北极号角 Arctic Horn
+}
+SetItemInfo[55]={//北极毛皮 Arctic Furs
+}
+SetItemInfo[56]={//北极捆缚 Arctic Binding
+}
+SetItemInfo[57]={//北极手套 Arctic Mitts
+}
+SetItemInfo[58]={//阿卡娜的符号 Arcanna's Sign
+}
+SetItemInfo[59]={//阿卡娜的死亡之杖 Arcanna's Deathwand
+}
+SetItemInfo[60]={//阿卡娜的头_Arcanna's Head
+}
+SetItemInfo[61]={//阿卡娜的血肉 Arcanna's Flesh
+}
+SetItemInfo[62]={//娜塔亚的图腾 Natalya's Totem
+}
+SetItemInfo[63]={//娜塔亚的记号 Natalya's Mark
+}
+SetItemInfo[64]={//娜塔亚的影子 Natalya's Shadow
+}
+SetItemInfo[65]={//娜塔亚的灵魂 Natalya's Soul
+}
+SetItemInfo[66]={//艾尔多的冷酷凝视 Aldur's Stony Gaze
+}
+SetItemInfo[67]={//艾尔多的欺暪 Aldur's Deception
+}
+SetItemInfo[68]={//艾尔多的律动 Aldur's Rhythm
+}
+SetItemInfo[69]={//艾尔多的成长 Aldur's Advance
+}
+SetItemInfo[70]={//不朽之王的意志 Immortal King's Will
+}
+SetItemInfo[71]={//不朽之王的灵魂牢笼 Immortal King's Soul Cage
+}
+SetItemInfo[72]={//不朽之王的琐事 Immortal King's Detail
+}
+SetItemInfo[73]={//不朽之王的融炉 Immortal King's Forge
+}
+SetItemInfo[74]={//不朽之王之柱 Immortal King's Pillar
+}
+SetItemInfo[75]={//不朽之王的碎魂者 Immortal King's Stone Crusher
+}
+SetItemInfo[76]={//塔-拉夏的纤细衣服 Tal Rasha's Fine-Spun Cloth
+}
+SetItemInfo[77]={//塔-拉夏的判决 Tal Rasha's Adjudication
+}
+SetItemInfo[78]={//塔-拉夏的警戒之眼 Tal Rasha's Lidless Eye
+}
+SetItemInfo[79]={//塔-拉夏的守护 Tal Rasha's Guardianship
+}
+SetItemInfo[80]={//塔-拉夏的赫拉迪克纹章 Tal Rasha's Horadric Crest
+}
+SetItemInfo[81]={//格瑞斯华尔德的勇气 Griswold's Valor 头冠
+}
+SetItemInfo[82]={//格瑞斯华尔德之心 Griswold's Heart
+}
+SetItemInfo[83]={//格瑞斯华尔德的救赎 Griswold's Redemption 神使之杖
+}
+SetItemInfo[84]={//格瑞斯华尔德的荣耀 Griswold's Honor
+}
+SetItemInfo[85]={//塔格奥之外装 Trang-Oul's Guise
+}
+SetItemInfo[86]={//塔格奥之鳞 Trang-Oul's Scales
+}
+SetItemInfo[87]={//塔格奥之翼 Trang-Oul's Wing
+}
+SetItemInfo[88]={//塔格奥之手 Trang-Oul's Claws
+}
+SetItemInfo[89]={//塔格奥之束带 Trang-Oul's Girth
+}
+SetItemInfo[90]={//马维娜的真实之眼 M'avina's True Sight
+}
+SetItemInfo[91]={//马维娜的拥抱 M'avina's Embrace
+}
+SetItemInfo[92]={//马维娜的冰握 M'avina's Icy Clutch
+}
+SetItemInfo[93]={//马维娜的教义 M'avina's Tenet
+}
+SetItemInfo[94]={//马维娜的施展 M'avina's Caster
+}
+SetItemInfo[95]={//述说之珠 Telling of Beads
+}
+SetItemInfo[96]={//手掌的安置 Laying of Hands
+}
+SetItemInfo[97]={//仪式的走道 Rite of Passage
+}
+SetItemInfo[98]={//黑暗信徒 Dark Adherent
+}
+SetItemInfo[99]={//信条 Credendum
+}
+SetItemInfo[100]={//丹弓的教导 Dangoon's Teaching
+}
+SetItemInfo[101]={//泰比克的光荣 Taebaek's Glory
+}
+SetItemInfo[102]={//黑摩苏的坚决 Haemosu's Adamant
+}
+SetItemInfo[103]={//安戴尔的全灵 Ondal's Almighty
+}
+SetItemInfo[104]={//吉永之脸 Guillaume's Face
+}
+SetItemInfo[105]={//威廉的自尊 Wilhelm's Pride
+}
+SetItemInfo[106]={//马格纳斯之皮 Magnus' Skin
+}
+SetItemInfo[107]={//惠斯坦的武装 Whitstan's Guard
+}
+SetItemInfo[108]={//华宁的光辉 Hwanin's Splendor
+}
+SetItemInfo[109]={//华宁的保护 Hwanin's Refuge
+}
+SetItemInfo[110]={//华宁的祝福 Hwanin's Blessing
+}
+SetItemInfo[111]={//华宁的正义 Hwanin's Justice
+}
+SetItemInfo[112]={//沙撒璧的忏悔之钴 Sazabi's Cobalt Redeemer
+}
+SetItemInfo[113]={//沙撒璧的鬼魂释放者 Sazabi's Ghost Liberator
+}
+SetItemInfo[114]={//沙撒璧的精神之鞘 Sazabi's Mental Sheath
+}
+SetItemInfo[115]={//布尔凯索的神圣代价 Bul-Kathos' Sacred Charge
+}
+SetItemInfo[116]={//布尔凯索的部族守护 Bul-Kathos' Tribal Guardian
+}
+SetItemInfo[117]={//牛魔王之角 Cow King's Horns
+}
+SetItemInfo[118]={//牛魔王之皮 Cow King's Hide
+}
+SetItemInfo[119]={//牛魔王之蹄 Cow King's Hooves
+}
+SetItemInfo[120]={//娜吉解迷杖 Naj's Puzzler
+}
+SetItemInfo[121]={//娜吉的轻铠甲 Naj's Light Plate
+}
+SetItemInfo[122]={//娜吉的小环 Naj's Circlet
+}
+SetItemInfo[123]={//山德的模范 Sander's Paragon
+}
+SetItemInfo[124]={//山德的碎石 Sander's Riprap
+}
+SetItemInfo[125]={//山德的禁忌 Sander's Taboo
+}
+SetItemInfo[126]={//山德的迷信 Sander's Superstition
+}
+
+//第四部分
+//神符之语部分，已列出所有神符之语，编号不要改动
+RuneWordInfo[0]={//古代人的契约 Ancients' Pledge
+}
+RuneWordInfo[1]={//黑色 Black
+}
+RuneWordInfo[2]={//狂怒 Fury
+}
+RuneWordInfo[3]={//神圣雷击 Holy Thunder
+}
+RuneWordInfo[4]={//荣耀 Honor
+}
+RuneWordInfo[5]={//王者的慈悲 King's Grace
+}
+RuneWordInfo[6]={//叶子 Leaf
+}
+RuneWordInfo[7]={//狮子心 Lionheart
+}
+RuneWordInfo[8]={//知识 Lore
+}
+RuneWordInfo[9]={//怨恨 Malice
+}
+RuneWordInfo[10]={//旋律 Melody
+}
+RuneWordInfo[11]={//记忆 Memory
+}
+RuneWordInfo[12]={//天底 Nadir
+}
+RuneWordInfo[13]={//光辉 Radiance
+}
+RuneWordInfo[14]={//押韵 Rhyme
+}
+RuneWordInfo[15]={//寂静 Silence
+}
+RuneWordInfo[16]={//烟雾 Smoke
+}
+RuneWordInfo[17]={//隐密 Stealth
+}
+RuneWordInfo[18]={//钢铁 Steel
+}
+RuneWordInfo[19]={//力量 Strength
+}
+RuneWordInfo[20]={//毒牙 Venom
+}
+RuneWordInfo[21]={//财富 Wealth
+}
+RuneWordInfo[22]={//白色 White
+}
+RuneWordInfo[23]={//和风 Zephyr
+}
+RuneWordInfo[24]={//荣耀之链 Chains of Honor
+}
+RuneWordInfo[25]={//野蔷薇 Bramble
+}
+RuneWordInfo[26]={//死亡呼吸 Breath of the Dying
+}
+RuneWordInfo[27]={//战争召唤 Call to Arms
+}
+RuneWordInfo[28]={//新月 Crescent Moon
+}
+RuneWordInfo[29]={//迪勒瑞姆 Delirium
+}
+RuneWordInfo[30]={//末日 Doom
+}
+RuneWordInfo[31]={//谜团 Enigma
+}
+RuneWordInfo[32]={//石块 Stone
+}
+RuneWordInfo[33]={//永恒 Eternity
+}
+RuneWordInfo[34]={//流亡 Exile
+}
+RuneWordInfo[35]={//饥荒 Famine
+}
+RuneWordInfo[36]={//正义之手 Hand of Justice
+}
+RuneWordInfo[37]={//橡树之心 Heart of the Oak
+}
+RuneWordInfo[38]={//拭王者 Kingslayer
+}
+RuneWordInfo[39]={//热情 Passion
+}
+RuneWordInfo[40]={//幽暗 Gloom
+}
+RuneWordInfo[41]={//圣堂 Sanctuary
+}
+RuneWordInfo[42]={//混沌 Chaos
+}
+RuneWordInfo[43]={//野兽 Beast
+}
+RuneWordInfo[49]={//精神 Spirit
+}
+RuneWordInfo[50]={//灿烂 Splendor
+}
+RuneWordInfo[53]={//强制 Duress
+}
+RuneWordInfo[59]={//誓约 Oath
+}
+RuneWordInfo[60]={//遵从 Obedience
+}
+RuneWordInfo[63]={//和谐 Harmony
+}
+RuneWordInfo[66]={//刚毅 Fortitude
+}
+RuneWordInfo[70]={//信心 Faith
+}
+RuneWordInfo[76]={//白骨 Bone
+}
+RuneWordInfo[77]={//烙印 Brand
+}
+RuneWordInfo[83]={//死神 Death
+}
+RuneWordInfo[88]={//毁灭 Destruction
+}
+RuneWordInfo[89]={//飞龙 Dragon
+}
+RuneWordInfo[91]={//梦境 Dream
+}
+RuneWordInfo[93]={//边缘 Edge
+}
+RuneWordInfo[94]={//教化 Enlightenment
+}
+RuneWordInfo[100]={//冰冻 Ice
+}
+RuneWordInfo[101]={//无限 Infinity
+}
+RuneWordInfo[103]={//眼光 Insight
+}
+RuneWordInfo[107]={//最后希望 Last Wish
+}
+RuneWordInfo[109]={//执法者 Lawbringer
+}
+RuneWordInfo[117]={//神话 Myth
+}
+RuneWordInfo[120]={//和平 Peace
+}
+RuneWordInfo[124]={//凤凰 Phoenix
+}
+RuneWordInfo[130]={//骄傲 Pride
+}
+RuneWordInfo[131]={//原理 Principle
+}
+RuneWordInfo[133]={//谨重 Prudence
+}
+RuneWordInfo[137]={//降雨 Rain
+}
+RuneWordInfo[140]={//裂缝 Rift
+}
+RuneWordInfo[148]={//背信 Treachery
+}
+RuneWordInfo[160]={//悔恨 Grief
+}
+RuneWordInfo[161]={//轻风 Wind
+}
+RuneWordInfo[163]={//思考之声 Voice of Reason
+}
+RuneWordInfo[167]={//愤怒 Wrath
+}

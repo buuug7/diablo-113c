@@ -1,0 +1,5 @@
+*.mpq filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.dc6 filter=lfs diff=lfs merge=lfs -text
+*.tbl filter=lfs diff=lfs merge=lfs -text

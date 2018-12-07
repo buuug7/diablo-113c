@@ -1,0 +1,35 @@
+type	name	bits	desc	cond1	condvar1	condval1	cond2	condvar2	condval2	comment
+ASC8	majic	2	Record ID							JM
+BOOL	bQuest	1	Quest Item							?
+BYTE	unk21	3	Unknown21							x
+BOOL	bId	1	Identified							x
+BYTE	unk25	3	Unknown25							x
+BOOL	bIllegal1	1	Illegal Inventory							1 - (red in inventory) ?
+BYTE	unk31	1	Unknown31							x
+BOOL	bDup	1	Duplicate Item ?							?
+BOOL	bSocketed	1	Socketed							x
+BYTE	unk34	2	Unknown34							x
+BOOL	bIllegal	1	Illegal Equip							1 - Bad Equip (red) ?
+BYTE	unk37	1	Unknown37							x
+BYTE	bEar	1	Ear Structure							x
+BOOL	bStarter	1	Starter Item flag							x
+BYTE	unk42	2	Unknown42							x
+BYTE	unk44	1	Unknown44							x
+BOOL	bSimple	1	Simple Structure flag							x
+BOOL	bEthereal	1	Ethereal							x
+BYTE	unk47	1	Unknown47							always 1
+BOOL	bInscribed	1	Inscribed							x
+BYTE	unk51	1	Unknown51							1 = do not read nGems/ear class (no three bits after header)
+BOOL	bRuneWord	1	Has Rune Word							x
+BYTE	unk53	5	Unknown53							x
+										x
+BYTE	unk60	10	Version							"0x64 = exp,0x01 = nonexp"
+BYTE	iLoc	3	Location 							0 = grid 1 = equipped 2 = on belt 3 = ? 4 = in hand 5 = ? 6 = socket 7 = ?
+BYTE	iPos	4	Position on body							"position on body  01 = head, 02 = neck, 03 = tors, 04 = rarm, 05 = larm, 06 = lrin, 07 = rrin, 08 = belt ,09 = feet, 0a = glov, 0b = ralt, 0c = lalt, 00 = grid (none)"
+BYTE	iCol	4	Grid Column							"row & col for belted items ,junk for equipped"
+BYTE	iRow	4	Grid Row							junk
+BYTE	iStoredIn	3	Stored In							0 = equip/belt 1 = inventory 2 = ? 3 = ? 4 = cube 5 = stash
+										x
+FILE	ear.txt	0	Ear Format	0	bEar	1				x
+										x
+FILE	extend.txt	0	Item Format	0	bEar	0				normal items (non-ears)

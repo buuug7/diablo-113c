@@ -1,0 +1,322 @@
+<----------------------------------------------->
+
+		A Plugin by Yohann
+		version 10.00
+
+
+<---------- Starting Diablo II Plugin ---------->
+
+
+* PlugY is called from D2gfx.dll
+
+***** Load D2 Libraries *****
+SmackW32.dll loaded successfully at: 03960000
+D2Common.dll loaded successfully at: 6FD50000
+ijl11.dll loaded successfully at: 60000000
+D2Gdi.dll loaded successfully at: 6F870000
+D2Win.dll loaded successfully at: 6F8E0000
+D2sound.dll loaded successfully at: 6F9B0000
+D2Launch.dll loaded successfully at: 6FA40000
+D2gfx.dll loaded successfully at: 6FA80000
+D2Game.dll loaded successfully at: 02890000
+D2Client.dll loaded successfully at: 6FAB0000
+D2Net.dll loaded successfully at: 023F0000
+D2Lang.dll loaded successfully at: 02400000
+D2CMP.dll loaded successfully at: 6FE10000
+Bnclient.dll loaded successfully at: 6FF20000
+Fog.dll loaded successfully at: 6FF50000
+Storm.dll loaded successfully at: 6FBF0000
+
+
+***** Get dll versions *****
+version of D2Common.dll	1.13
+version of D2Gdi.dll	1.13
+version of D2Win.dll	1.13
+version of D2Launch.dll	1.13
+version of D2gfx.dll	1.13
+version of D2Client.dll	1.13
+version of D2Net.dll	1.13
+version of D2Lang.dll	1.13
+version of D2Game.dll	1.13
+version of D2CMP.dll	1.13
+version of Fog.dll	1.13
+version of Storm.dll	1.13
+
+
+***** PARAMETERS *****
+Parameters file is opened.
+
+Reading parameters.
+
+USER:	active_plugin				= 1
+DLL:	active_DisableBattleNet				= 0
+USER:	active_logFile				= 0
+USER:	active_Commands				= 1
+USER:	active_CheckMemory			= 0
+DLL:	active_othersFeatures		= 0
+USER:	dllFilenames				= |
+
+USER:	active_ChangeLanguage		= 0
+DLL:	active_LanguageManagement	= 0
+
+USER:	active_changingSavePath		= 0
+
+USER:	active_VersionTextChange	= 0
+USER:	active_PrintPlugYVersion	= 1
+USER:	colorOfPlugYVersion			= 4
+
+USER:	active_bigStash				= 1
+USER:	active_multiPageStash		= 1
+USER:	maxSelfPages				= 4294967295
+USER:	nbPagesPerIndex				= 10
+USER:	nbPagesPerIndex2			= 100
+USER:	active_sharedStash			= 1
+DLL:	DLL:	DLL:	DLL:	DLL:	DLL:	DLL:	DLL:	DLL:	DLL:	DLL:	DLL:	DLL:	DLL:		 Buttons Positions: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+USER:	maxSharedPages				= 4294967295
+DLL:	sharedStashFilename			= SharedStashSave
+USER:	separateHardSoftStash		= 1
+USER:	displaySharedSetItemNameInGreen = 1
+USER:	active_sharedGold			= 1
+
+USER:	active_StatsPoints			= 1
+USER:	keyUsedForUnassignStatPoint	= 18 (0x19fa08)
+USER:	active_StatsShiftClickLimit	= 0
+
+USER:	active_StatPerLevelUpChange	= 0
+
+USER:	active_SkillsPoints			= 1
+DLL:	unassignSkillsPointsOneByOne			= 0
+DLL:	posXUnassignSkillBtn			= -1
+DLL:	posXUnassignSkillBtn			= -1
+
+USER:	active_SkillPerLevelUpChange= 0
+
+USER:	active_WorldEvent			= 1
+USER:	showSOJSoldCounterInAllDiff	= 1
+USER:	itemsToSell					= The Stone of Jordan
+USER:	worldEventmonsterID			= 333
+USER:	valueOfOwnSOJSold			= 100
+USER:	valueInitSOJSoldMin			= 200
+USER:	valueInitSOJSoldDelta		= 2801
+USER:	triggerAtSolJSoldMin		= 10
+USER:	triggerAtSolJSoldDelta		= 11
+USER:	active_AutomaticSell		= 1
+USER:	timeBeforeAutoSellMin		= 10800000
+USER:	timeBeforeAutoSellDelta		= 21600001
+
+USER:	active_UberQuest			= 1
+
+USER:	active_newInterfaces		= 0
+
+USER:	active_alwaysRegenMapInSP	= 0
+USER:	nbPlayersCommandByDefault	= 0
+USER:	active_DisplayItemLevel		= 0
+USER:	active_AlwaysDisplayLifeMana= 1
+USER:	active_RunLODs				= 1
+USER:	active_EnabledTXTFilesWithMSExcel= 1
+
+USER:	active_DisplayBaseStatsValue= 0
+
+USER:	active_LadderRunewords	= 1
+
+USER:	active_EnabledCowPortalWhenCowKingWasKill= 1
+
+Reading parameters end.
+
+
+***** Custom libraries *****
+No custom libraries to load.
+
+
+***** Unprotect Libraries *****
+D2Common.dll successfully hooked. (6FD51000,00088000)
+D2Client.dll successfully hooked. (6FAB1000,000CD000)
+D2Lang.dll successfully hooked. (02401000,0000B000)
+D2Game.dll successfully hooked. (02891000,000F7000)
+Fog.dll successfully hooked. (6FF51000,00024000)
+Storm.dll successfully hooked. (6FBF1000,00042000)
+D2Launch.dll successfully hooked. (6FA41000,0001B000)
+D2gfx.dll successfully hooked. (6FA81000,0000C000)
+
+
+***** INSTALL FUNCTIONS *****
+Patch D2Launch for set not on realm variable. (VariableonRealm)
+BYTE	6FA59295 : 81->E8
+DWORD	6FA59296 : 000400EC->93F4F126
+BYTE	6FA5929A : 00->90
+BYTE	6FA57B8E : BE->E8
+DWORD	6FA57B8F : 00000040->93F5085D
+BYTE	6FA51F36 : BA->E8
+DWORD	6FA51F37 : 00000400->93F564F5
+
+Patch D2Game for received button click message. (UpdateServer)
+BYTE	0295C983 : C1->57
+BYTE	0295C984 : EE->E8
+DWORD	0295C985 : F88B5708->0105E4D7
+
+Patch D2Client for install commands. (Commands)
+BYTE	6FB20AE6 : 83->E8
+DWORD	6FB20AE7 : C08508C4->93E80E55
+
+Patch D2Launch to print PlugY version. (PrintPlugYVersion)
+DWORD	6FA58061 : 6F8F8560->93F54FFB
+
+Patch Storm to found custom file. (PlugYFiles)
+BYTE	6FC18D89 : FF->90
+BYTE	6FC18D8A : 15->E8
+DWORD	6FC18D8B : 7701DB60->93D9DDB1
+
+Patch D2Client to load/free custom images. (PlugYImagesFiles)
+BYTE	6FAD7EAE : B9->E8
+DWORD	6FAD7EAF : 0000000C->93EDEF7D
+BYTE	6FAD6F8D : B9->E8
+DWORD	6FAD6F8E : 0000000C->93EDFEAE
+
+Patch D2Client for unassign stat points when specified key is press. (StatsPoints)
+BYTE	6FB6D1B5 : 8B->EB
+BYTE	6FB6D1B6 : 4C->13
+BYTE	6FB6D1B7 : 24->90
+BYTE	6FB6D1B8 : 1C->90
+DWORD	6FB6D23E : 6FA8B080->93E4C4EE
+BYTE	6FB6CDD9 : 74->90
+BYTE	6FB6CDDA : 4E->90
+BYTE	6FB6CE44 : 6B->E8
+DWORD	6FB6CE45 : 01BF0ED2->93E4CAB7
+BYTE	6FB6CE49 : 00->6B
+BYTE	6FB6CE4A : 00->D2
+BYTE	6FB6CE4B : 00->0E
+BYTE	6FB6DE49 : 74->90
+BYTE	6FB6DE4A : 65->90
+BYTE	6FB6DEFB : 66->E8
+DWORD	6FB6DEFC : 077CC085->93E4B8B0
+BYTE	6FB6DF3E : 66->E8
+DWORD	6FB6DF3F : 15244C89->93E4B8AD
+
+Patch D2Client for skills interface. (InterfaceSkills)
+BYTE	6FB27F20 : 5F->E9
+DWORD	6FB27F21 : CCC35B5E->93E8241B
+BYTE	6FB28334 : B9->E8
+DWORD	6FB28335 : 00001083->93E82027
+BYTE	6FB29C62 : C7->E8
+DWORD	6FB29C63 : 00001845->93E80739
+BYTE	6FB29C67 : 00->90
+BYTE	6FB29C68 : 00->90
+DWORD	6FB295F8 : 6FC243D0->93E80DC4
+
+Patch D2gfx for launch any number of Diablo II game in the same computer. (RunLODs)
+BYTE	6FA885BF : 74->EB
+
+Patch D2Common & D2Client for make 10x10 squares in the stash. (BigStash)
+DWORD	6FDD2CA5 : 6FDAEF40->93BCE3F7
+BYTE	6FB3CC1C : 68->E8
+DWORD	6FB3CC1D : 00000104->93E6448F
+
+Patch D2Game & D2Client for save Player's custom data. (SavePlayerData)
+DWORD	028E3F35 : 6FF67F60->010D3627
+BYTE	028E3EAB : 8B->90
+BYTE	028E3EAC : 44->E8
+DWORD	028E3EAD : C0850424->010D3F7F
+BYTE	028BD173 : 8B->90
+BYTE	028BD174 : 8E->E8
+DWORD	028BD175 : 0000017C->010FAC57
+BYTE	6FAF3946 : 0F->E8
+DWORD	6FAF3947 : 0C2444B6->93EC4525
+BYTE	6FB5C572 : 81->E8
+DWORD	6FB5C573 : 55AA55F9->93E5B949
+BYTE	6FB5C577 : AA->90
+
+Patch D2Game & D2Client for load Player's custom data. (LoadPlayerData)
+BYTE	028E638D : 8B->E8
+DWORD	028E638E : 75F685F0->010C61CE
+BYTE	028E6392 : 16->90
+BYTE	028E6217 : 83->E8
+DWORD	028E6218 : 2174003B->010C6934
+DWORD	6FAC457C : 6FF67F60->93EE8630
+BYTE	0295AF39 : 8B->E8
+DWORD	0295AF3A : B60F005D->01051C92
+BYTE	0295AF3E : 45->90
+BYTE	0295AF3F : 04->90
+
+Patch D2Client for received Item packet. (UpdateClient)
+DWORD	6FB5E896 : 000000CF->93E5C246
+
+Patch D2Game & D2Client & D2Common for Player's custom data. (PlayerCustomData)
+DWORD	6FD809BE : 6FF6CD50->93C356EE
+BYTE	0292BB91 : 8B->E8
+DWORD	0292BB92 : 52182454->0108A6EA
+BYTE	0292BBF1 : 8B->E8
+DWORD	0292BBF2 : 52182454->0108A6AA
+BYTE	028DBF12 : 5F->E8
+DWORD	028DBF13 : C0335D5E->010DA3B9
+DWORD	6FD8093D : 6FF6CCC0->93C357FF
+DWORD	02971162 : 6FD6E8F0->0104518A
+DWORD	6FB55C94 : 6FD6E8F0->93E60698
+BYTE	6FD71B23 : 0D->07
+
+Patch D2Client for stash interface. (InterfaceStash)
+DWORD	6FB49A56 : 6FB6EAF0->93E60EA6
+DWORD	6FB49A33 : 6F8F2FA0->93E61879
+DWORD	6FB4B8A6 : 6FB3CD00->93E5FD86
+DWORD	6FB4B6D9 : 6FB3CD00->93E5FFB3
+BYTE	6FB3CC3A : 81->E9
+DWORD	6FB3CC3B : 000104C4->93E6EAF1
+BYTE	6FB3CC3F : 00->90
+DWORD	6FB3D434 : 6FD6E190->93E6E1A8
+DWORD	6FB3D4CB : 6FD6E8F0->93E6E051
+
+Patch D2Game for carry1 unique item. (MultiPageStash)
+DWORD	0295F1E3 : 6FD737A0->0104A479
+DWORD	029610C8 : 6FD737C0->010485F4
+DWORD	02967B75 : 6FD71E10->01041BD7
+BYTE	0296211B : 8B->E8
+DWORD	0296211C : 850C2474->01047670
+BYTE	02962120 : F6->90
+
+Patch D2Game for active World Event. (WorldEvent)
+DWORD	028B5280 : 028B4950->0110628C
+DWORD	0294FB29 : 6FD73940->0106B6A3
+DWORD	028DA791 : 028BAAE0->010E090B
+DWORD	0295B0BF : 028D9930->0106047D
+
+Patch D2Game for active Uber Quest. (UberQuest)
+DWORD	0298A5F0 : 02900180->039BA290
+DWORD	0298A5F4 : 02900170->039BA3D0
+DWORD	0299F0A0 : 02946C80->039BA690
+DWORD	0299F0B0 : 0290B4E0->039BA670
+DWORD	0299F0C0 : 029339D0->039BA680
+DWORD	028BCCAB : 028B00E0->010FD791
+
+Patch D2Client for always display life and mana. (ALwaysPrintLifeMana)
+BYTE	6FAD764A : 0F->90
+BYTE	6FAD764B : 8C->E8
+DWORD	6FAD764C : 000000BC->93ED03F0
+BYTE	6FAD770C : A1->E8
+DWORD	6FAD770D : 6FB8BC4C->93ED03BF
+
+Patch D2Client for enabled the opening of files already opened by MS Excel. (EnabledTXTFilesWithMSExcel)
+BYTE	6FC18A8A : 01->03
+
+Patch D2Common for enabled the ladder only runewords. (LadderRunewords)
+DWORD	6FDC24B2 : 6FDAEF40->93BE5CDA
+
+Patch D2Game for enabled the opening of Cow Portal when player have already kill the cow king in that difficulty. (EnabledCowPortalWhenCowKingWasKill)
+BYTE	028F7508 : 85->33
+
+
+DLL patched sucessfully.
+
+
+***** Reprotect Libraries *****
+D2Common.dll successfully unhooked. (6FD51000,00088000)
+D2Client.dll successfully unhooked. (6FAB1000,000CD000)
+D2Lang.dll successfully unhooked. (02401000,0000B000)
+D2Game.dll successfully unhooked. (02891000,000F7000)
+Fog.dll successfully unhooked. (6FF51000,00024000)
+Storm.dll successfully unhooked. (6FBF1000,00042000)
+D2Launch.dll successfully unhooked. (6FA41000,0001B000)
+D2gfx.dll successfully unhooked. (6FA81000,0000C000)
+
+
+***** Init custom libraries *****
+***** ENTERING DIABLO II *****
+

@@ -1,0 +1,133 @@
+2004.06.20 1.15
+---------------
+  1, Added right click swap feature.
+  2, Improved localization support.
+  3, Fixed hostile player bug.
+  4, Minor improved minimap display.
+  5, Added "Auto Next Game Name" option
+  6, Added "Auto Next Game Password" option
+
+2004.06.06 1.14
+---------------
+  1, Added chienes input/display support.
+  2, Added "Version Checking Dll Action" option.
+
+2004.05.27 1.13
+---------------
+  1, Fixed can't reload hackmap in certain situation bug.
+  2, Enable generate crash dump file feature (need dbghelp.dll).
+  3, Minor improvement to anti-detection.
+
+2004.05.22 1.12
+---------------
+  1, Added auto reveal map feature to reveal map automatically when act changing. See "Auto Reveal Act".
+  2, Added show monsters resistance. See "Monster Resists Toggle"
+  3, Improved next game name feature.
+  4, Fixed show hostile player bug
+  5, Fixed show Claw Viper Temple and Hellforge on minimap bug
+
+2004.03.29 1.11
+---------------
+  1, Added Quick Next Game Toggle feature. You can use this toggle to exit game quickly and increase next game name by 1. It's convenient to run baal.
+  2, Added Dangerous Monster defining feature to enhance protecttion of HC players. hackmap will make you returning town or exiting game when encountering Dangerous Monsters and your resistance is below threshold. See d2hackmap.cfg.
+  3, Fixed a probably-crash-game bug when loading/unloading hackmap in diablo process.
+
+2004.03.12 1.10
+---------------
+  1, Fixed compatibility issues of showing misc items colours(e.g. Rejuv Pot, Gem, etc)
+  2, Added show minimap cells of several special targets(e.g. Anya, Izual, etc)
+
+2004.02.13 1.09
+---------------
+  1, Fixed show chest bug
+  2, Fixed show Item Indexs bug
+  3, Fixed not compatible with d2hackit bug in 1.08
+  4, Added Item sockets setting, Format:£ºItem Colours[code][level][ethereal][sockets+1]
+  5, Added Quick Go back town feature(player must have tome of town portal), default key is BackSpace
+  6, Added set create/join game name to last entering game name feature
+
+2004.02.11 1.08
+---------------
+  1, Fixed closed&locked chest color bug
+  2, Modified d2hackmap.vcb
+
+2004.02.07 1.07
+---------------
+  1, Added Upgrade config files feature.
+
+2004.02.04 1.06
+---------------
+  1, Added Chicken Life Percent feature
+  2, Changed "Perm Show Orb Toggle" to "Perm Show Orbs Toggle"
+  3, Added Chinese GUI support
+
+2004.02.01 1.05
+---------------
+  1, Added show game server ip feature
+
+2004.01.15 1.04
+---------------
+  1, Improved Integrity scan algorithm.
+  2, Added Anti-detection feature. Including: anti 64/65 detect, protect from version/extrawork dlls checking.
+  3, Added feature to safe reveal map automatically when act changed.
+  4, Added 5.1 edited maphack detection feature.
+  5, Fixed show behide-wall monsters bug.
+  6, Fixed show Valkyrie/golems equipment bug.
+
+2004.01.13 1.03
+---------------
+  1, Added Integrity scan feature.
+  2, Added safe reveal map feature.
+
+2004.01.10 1.02
+---------------
+  1, Added Hackmap Loader.
+  2, Fixed an big error bug when unloading d2hackmap.dll.
+
+2003.12.29 1.01 beta 2
+---------------------
+  1, Changed config names about automap target prompt:
+   1.01 beta 1               1.01 beta 2+
+   Automap Prompt Toggle --> Minimap Toggle
+   Automap Prompt Objects--> Minimap Cells
+   Automap Prompt Colour --> Minimap Cell Colour
+
+  2, Added Enter game sound prompt feature. (disable by default).
+  3, Added feature to generate a crashdump file automaptically when big error occours. Only active in debug version.
+     
+
+2003.12.28 1.01 beta 1
+---------------------
+  Added automap target prompt feature.
+  new added config:
+Automap Prompt Toggle:		0,VK_P
+Automap Prompt Colour:		12
+// format: Automap Prompt Objects[level name][object no.1, object no.2, object no.3, ...] : 1
+// 1 for enable, -1 for disable
+//example 1, Prompt entry of Durance of Hate Level 3 when player is in Durance of Hate Level 2:
+Automap Prompt Objects[Durance of Hate Level 2][Durance of Hate Level 3]: 1
+//example 2, prompt entrys of Worldstone Keep Level 1 and Worldstone Keep Level 3 when player is in Worldstone Keep Level 2:
+Automap Prompt Objects[Worldstone Keep Level 2][Worldstone Keep Level 1, Worldstone Keep Level 3]: 1
+
+
+2003.12.28 1.0 beta 4
+---------------------
+  Fixed unique monster TC calculation bug.
+
+2003.12.27 1.0 beta 3
+---------------------
+  1, Fixed input line toggle crashes game bug.
+  2, Fixed draw scroll lock frame bug.
+  3, Adjusted a few hotkey names.
+
+2003.12.27 1.0 beta 2
+---------------------
+  Fixed some monsters' automap colour displaying bug.
+
+2003.12.26 1.0 beta 1
+---------------------
+features:
+  1, Compatible with Maphack 5.1 edited version
+  2, Added feature to show IAS/FCR/MF and lots of stats in character window. (see config).
+  3, Added feature to show other player's stats. just for fun. (see config).
+  4, Added keep game window toggle to prevent from minimizing window when running in window mode.

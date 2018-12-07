@@ -1,0 +1,4 @@
+type	name	bits	desc	cond1	condvar1	condval1	cond2	condvar2	condval2	comment
+BYTE	iEarClass	3	Ear Class							
+BYTE	iEarLevel	7	Ear Level							
+ASC7	sEarName	18	Ear Name							

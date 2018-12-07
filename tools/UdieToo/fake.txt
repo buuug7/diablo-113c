@@ -1,0 +1,4 @@
+name	mod1	mod2	mod3	mod4	mod5	mod6	mod7	mod8	mod9	mod10
+res-all	res-fire	res-ltng	res-cold	res-pois						
+res-all-max	res-fire-max	res-ltng-max	res-cold-max	res-pois-max						
+all-stats	str	enr	dex	vit						

@@ -1,0 +1,18 @@
+type	name	bits	desc	cond1	condvar1	condval1	cond2	condvar2	condval2	comment
+										x
+ASC8	dwType	4	Item Type							x
+										x
+FILE	extend1.txt	0	Extended Item	0	bSimple	0				Extended Item format file
+										x
+WORD	wRune	16	Rune word	0	bRuneWord	1				x
+ASC7	sIName	15	Inscribed Name	0	bInscribed	1				x
+										
+BOOL	bGld	1	Unk gld flag	0	sType	gold				x
+WORD	iGldQty	12	Quantity	0	sType	gold	0	bGld	0	x
+WORD	iGldQty1	32	BigQty	0	sType	gold	0	bGld	1	
+										x
+BYTE	bHasRand	1	Time Stamp Flag							Has the 96 bit random
+ASCI	UdieTag	8	Udie Item Tag	1	bHasRand	0				time stamp ?
+DWRD	pad03	32	random 	1	bHasRand	0				x
+										x
+FILE	extend2.txt	0	Type Specific	0	bSimple	0				Type specific stuff

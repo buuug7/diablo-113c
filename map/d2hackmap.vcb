@@ -1,0 +1,2498 @@
+
+//*Weapon items*
+Hand Axe, hax: 1
+Axe, axe: 2
+Double Axe, 2ax: 3
+Military Pick, mpi: 4
+War Axe, wax: 5
+Large Axe, lax: 6
+Broad Axe, bax: 7
+Battle Axe, btx: 8
+Great Axe, gax: 9
+Giant Axe, gix: 10
+Wand, wnd: 11
+Yew Wand, ywn: 12
+Bone Wand, bwn: 13
+Grim Wand, gwn: 14
+Club, clb: 15
+Scepter, scp: 16
+Grand Scepter, gsc: 17
+War Scepter, wsp: 18
+Spiked Club, spc: 19
+Mace, mac: 20
+Morning Star, mst: 21
+Flail, fla: 22
+War Hammer, whm: 23
+Maul, mau: 24
+Great Maul, gma: 25
+Short Sword, ssd: 26
+Scimitar, scm: 27
+Sabre, sbr: 28
+Falchion, flc: 29
+Crystal Sword, crs: 30
+Broad Sword, bsd: 31
+Long Sword, lsd: 32
+War Sword, wsd: 33
+Two Handed Sword, 2hs: 34
+Claymore, clm: 35
+Giant Sword, gis: 36
+Bastard Sword, bsw: 37
+Flamberge, flb: 38
+Great Sword, gsd: 39
+Dagger, dgr: 40
+Dirk, dir: 41
+Kris, kri: 42
+Blade, bld: 43
+Throwing Knife, tkf: 44
+Throwing Axe, tax: 45
+Balanced Knife, bkf: 46
+Balanced Axe, bal: 47
+Javelin, jav: 48
+Pilum, pil: 49
+Short Spear, ssp: 50
+Glaive, glv: 51
+Throwing Spear, tsp: 52
+Spear, spr: 53
+Trident, tri: 54
+Brandistock, brn: 55
+Spetum, spt: 56
+Pike, pik: 57
+Bardiche, bar: 58
+Voulge, vou: 59
+Scythe, scy: 60
+Poleaxe, pax: 61
+Halberd, hal: 62
+War Scythe, wsc: 63
+Short Staff, sst: 64
+Long Staff, lst: 65
+Gnarled Staff, cst: 66
+Battle Staff, bst: 67
+War Staff, wst: 68
+Short Bow, sbw: 69
+Hunter's Bow, hbw: 70
+Long Bow, lbw: 71
+Composite Bow, cbw: 72
+Short Battle Bow, sbb: 73
+Long Battle Bow, lbb: 74
+Short War Bow, swb: 75
+Long War Bow, lwb: 76
+Light Crossbow, lxb: 77
+Crossbow, mxb: 78
+Heavy Crossbow, hxb: 79
+Repeating Crossbow, rxb: 80
+Rancid Gas Potion, gps: 81
+Oil Potion, ops: 82
+Choking Gas Potion, gpm: 83
+Exploding Potion, opm: 84
+Strangling Gas Potion, gpl: 85
+Fulminating Potion, opl: 86
+Decoy Gidbinn, d33: 87
+The Gidbinn, g33: 88
+Wirt's Leg, leg: 89
+Horadric Malus, hdm: 90
+Hell Forge Hammer, hfh: 91
+Horadric Staff, hst: 92
+Shaft of the Horadric Staff, msf: 93
+Hatchet, 9ha: 94
+Cleaver, 9ax: 95
+Twin Axe, 92a: 96
+Crowbill, 9mp: 97
+Naga, 9wa: 98
+Military Axe, 9la: 99
+Bearded Axe, 9ba: 100
+Tabar, 9bt: 101
+Gothic Axe, 9ga: 102
+Ancient Axe, 9gi: 103
+Burnt Wand, 9wn: 104
+Petrified Wand, 9yw: 105
+Tomb Wand, 9bw: 106
+Grave Wand, 9gw: 107
+Cudgel, 9cl: 108
+Rune Scepter, 9sc: 109
+Holy Water Sprinkler, 9qs: 110
+Divine Scepter, 9ws: 111
+Barbed Club, 9sp: 112
+Flanged Mace, 9ma: 113
+Jagged Star, 9mt: 114
+Knout, 9fl: 115
+Battle Hammer, 9wh: 116
+War Club, 9m9: 117
+Martel de Fer, 9gm: 118
+Gladius, 9ss: 119
+Cutlass, 9sm: 120
+Shamshir, 9sb: 121
+Tulwar, 9fc: 122
+Dimensional Blade, 9cr: 123
+Battle Sword, 9bs: 124
+Rune Sword, 9ls: 125
+Ancient Sword, 9wd: 126
+Espandon, 92h: 127
+Dacian Falx, 9cm: 128
+Tusk Sword, 9gs: 129
+Gothic Sword, 9b9: 130
+Zweihander, 9fb: 131
+Executioner Sword, 9gd: 132
+Poignard, 9dg: 133
+Rondel, 9di: 134
+Cinquedeas, 9kr: 135
+Stiletto, 9bl: 136
+Battle Dart, 9tk: 137
+Francisca, 9ta: 138
+War Dart, 9bk: 139
+Hurlbat, 9b8: 140
+War Javelin, 9ja: 141
+Great Pilum, 9pi: 142
+Simbilan, 9s9: 143
+Spiculum, 9gl: 144
+Harpoon, 9ts: 145
+War Spear, 9sr: 146
+Fuscina, 9tr: 147
+War Fork, 9br: 148
+Yari, 9st: 149
+Lance, 9p9: 150
+Lochaber Axe, 9b7: 151
+Bill, 9vo: 152
+Battle Scythe, 9s8: 153
+Partizan, 9pa: 154
+Bec de Corbin, 9h9: 155
+Grim Scythe, 9wc: 156
+Jo Staff, 8ss: 157
+Quarterstaff, 8ls: 158
+Cedar Staff, 8cs: 159
+Gothic Staff, 8bs: 160
+Rune Staff, 8ws: 161
+Edge Bow, 8sb: 162
+Razor Bow, 8hb: 163
+Cedar Bow, 8lb: 164
+Double Bow, 8cb: 165
+Short Siege Bow, 8s8: 166
+Large Siege Bow, 8l8: 167
+Rune Bow, 8sw: 168
+Gothic Bow, 8lw: 169
+Arbalest, 8lx: 170
+Siege Crossbow, 8mx: 171
+Ballista, 8hx: 172
+Chu Ko Nu, 8rx: 173
+Khalim's Flail, qf1: 174
+Khalim's Will, qf2: 175
+Katar, ktr: 176
+Wrist Blade, wrb: 177
+Hatchet Hands, axf: 178
+Cestus, ces: 179
+Claws, clw: 180
+Blade Talons, btl: 181
+Scissors Katar, skr: 182
+Quhab, 9ar: 183
+Wrist Spike, 9wb: 184
+Fascia, 9xf: 185
+Hand Scythe, 9cs: 186
+Greater Claws, 9lw: 187
+Greater Talons, 9tw: 188
+Scissors Quhab, 9qr: 189
+Suwayyah, 7ar: 190
+Wrist Sword, 7wb: 191
+War Fist, 7xf: 192
+Battle Cestus, 7cs: 193
+Feral Claws, 7lw: 194
+Runic Talons, 7tw: 195
+Scissors Suwayyah, 7qr: 196
+Tomahawk, 7ha: 197
+Small Crescent, 7ax: 198
+Ettin Axe, 72a: 199
+War Spike, 7mp: 200
+Berserker Axe, 7wa: 201
+Feral Axe, 7la: 202
+Silver edged Axe, 7ba: 203
+Decapitator, 7bt: 204
+Champion Axe, 7ga: 205
+Glorious Axe, 7gi: 206
+Polished Wand, 7wn: 207
+Ghost Wand, 7yw: 208
+Lich Wand, 7bw: 209
+Unearthed Wand, 7gw: 210
+Truncheon, 7cl: 211
+Mighty Scepter, 7sc: 212
+Seraph Rod, 7qs: 213
+Caduceus, 7ws: 214
+Tyrant Club, 7sp: 215
+Reinforced Mace, 7ma: 216
+Devil Star, 7mt: 217
+Scourge, 7fl: 218
+Legendary Mallet, 7wh: 219
+Ogre Maul, 7m7: 220
+Thunder Maul, 7gm: 221
+Falcata, 7ss: 222
+Ataghan, 7sm: 223
+Elegant Blade, 7sb: 224
+Hydra Edge, 7fc: 225
+Phase Blade, 7cr: 226
+Conquest Sword, 7bs: 227
+Cryptic Sword, 7ls: 228
+Mythical Sword, 7wd: 229
+Legend Sword, 72h: 230
+Highland Blade, 7cm: 231
+Balrog Blade, 7gs: 232
+Champion Sword, 7b7: 233
+Colossus Sword, 7fb: 234
+Colossus Blade, 7gd: 235
+Bone Knife, 7dg: 236
+Mithril Point, 7di: 237
+Fanged Knife, 7kr: 238
+Legend Spike, 7bl: 239
+Flying Knife, 7tk: 240
+Flying Axe, 7ta: 241
+Winged Knife, 7bk: 242
+Winged Axe, 7b8: 243
+Hyperion Javelin, 7ja: 244
+Stygian Pilum, 7pi: 245
+Balrog Spear, 7s7: 246
+Ghost Glaive, 7gl: 247
+Winged Harpoon, 7ts: 248
+Hyperion Spear, 7sr: 249
+Stygian Pike, 7tr: 250
+Mancatcher, 7br: 251
+Ghost Spear, 7st: 252
+War Pike, 7p7: 253
+Ogre Axe, 7o7: 254
+Colossus Voulge, 7vo: 255
+Thresher, 7s8: 256
+Cryptic Axe, 7pa: 257
+Great Poleaxe, 7h7: 258
+Giant Thresher, 7wc: 259
+Walking Stick, 6ss: 260
+Stalagmite, 6ls: 261
+Elder Staff, 6cs: 262
+Shillelagh, 6bs: 263
+Archon Staff, 6ws: 264
+Spider Bow, 6sb: 265
+Blade Bow, 6hb: 266
+Shadow Bow, 6lb: 267
+Great Bow, 6cb: 268
+Diamond Bow, 6s7: 269
+Crusader Bow, 6l7: 270
+Ward Bow, 6sw: 271
+Hydra Bow, 6lw: 272
+Pellet Bow, 6lx: 273
+Gorgon Crossbow, 6mx: 274
+Colossus Crossbow, 6hx: 275
+Demon Crossbow, 6rx: 276
+Eagle Orb, ob1: 277
+Sacred Globe, ob2: 278
+Smoked Sphere, ob3: 279
+Clasped Orb, ob4: 280
+Jared's Stone, ob5: 281
+Stag Bow, am1: 282
+Reflex Bow, am2: 283
+Maiden Spear, am3: 284
+Maiden Pike, am4: 285
+Maiden Javelin, am5: 286
+Glowing Orb, ob6: 287
+Crystalline Globe, ob7: 288
+Cloudy Sphere, ob8: 289
+Sparkling Ball, ob9: 290
+Swirling Crystal, oba: 291
+Ashwood Bow, am6: 292
+Ceremonial Bow, am7: 293
+Ceremonial Spear, am8: 294
+Ceremonial Pike, am9: 295
+Ceremonial Javelin, ama: 296
+Heavenly Stone, obb: 297
+Eldritch Orb, obc: 298
+Demon Heart, obd: 299
+Vortex Orb, obe: 300
+Dimensional Shard, obf: 301
+Matriarchal Bow, amb: 302
+Grand Matron Bow, amc: 303
+Matriarchal Spear, amd: 304
+Matriarchal Pike, ame: 305
+Matriarchal Javelin, amf: 306
+
+//*Armor items*
+Cap, cap: 1001
+Skull Cap, skp: 1002
+Helm, hlm: 1003
+Full Helm, fhl: 1004
+Great Helm, ghm: 1005
+Crown, crn: 1006
+Mask, msk: 1007
+Quilted Armor, qui: 1008
+Leather Armor, lea: 1009
+Hard Leather Armor, hla: 1010
+Studded Leather, stu: 1011
+Ring Mail, rng: 1012
+Scale Mail, scl: 1013
+Chain Mail, chn: 1014
+Breast Plate, brs: 1015
+Splint Mail, spl: 1016
+Plate Mail, plt: 1017
+Field Plate, fld: 1018
+Gothic Plate, gth: 1019
+Full Plate Mail, ful: 1020
+Ancient Armor, aar: 1021
+Light Plate, ltp: 1022
+Buckler, buc: 1023
+Small Shield, sml: 1024
+Large Shield, lrg: 1025
+Kite Shield, kit: 1026
+Tower Shield, tow: 1027
+Gothic Shield, gts: 1028
+Leather Gloves, lgl: 1029
+Heavy Gloves, vgl: 1030
+Chain Gloves, mgl: 1031
+Light Gauntlets, tgl: 1032
+Gauntlets, hgl: 1033
+Boots, lbt: 1034
+Heavy Boots, vbt: 1035
+Chain Boots, mbt: 1036
+Light Plated Boots, tbt: 1037
+Greaves, hbt: 1038
+Sash, lbl: 1039
+Light Belt, vbl: 1040
+Belt, mbl: 1041
+Heavy Belt, tbl: 1042
+Plated Belt, hbl: 1043
+Bone Helm, bhm: 1044
+Bone Shield, bsh: 1045
+Spiked Shield, spk: 1046
+War Hat, xap: 1047
+Sallet, xkp: 1048
+Casque, xlm: 1049
+Basinet, xhl: 1050
+Winged Helm, xhm: 1051
+Grand Crown, xrn: 1052
+Death Mask, xsk: 1053
+Ghost Armor, xui: 1054
+Serpentskin Armor, xea: 1055
+Demonhide Armor, xla: 1056
+Trellised Armor, xtu: 1057
+Linked Mail, xng: 1058
+Tigulated Mail, xcl: 1059
+Mesh Armor, xhn: 1060
+Cuirass, xrs: 1061
+Russet Armor, xpl: 1062
+Templar Coat, xlt: 1063
+Sharktooth Armor, xld: 1064
+Embossed Plate, xth: 1065
+Chaos Armor, xul: 1066
+Ornate Plate, xar: 1067
+Mage Plate, xtp: 1068
+Defender, xuc: 1069
+Round Shield, xml: 1070
+Scutum, xrg: 1071
+Dragon Shield, xit: 1072
+Pavise, xow: 1073
+Ancient Shield, xts: 1074
+Demonhide Gloves, xlg: 1075
+Sharkskin Gloves, xvg: 1076
+Heavy Bracers, xmg: 1077
+Battle Gauntlets, xtg: 1078
+War Gauntlets, xhg: 1079
+Demonhide Boots, xlb: 1080
+Sharkskin Boots, xvb: 1081
+Mesh Boots, xmb: 1082
+Battle Boots, xtb: 1083
+War Boots, xhb: 1084
+Demonhide Sash, zlb: 1085
+Sharkskin Belt, zvb: 1086
+Mesh Belt, zmb: 1087
+Battle Belt, ztb: 1088
+War Belt, zhb: 1089
+Grim Helm, xh9: 1090
+Grim Shield, xsh: 1091
+Barbed Shield, xpk: 1092
+Wolf Head, dr1: 1093
+Hawk Helm, dr2: 1094
+Antlers, dr3: 1095
+Falcon Mask, dr4: 1096
+Spirit Mask, dr5: 1097
+Jawbone Cap, ba1: 1098
+Fanged Helm, ba2: 1099
+Horned Helm, ba3: 1100
+Assault Helmet, ba4: 1101
+Avenger Guard, ba5: 1102
+Targe, pa1: 1103
+Rondache, pa2: 1104
+Heraldic Shield, pa3: 1105
+Aerin Shield, pa4: 1106
+Crown Shield, pa5: 1107
+Preserved Head, ne1: 1108
+Zombie Head, ne2: 1109
+Unraveller Head, ne3: 1110
+Gargoyle Head, ne4: 1111
+Demon Head 1, ne5: 1112
+Circlet, ci0: 1113
+Coronet, ci1: 1114
+Tiara, ci2: 1115
+Diadem, ci3: 1116
+Shako, uap: 1117
+Hydraskull, ukp: 1118
+Armet, ulm: 1119
+Giant Conch, uhl: 1120
+Spired Helm, uhm: 1121
+Corona, urn: 1122
+Demonhead 2, usk: 1123
+Dusk Shroud, uui: 1124
+Wyrmhide, uea: 1125
+Scarab Husk, ula: 1126
+Wire Fleece, utu: 1127
+Diamond Mail, ung: 1128
+Loricated Mail, ucl: 1129
+Boneweave, uhn: 1130
+Great Hauberk, urs: 1131
+Balrog Skin, upl: 1132
+Hellforge Plate, ult: 1133
+Kraken Shell, uld: 1134
+Lacquered Plate, uth: 1135
+Shadow Plate, uul: 1136
+Sacred Armor, uar: 1137
+Archon Plate, utp: 1138
+Heater, uuc: 1139
+Luna, uml: 1140
+Hyperion, urg: 1141
+Monarch, uit: 1142
+Aegis, uow: 1143
+Ward, uts: 1144
+Bramble Mitts, ulg: 1145
+Vampirebone Gloves, uvg: 1146
+Vambraces, umg: 1147
+Crusader Gauntlets, utg: 1148
+Ogre Gauntlets, uhg: 1149
+Wyrmhide Boots, ulb: 1150
+Scarabshell Boots, uvb: 1151
+Boneweave Boots, umb: 1152
+Mirrored Boots, utb: 1153
+Myrmidon Greaves, uhb: 1154
+Spiderweb Sash, ulc: 1155
+Vampirefang Belt, uvc: 1156
+Mithril Coil, umc: 1157
+Troll Belt, utc: 1158
+Colossus Girdle, uhc: 1159
+Bone Visage, uh9: 1160
+Troll Nest, ush: 1161
+Blade Barrier, upk: 1162
+Alpha Helm, dr6: 1163
+Griffon Headdress, dr7: 1164
+Hunter's Guise, dr8: 1165
+Sacred Feathers, dr9: 1166
+Totemic Mask, dra: 1167
+Jawbone Visor, ba6: 1168
+Lion Helm, ba7: 1169
+Rage Mask, ba8: 1170
+Savage Helmet, ba9: 1171
+Slayer Guard, baa: 1172
+Akaran Targe, pa6: 1173
+Akaran Rondache, pa7: 1174
+Protector Shield, pa8: 1175
+Guilded Shield, pa9: 1176
+Royal Shield, paa: 1177
+Mummified Trophy, ne6: 1178
+Fetish Trophy, ne7: 1179
+Sexton Trophy, ne8: 1180
+Cantor Trophy, ne9: 1181
+Heirophant Trophy, nea: 1182
+Blood Spirit, drb: 1183
+Sun Spirit, drc: 1184
+Earth Spirit, drd: 1185
+Sky Spirit, dre: 1186
+Dream Spirit, drf: 1187
+Carnage Helm, bab: 1188
+Fury Visor, bac: 1189
+Destroyer Helm, bad: 1190
+Conqueror Crown, bae: 1191
+Guardian Crown, baf: 1192
+Sacred Targe, pab: 1193
+Sacred Rondache, pac: 1194
+Kurast Shield, pad: 1195
+Zakarum Shield, pae: 1196
+Vortex Shield, paf: 1197
+Minion Skull, neb: 1198
+Hellspawn Skull, nec: 1199
+Overseer Skull, ned: 1200
+Succubus Skull, nee: 1201
+Bloodlord Skull, nef: 1202
+
+//*Misc items*
+Elixir, elx: 2001
+hpo: 2002
+mpo: 2003
+hpf: 2004
+mpf: 2005
+Stamina Potion, vps: 2006
+Antidote Potion, yps: 2007
+Rejuvenation Potion, rvs: 2008
+Full Rejuvenation Potion, rvl: 2009
+Thawing Potion, wms: 2010
+Tome of Town Portal, tbk: 2011
+Tome of Identify, ibk: 2012
+Amulet, amu: 2013
+Viper Amulet, Top of the Horadric Staff, vip: 2014
+Ring, rin: 2015
+Item Gold, gld: 2016
+Scroll of Inifuss 1, bks: 2017
+Scroll of Inifuss 2, Key to the Cairn Stones, bkd: 2018
+Arrows, aqv: 2019
+Torch, tch: 2020
+Bolts, cqv: 2021
+Scroll of Town Portal, tsc: 2022
+Scroll of Identify, isc: 2023
+Heart, hrt: 2024
+Brain, brz: 2025
+Jawbone, jaw: 2026
+Eye, eyz: 2027
+Horn, hrn: 2028
+Tail, tal: 2029
+Flag, flg: 2030
+Fang, fng: 2031
+Quill, qll: 2032
+Soul, sol: 2033
+Scalp, scz: 2034
+Spleen, spe: 2035
+Key, key: 2036
+The Black Tower Key, luv: 2037
+Potion of Life, xyz: 2038
+A Jade Figurine, j34: 2039
+The Golden Bird, g34: 2040
+Lam Esen's Tome, bbb: 2041
+Horadric Cube, box: 2042
+Horadric Scroll, tr1: 2043
+Mephisto's Soulstone, mss: 2044
+Book of Skill, ass: 2045
+Khalim's Eye, qey: 2046
+Khalim's Heart, qhr: 2047
+Khalim's Brain, qbr: 2048
+Ear, ear: 2049
+Chipped Amethyst, gcv: 2050
+Flawed Amethyst, gfv: 2051
+Amethyst, gsv: 2052
+Flawless Amethyst, gzv: 2053
+Perfect Amethyst, gpv: 2054
+Chipped Topaz, gcy: 2055
+Flawed Topaz, gfy: 2056
+Topaz, gsy: 2057
+Flawless Topaz, gly: 2058
+Perfect Topaz, gpy: 2059
+Chipped Sapphire, gcb: 2060
+Flawed Sapphire, gfb: 2061
+Sapphire, gsb: 2062
+Flawless Sapphire, glb: 2063
+Perfect Sapphire, gpb: 2064
+Chipped Emerald, gcg: 2065
+Flawed Emerald, gfg: 2066
+Emerald, gsg: 2067
+Flawless Emerald, glg: 2068
+Perfect Emerald, gpg: 2069
+Chipped Ruby, gcr: 2070
+Flawed Ruby, gfr: 2071
+Ruby, gsr: 2072
+Flawless Ruby, glr: 2073
+Perfect Ruby, gpr: 2074
+Chipped Diamond, gcw: 2075
+Flawed Diamond, gfw: 2076
+Diamond, gsw: 2077
+Flawless Diamond, glw: 2078
+Perfect Diamond, gpw: 2079
+Minor Healing Potion, hp1: 2080
+Light Healing Potion, hp2: 2081
+Healing Potion, hp3: 2082
+Greater Healing Potion, hp4: 2083
+Super Healing Potion, hp5: 2084
+Minor Mana Potion, mp1: 2085
+Light Mana Potion, mp2: 2086
+Mana Potion, mp3: 2087
+Greater Mana Potion, mp4: 2088
+Super Mana Potion, mp5: 2089
+Chipped Skull, skc: 2090
+Flawed Skull, skf: 2091
+Skull, sku: 2092
+Flawless Skull, skl: 2093
+Perfect Skull, skz: 2094
+Herb, hrb: 2095
+Small Charm, cm1: 2096
+Large Charm, cm2: 2097
+Grand Charm, cm3: 2098
+rps: 2099
+rpl: 2100
+bps: 2101
+bpl: 2102
+El Rune, r01: 2103
+Eld Rune, r02: 2104
+Tir Rune, r03: 2105
+Nef Rune, r04: 2106
+Eth Rune, r05: 2107
+Ith Rune, r06: 2108
+Tal Rune, r07: 2109
+Ral Rune, r08: 2110
+Ort Rune, r09: 2111
+Thul Rune, r10: 2112
+Amn Rune, r11: 2113
+Sol Rune, r12: 2114
+Shael Rune, r13: 2115
+Dol Rune, r14: 2116
+Hel Rune, r15: 2117
+Io Rune, r16: 2118
+Lum Rune, r17: 2119
+Ko Rune, r18: 2120
+Fal Rune, r19: 2121
+Lem Rune, r20: 2122
+Pul Rune, r21: 2123
+Um Rune, r22: 2124
+Mal Rune, r23: 2125
+Ist Rune, r24: 2126
+Gul Rune, r25: 2127
+Vex Rune, r26: 2128
+Ohm Rune, r27: 2129
+Lo Rune, r28: 2130
+Sur Rune, r29: 2131
+Ber Rune, r30: 2132
+Jah Rune, r31: 2133
+Cham Rune, r32: 2134
+Zod Rune, r33: 2135
+Jewel, jew: 2136
+Malah's Potion, ice: 2137
+Scroll of Knowledge, 0sc: 2138
+Scroll of Resistance, tr2: 2139
+
+//*Monsters*
+Skeleton: 1
+Returned 1: 2
+Bone Warrior 1: 3
+Burning Dead: 4
+Horror: 5
+Zombie: 6
+Hungry Dead: 7
+Ghoul: 8
+Drowned Carcass: 9
+Plague Bearer 1: 10
+Afflicted 1: 11
+Tainted 1: 12
+Misshapen 1: 13
+Disfigured 1: 14
+Damned 1: 15
+Foul Crow 1: 16
+Blood Hawk 1: 17
+Black Raptor 1: 18
+Cloud Stalker 1: 19
+Fallen: 20
+Carver 1: 21
+Devilkin 1: 22
+Dark One 1: 23
+Warped One: 24
+Brute: 25
+Yeti: 26
+Crusher: 27
+Wailing Beast: 28
+Gargantuan Beast: 29
+Sand Raider 1: 30
+Marauder 1: 31
+Invader 1: 32
+Infidel 1: 33
+Assailant 1: 34
+unused Gorgon: 35
+unused StoneStalker: 36
+unused SerpentQueen: 37
+unused StygianWatcher: 38
+Ghost 1: 39
+Wraith 1: 40
+Specter 1: 41
+Apparition: 42
+Dark Shape: 43
+Dark Hunter: 44
+Vile Hunter: 45
+Dark Stalker: 46
+Black Rogue: 47
+Flesh Hunter: 48
+Dune Beast: 49
+Rock Dweller: 50
+Jungle Hunter: 51
+Doom Ape: 52
+Temple Guard 1: 53
+Moon Clan 1: 54
+Night Clan 1: 55
+Blood Clan 1: 56
+Hell Clan 1: 57
+Death Clan 1: 58
+Fallen Shaman: 59
+Carver Shaman 1: 60
+Devilkin Shaman 1: 61
+Dark Shaman 1: 62
+Warped Shaman: 63
+Quill Rat 1: 64
+Spike Fiend 1: 65
+Thorn Beast: 66
+Razor Spine 1: 67
+Bush Barb: 68
+Sand Maggot: 69
+Rock Worm: 70
+Devourer: 71
+Giant Lamprey: 72
+Blood Maggot 1: 73
+Tomb Viper 1: 74
+Claw Viper 1: 75
+Salamander 1: 76
+Pit Viper 1: 77
+Serpent Magus 1: 78
+Sand Leaper: 79
+Cave Leaper 1: 80
+Tomb Creeper 1: 81
+Tree Lurker: 82
+Cliff Lurker: 83
+Huntress 1: 84
+Saber Cat 1: 85
+Night Tiger: 86
+Hell Cat: 87
+Itchies: 88
+Black Locusts: 89
+Plague Bugs: 90
+Hell Swarm: 91
+Dung Soldier: 92
+Death Beetle: 93
+Scarab 1: 94
+Steel Scarab 1: 95
+Bone Scarab: 96
+Dried Corpse: 97
+Decayed: 98
+Embalmed: 99
+Preserved Dead: 100
+Cadaver 1: 101
+Hollow One: 102
+Guardian 1: 103
+Unraveler 1: 104
+Horadrim Ancient 1: 105
+Baal Unraveler: 106
+unused DamnedHorde: 107
+unused TwistedHorde: 108
+unused WickedHorde: 109
+unused UnholyHorde: 110
+Carrion Bird 1: 111
+Undead Scavenger: 112
+Hell Buzzard: 113
+Winged Nightmare: 114
+Sucker: 115
+Feeder: 116
+Blood Hook: 117
+Blood Wing: 118
+Gloam 1: 119
+Swamp Ghost: 120
+Burning Soul 1: 121
+Black Soul 1: 122
+Arach 1: 123
+Sand Fisher: 124
+Poison Spinner: 125
+Flame Spider: 126
+Spider Magus: 127
+Thorned Hulk 1: 128
+Bramble Hulk: 129
+Thrasher: 130
+Spikefist: 131
+Ghoul Lord 1: 132
+Night Lord 1: 133
+Dark Lord 1: 134
+Blood Lord 1: 135
+The Banished: 136
+Desert Wing: 137
+Fiend 1: 138
+Gloombat 1: 139
+Blood Diver: 140
+Dark Familiar: 141
+Rat Man 1: 142
+Fetish 1: 143
+Flayer 1: 144
+Soul Killer 1: 145
+Stygian Doll 1: 146
+Deckard Cain 1: 147
+Gheed: 148
+Akara: 149
+dummy chicken: 150
+Kashya: 151
+dummy rat: 152
+dummy RogueTown: 153
+dummy HellMeteor: 154
+Charsi: 155
+Warriv 1: 156
+Andariel: 157
+dummy Smallbird: 158
+dummy Largebird: 159
+dummy Bat: 160
+Dark Ranger: 161
+Vile Archer 1: 162
+Dark Archer 1: 163
+Black Archer: 164
+Flesh Archer: 165
+Dark Spearwoman: 166
+Vile Lancer 1: 167
+Dark Lancer 1: 168
+Black Lancer 1: 169
+Flesh Lancer: 170
+Skeleton Archer: 171
+Returned Archer 1: 172
+Bone Archer 1: 173
+Burning Dead Archer 1: 174
+Horror Archer 1: 175
+Warriv 2: 176
+Atma: 177
+Drognan: 178
+Fara: 179
+dummy Cow: 180
+Sand Maggot Young: 181
+Rock Worm Young: 182
+Devourer Young: 183
+Giant Lamprey Young: 184
+Blood Maggot Young 1: 185
+dummy Camel: 186
+Blunderbore 1: 187
+Gorebelly: 188
+Mauler 1: 189
+Urdar: 190
+Sand Maggot Egg: 191
+Rock Worm Egg: 192
+Devourer Egg: 193
+Giant Lamprey Egg: 194
+Blood Maggot Egg 1: 195
+dummy Act2Male: 196
+dummy Act2Female: 197
+dummy Act2Child: 198
+Greiz: 199
+Elzix: 200
+Geglash: 201
+Jerhyn: 202
+Lysander: 203
+dummy Act2Guard: 204
+dummy Act2Vendor1: 205
+dummy Act2Vendor2: 206
+Foul Crow Nest: 207
+Blood Hawk Nest: 208
+Black Raptor Nest: 209
+Cloud Stalker Nest: 210
+Meshif 1: 211
+Duriel: 212
+Undead Rat Man: 213
+Undead Fetish: 214
+Undead Flayer: 215
+Undead Soul Killer 1: 216
+Undead Stygian Doll 1: 217
+unused DarkGuard: 218
+unused DarkKnight: 219
+unused BloodGuard: 220
+unused BloodKnight: 221
+unused DarkPaladin: 222
+unused BloodMage: 223
+unused Demonist: 224
+unused BlackMagus: 225
+unused Diabolist: 226
+unused DeathMage: 227
+Maggot: 228
+Mummy Sarcophagus: 229
+Radament: 230
+unused FireBeast: 231
+unused IceGlobe: 232
+unused LightningBeast: 233
+unused PoisonOrb: 234
+Flying Scimitar: 235
+Zakarumite: 236
+Faithful: 237
+Zealot 1: 238
+Sexton: 239
+Cantor: 240
+Heirophant 1: 241
+Heirophant 2: 242
+Mephisto: 243
+Diablo: 244
+Deckard Cain 2: 245
+Deckard Cain 3: 246
+Deckard Cain 4: 247
+Swamp Dweller: 248
+Bog Creature: 249
+Slime Prince: 250
+The Summoner: 251
+Tyrael: 252
+Asheara: 253
+Hratli: 254
+Alkor: 255
+Ormus: 256
+Izual: 257
+Halbu: 258
+Water Watcher Limb: 259
+River Stalker Limb: 260
+Stygian Watcher Limb: 261
+Water Watcher Head: 262
+River Stalker Head: 263
+Stygian Watcher Head: 264
+Meshif 2: 265
+Deckard Cain 5: 266
+Flavie: 267
+Blood Raven: 268
+dummy bug: 269
+dummy scorpion: 270
+Rogue Scout: 271
+Rogue Hireling, Act 1 Hireling: 272
+dummy RogueTownShoot: 273
+Gargoyle Trap: 274
+Returned Mage 1: 275
+Bone Mage 1: 276
+Burning Dead Mage 1: 277
+Horror Mage 1: 278
+RatMan Shaman: 279
+Fetish Shaman: 280
+Flayer Shaman 1: 281
+Soul Killer Shaman 1: 282
+Stygian Doll Shaman 1: 283
+Larva: 284
+Sand Maggot Queen: 285
+Rock Worm Queen: 286
+Devourer Queen: 287
+Giant Lamprey Queen: 288
+Blood Maggot Queen: 289
+Clay Golem: 290
+Blood Golem: 291
+Iron Golem: 292
+Fire Golem: 293
+dummy Familiar: 294
+dummy Act3Male: 295
+Night Marauder: 296
+dummy Act3Female: 297
+Natalya: 298
+Flesh Spawner 1: 299
+Stygian Hag: 300
+Grotesque 1: 301
+Flesh Beast 1: 302
+Stygian Dog: 303
+Grotesque Wyrm 1: 304
+Doom Caster: 305
+Strangler 1: 306
+Storm Caster 1: 307
+Corpulent: 308
+Corpse Spitter: 309
+Maw Fiend 1: 310
+Doom Knight 1: 311
+Abyss Knight: 312
+Oblivion Knight 1: 313
+Quill Bear: 314
+Spike Giant: 315
+Thorn Brute: 316
+Razor Beast: 317
+Barbed Giant: 318
+dummy Snake: 319
+dummy Parrot: 320
+dummy Fish: 321
+dummy Evil Hole 1: 322
+dummy Evil Hole 2: 323
+dummy Evil Hole 3: 324
+dummy Evil Hole 4: 325
+dummy Evil Hole 5: 326
+trap firebolt 1: 327
+trap unknown1: 328
+trap unknown2: 329
+trap poison: 330
+trap chainlightning: 331
+Kaelan: 332
+dummy InvisoSpawner: 333
+unused DiabloClone: 334
+Sucker Nest: 335
+Feeder Nest: 336
+Blood Hook Nest: 337
+Blood Wing Nest: 338
+Act 2 Hireling: 339
+dummy MiniSpider: 340
+PrisonFL: 341
+PrisonFR: 342
+PrisonBL: 343
+PrisonBR: 344
+Bonewall: 345
+Council Member 1: 346
+Council Member 2: 347
+Council Member 3: 348
+Turret 1: 349
+Turret 2: 350
+Turret 3: 351
+Hydra 1: 352
+Hydra 2: 353
+Hydra 3: 354
+trap pillar: 355
+dummy seven tombs: 356
+Decoy: 357
+Valkyrie: 358
+dummy Act2Hireling: 359
+Iron Wolf, Act 3 Hireling: 360
+Balrog 1: 361
+Pit Lord 1: 362
+Venom Lord: 363
+Necroskeleton: 364
+Necromage: 365
+Griswold: 366
+Compelling Orb: 367
+Tyrael 1: 368
+Dark Wanderer: 369
+trap nova 1: 370
+dummy SpiritMummy: 371
+Lightning Spire: 372
+Fire Tower: 373
+Slinger 1: 374
+Spear Cat 1: 375
+Night Slinger 1: 376
+Hell Slinger: 377
+dummy Boba Fett: 378
+dummy Darth Maul: 379
+Returned Mage 2: 380
+Bone Mage 2: 381
+Death Mage: 382
+Horror Mage 2: 383
+Returned Mage 3: 384
+Bone Mage 3: 385
+Burning Dead Mage 2: 386
+Horror Mage 3: 387
+Returned Mage 4: 388
+Bone Mage 4: 389
+Burning Dead Mage 3: 390
+Horror Mage 4: 391
+Hell Bovine: 392
+window right: 393
+window left: 394
+Spear Cat 2: 395
+Night Slinger 2: 396
+Rat Man 2: 397
+Fetish 2: 398
+Flayer 2: 399
+Soul Killer 2: 400
+Stygian Doll 2: 401
+dummy Mephisto Spirit: 402
+The Smith: 403
+Trapped Soul 1: 404
+Trapped Soul 2: 405
+Jamella: 406
+Izual's Ghost: 407
+Rat Man 3: 408
+Hadriel: 409
+Hephasto The Armorer: 410
+Wake of Fire: 411
+Charged Bolt Sentry: 412
+Lightning Sentry: 413
+Blade Sentinel: 414
+Invis Pet: 415
+Inferno Sentry: 416
+Death Sentry: 417
+Shadow Warrior: 418
+Shadow Master: 419
+Raven: 420
+Spirit Wolf: 421
+Dire Wolf: 422
+Spirit of Barbs: 423
+Heart of Wolverine: 424
+Oak Sage: 425
+Plague Poppy: 426
+Cycle of Life: 427
+Vine Creature: 428
+Grizzly: 429
+Eagle: 430
+Wolf: 431
+Bear: 432
+Barricaded Door 1: 433
+Barricaded Door 2: 434
+Prison Door: 435
+Barricaded Tower: 436
+Rot Walker: 437
+Reanimated Horde: 438
+Prowling Dead: 439
+Unholy Corpse 1: 440
+Defiled Warrior: 441
+Siege Beast: 442
+Crush Beast: 443
+Blood Bringer: 444
+Gore Bearer: 445
+Demon Steed: 446
+Snow Drifter: 447
+Abominable: 448
+Chilled Froth: 449
+Frozen Abyss: 450
+Fallen Wolfrider: 451
+Carver Wolfrider: 452
+Devilkin Wolfrider: 453
+Enslaved: 454
+Slayer 1: 455
+Ice Boar: 456
+Fire Boar: 457
+Hell Spawn 1: 458
+Ice Spawn: 459
+Greater Hell Spawn 1: 460
+Greater Ice Spawn: 461
+Fanatic Enslaved: 462
+Berserker Slayer: 463
+Consumed Ice Boar: 464
+Consumed Fire Boar: 465
+Frenzied Hell Spawn: 466
+Frenzied Ice Spawn: 467
+Insane Hell Spawn: 468
+Insane Ice Spawn: 469
+Succubus 1: 470
+Vile Temptress: 471
+Stygian Harlot: 472
+Hell Temptress 1: 473
+Blood Temptress: 474
+Siren 1: 475
+Vile Witch 1: 476
+Stygian Fury: 477
+Blood Witch: 478
+Hell Witch 1: 479
+Overseer, Shenk: 480
+Lasher: 481
+Overlord: 482
+Blood Boss: 483
+Hell Whip: 484
+Demon Portal 1: 485
+Demon Portal 2: 486
+Demon Portal 3: 487
+Demon Portal 4: 488
+Demon Portal 5: 489
+Demon Portal 6: 490
+Demon Portal 7: 491
+Demon Portal 8: 492
+Demon Imp 1: 493
+Demon Rascal: 494
+Demon Gremlin: 495
+Demon Trickster 1: 496
+Demon Sprite: 497
+Catapult S: 498
+Catapult E: 499
+Catapult Siege: 500
+Catapult W: 501
+Frozen Creeper: 502
+Frozen Terror: 503
+Frozen Scourge: 504
+Frozen Horror: 505
+Frozen Scorch: 506
+Moon Lord 1: 507
+Night Lord 2: 508
+Blood Lord 2: 509
+Hell Lord 1: 510
+Death Lord: 511
+Larzuk: 512
+Anya Town: 513
+Malah: 514
+Nihlathak Town: 515
+Qual Kehk: 516
+Catapult Spotter S: 517
+Catapult Spotter E: 518
+Catapult Spotter Siege: 519
+Catapult Spotter W: 520
+Deckard Cain 6: 521
+Tyrael 2: 522
+Barbarian Fighter 1: 523
+Barbarian Fighter 2: 524
+Barricade Wall Right: 525
+Barricade Wall Left: 526
+Nihlathak: 527
+Anya: 528
+Evil Demon Hut: 529
+Death Mauler 1: 530
+Death Brawler: 531
+Death Slasher: 532
+Death Berserker: 533
+Death Brigadier: 534
+Barbarian Captive: 535
+Act 5 Townguard 1: 536
+Act 5 Townguard 2: 537
+Talic Statue: 538
+Madawc Statue: 539
+Korlic Statue: 540
+Talic: 541
+Madawc: 542
+Korlic: 543
+Baal Throne: 544
+Baal Crab: 545
+Baal Taunt: 546
+Putrid Defiler: 547
+Wretched Defiler: 548
+Fetid Defiler: 549
+Rancid Defiler: 550
+Rank Defiler: 551
+Pain Worm: 552
+Torment Worm: 553
+Agony Worm: 554
+Menace Worm: 555
+Anguish Worm: 556
+Bunny: 557
+Baal Council Member: 558
+Baal Venom Lord: 559
+Baal Crab to Stairs: 560
+Act 5 Hireling 1hs: 561
+Act 5 Hireling 2hs, Act 5 Hireling: 562
+Festering Appendages 1: 563
+Festering Appendages 2: 564
+Festering Appendages 3: 565
+Festering Appendages 4: 566
+Festering Appendages 5: 567
+Injured Barbarian 1: 568
+Injured Barbarian 2: 569
+Injured Barbarian 3: 570
+Baal Crab Clone: 571
+Minion of Destruction 1: 572
+Minion of Destruction 2: 573
+Minion of Destruction 3: 574
+Worldstone Effect: 575
+Burning Dead Archer 2: 576
+Bone Archer 2: 577
+Burning Dead Archer 3: 578
+Returned Archer 2: 579
+Horror Archer 2: 580
+Afflicted 2: 581
+Tainted 2: 582
+Misshapen 2: 583
+Disfigured 2: 584
+Damned 2: 585
+Moon Clan 2: 586
+Night Clan 2: 587
+Hell Clan 2: 588
+Blood Clan 2: 589
+Death Clan 2: 590
+Foul Crow 2: 591
+Blood Hawk 2: 592
+Black Raptor 2: 593
+Cloud Stalker 2: 594
+Claw Viper 2: 595
+Pit Viper 2: 596
+Salamander 2: 597
+Tomb Viper 2: 598
+Serpent Magus 2: 599
+Marauder 2: 600
+Infidel 2: 601
+Sand Raider 2: 602
+Invader 2: 603
+Assailant 2: 604
+Death Mauler 2: 605
+Quill Rat 2: 606
+Spike Fiend 2: 607
+Razor Spine 2: 608
+Carrion Bird 2: 609
+Thorned Hulk 2: 610
+Slinger 2: 611
+Slinger 3: 612
+Slinger 4: 613
+Vile Archer 2: 614
+Dark Archer 2: 615
+Vile Lancer 2: 616
+Dark Lancer 2: 617
+Black Lancer 2: 618
+Blunderbore 2: 619
+Mauler 2: 620
+Returned Mage 5: 621
+Burning Dead Mage 4: 622
+Returned Mage 6: 623
+Horror Mage 5: 624
+Bone Mage 5: 625
+Horror Mage 6: 626
+Horror Mage 7: 627
+Huntress 2: 628
+Saber Cat 2: 629
+Cave Leaper 2: 630
+Tomb Creeper 2: 631
+Ghost 2: 632
+Wraith 2: 633
+Specter 2: 634
+Succubus 2: 635
+Hell Temptress 2: 636
+Siren 2: 637
+Hell Witch 2: 638
+Vile Witch 2: 639
+Gloam 2: 640
+Black Soul 2: 641
+Burning Soul 2: 642
+Carver 2: 643
+Devilkin 2: 644
+Dark One 2: 645
+Carver Shaman 2: 646
+Devilkin Shaman 2: 647
+Dark Shaman 2: 648
+Bone Warrior 2: 649
+Returned 2: 650
+Gloombat 2: 651
+Fiend 2: 652
+Moon Lord 2: 653
+Hell Lord 2: 654
+Scarab 2: 655
+Steel Scarab 2: 656
+Flayer 3: 657
+Stygian Doll 3: 658
+Soul Killer 3: 659
+Flayer 4: 660
+Stygian Doll 4: 661
+Soul Killer 4: 662
+Flayer Shaman 2: 663
+Stygian Doll Shaman 2: 664
+Soul Killer Shaman 2: 665
+Temple Guard 2: 666
+Temple Guard 3: 667
+Guardian 2: 668
+Unraveler 2: 669
+Horadrim Ancient 2: 670
+Horadrim Ancient 3: 671
+Zealot 2: 672
+Zealot 3: 673
+Heirophant 3: 674
+Heirophant 4: 675
+Grotesque 2: 676
+Flesh Spawner 2: 677
+Grotesque Wyrm 2: 678
+Flesh Beast 2: 679
+Blood Maggot 2: 680
+Blood Maggot Young 2: 681
+Blood Maggot Egg 2: 682
+Slayer 2: 683
+Hell Spawn 2: 684
+Greater Hell Spawn 2: 685
+Arach 2: 686
+Balrog 2: 687
+Pit Lord 2: 688
+Demon Imp 2: 689
+Demon Trickster 2: 690
+Undead Stygian Doll 2: 691
+Undead Soul Killer 2: 692
+Strangler 2: 693
+Storm Caster 2: 694
+Maw Fiend 2: 695
+Blood Lord 3: 696
+Ghoul Lord 2: 697
+Dark Lord 2: 698
+Unholy Corpse 2: 699
+Doom Knight 2: 700
+Doom Knight 3: 701
+Oblivion Knight 2: 702
+Oblivion Knight 3: 703
+Cadaver 2: 704
+
+//*Missiles*
+Arrow missile: 1
+Javelin missile: 2
+Bighead1: 3
+Bighead2: 4
+Bighead3: 5
+Bighead4: 6
+Bighead5: 7
+Spike1: 8
+Spike2: 9
+Spike3: 10
+Spike4: 11
+Spike5: 12
+FireArrow: 13
+CRArrow1: 14
+CRArrow2: 15
+CRArrow3: 16
+CRArrow4: 17
+CRArrow5: 18
+Blood1: 19
+Blood2: 20
+BigBlood1: 21
+BigBlood2: 22
+ShaFire1: 23
+ShaFire2: 24
+ShaFire3: 25
+ShaFire4: 26
+ShaFire5: 27
+MagicArrow: 28
+IceArrow: 29
+FireExplode: 30
+IceExplode: 31
+Bolt missile: 32
+Andrial: 33
+BigHeadExp: 34
+ShamanExp: 35
+ThrowAxe: 36
+ThrowKnife: 37
+Glaive missile: 38
+PoisonJav: 39
+PoisonJavCloud: 40
+ColdArrow: 41
+ExplodingArrow: 42
+ExplodingArrowExplode: 43
+PlagueJavelin 1: 44
+OilPotion missile: 45
+ExplosivePotion: 46
+FulminatingPotion missile: 47
+RancidGasPotion missile: 48
+ChokingGasPotion missile: 49
+StranglingGasPotion missile: 50
+Not Used: 51
+ExplosivePotionExp: 52
+ExplosivePotionDebris1: 53
+ExplosivePotionDebris2: 54
+ExplosivePotionDebris3: 55
+HolyBolt: 56
+ChargedBolt: 57
+SanctuaryBolt: 58
+FireBolt: 59
+IceBolt: 60
+InfernoFlame1: 61
+InfernoFlame2: 62
+FireBall: 63
+Mummy1: 64
+Mummy2: 65
+Mummy3: 66
+Mummy4: 67
+Blaze: 68
+FirewallMaker: 69
+Firewall: 70
+GooSpit1: 71
+GooSpit2: 72
+GooSpit3: 73
+GooSpit4: 74
+GooSpit5: 75
+GooSplat: 76
+Sand Pile: 77
+UnHolyBolt1: 78
+UnHolyBolt2: 79
+UnHolyBolt3: 80
+UnHolyBolt4: 81
+SanctuaryCenter: 82
+FireExplosion 1: 83
+StuckArrow: 84
+FootPrint: 85
+ImmolationArrow: 86
+GuidedArrow: 87
+FreezingArrow: 88
+FreezingArrowExplode1: 89
+FreezingArrowExplode2: 90
+Nova: 91
+IceBlast: 92
+BlessedHammer 1: 93
+ChainLightning 1: 94
+FistOfAres: 95
+ChillBlood: 96
+GlacialSpike: 97
+Teleport: 98
+LightningBolt: 99
+LightningHit: 100
+Meteor: 101
+MeteorCenter: 102
+MeteorTail: 103
+MeteorExplode: 104
+FireSmall: 105
+FireMedium: 106
+MonBlizCenter: 107
+MonBliz1: 108
+MonBliz2: 109
+MonBliz3: 110
+MonBliz4: 111
+MonBlizExplode1: 112
+MonBlizExplode2: 113
+MonBlizExplode3: 114
+Teeth: 115
+CorpseExplosion: 116
+PoisonCorpseExplosion: 117
+MonsterCorpseExplode: 118
+PoisonNova: 119
+FrostNova: 120
+Rogue1: 121
+Rogue2: 122
+Rogue3: 123
+Bat Lightning Bolt: 124
+Bat Lightning Trail: 125
+SkMage1: 126
+SkMage2: 127
+SkMage3: 128
+SkMage4: 129
+VampireFireball: 130
+VampireFirewallMaker: 131
+VampireFirewall: 132
+VampireMeteor: 133
+VampireMeteorCenter: 134
+VampireMeteorExplode: 135
+Raven1: 136
+Raven2: 137
+AmphibianGoo1: 138
+AmphibianGoo2: 139
+TentacleGoo: 140
+AmphibianExplode: 141
+PoisonPuff: 142
+CurseEffectRed: 143
+SpiderGooLay: 144
+FetishInferno1: 145
+FetishInferno2: 146
+SpiderGoo: 147
+CurseCast: 148
+Howl: 149
+Shout: 150
+Dust: 151
+RedLightMissile: 152
+GreenLightMissile: 153
+BlueLightMissile: 154
+WhiteLightMissile: 155
+CorpsePoisonCloud: 156
+ChillBloodCloud: 157
+ChillBloodPuff: 158
+BlizzardCenter: 159
+Blizzard1: 160
+Blizzard2: 161
+Blizzard3: 162
+Blizzard4: 163
+BlizzardExplode1: 164
+BlizzardExplode2: 165
+BlizzardExplode3: 166
+ThunderStorm1: 167
+ThunderStorm2: 168
+ThunderStorm3: 169
+ThunderStorm4: 170
+MonsterLight: 171
+PoisonBall: 172
+DiabLight: 173
+Redemption: 174
+RedemptionFail: 175
+HandOfGod: 176
+DiabFire: 177
+FingerMageSpider: 178
+Electric ThrowAxe: 179
+DiabWallMaker: 180
+DiabWall: 181
+CurseAmplifyDamage: 182
+CurseDimVision: 183
+CurseWeaken: 184
+CurseIronMaiden: 185
+CurseTerror: 186
+CurseAttract: 187
+CurseReverseVampire: 188
+CurseConfuse: 189
+CurseDecrpify: 190
+CurseLowerResist: 191
+CurseCenter: 192
+BoneSpear: 193
+BoneSpirit: 194
+ColdUnique: 195
+LightUnique: 196
+SKBowArrow1: 197
+SKBowArrow2: 198
+SKBowArrow3: 199
+SKBowArrow4: 200
+SKBowArrow5: 201
+Nova1: 202
+Nova2: 203
+AndyPoisonBolt: 204
+TeethExplode: 205
+LightningJavelin: 206
+LightningFury: 207
+BoneWallMaker: 208
+NecroMage1: 209
+NecroMage2: 210
+NecroMage3: 211
+NecroMage4: 212
+Sparkle: 213
+MultipleShotArrow: 214
+MultipleShotBolt: 215
+ChargedStrikeBolt: 216
+BoneSpearExplode: 217
+PoisonExplosionCloud: 218
+BoneCast: 219
+BattleCry: 220
+PrimePoisonCloud: 221
+PlagueJavCloud: 222
+RancidGasCloud: 223
+ChokingGasCloud: 224
+StranglingGasCloud: 225
+BugLightning: 226
+PantherJav1: 227
+PantherJav2: 228
+PantherJav3: 229
+PantherJav4: 230
+ImmolationFire: 231
+FuryLightning: 232
+LightningStrike: 233
+FistoftheHeavensDelay: 234
+FistoftheHeavensBolt: 235
+Warcry: 236
+BattleCommand: 237
+BattleOrders: 238
+PantherPotOrange: 239
+PantherPotGreen: 240
+MeteorFire: 241
+Trap Spike Right: 242
+Trap Spike Left: 243
+Trap Cursed Skull Right: 244
+Trap Cursed Skull Left: 245
+Trap Poison Ball Right: 246
+Trap Poison Ball Left: 247
+Hydra: 248
+BoneSpearTrail: 249
+GrimWardSmallStart: 250
+GrimWardSmall: 251
+GrimWardSmallStop: 252
+GrimWardMediumStart: 253
+GrimWardMedium: 254
+GrimWardMediumStop: 255
+GrimWardLargeStart: 256
+GrimWardLarge: 257
+GrimWardLargeStop: 258
+ZakarumLight: 259
+GrimWardScare: 260
+FrozenOrb: 261
+FrozenOrbBolt: 262
+FrozenOrbNova: 263
+FrozenOrbExplode: 264
+ChillingArmorBolt: 265
+FireExplosion 2: 266
+BlowGun: 267
+ChainLightning 2: 268
+ReviveSmall: 269
+ReviveMedium: 270
+ReviveLarge: 271
+MonGlacialSpike: 272
+IceBreakSmall: 273
+IceBreakMedium: 274
+IceBreakLarge: 275
+IceBreakSmoke: 276
+Mephisto missile: 277
+Firehead: 278
+Whilrwind: 279
+ArcaneLightningBolt: 280
+FrogFire: 281
+FrogCold: 282
+FrogPois: 283
+DesertFireBall: 284
+BRDeathControl: 285
+BRDeathLightningBolt: 286
+BRDeathLightningHit: 287
+DenOfEvilLight: 288
+CairnStones: 289
+CairnStonesSky: 290
+CairnStonesGround: 291
+TowerMist: 292
+TowerMistTrail: 293
+BRDeathSmokeS1: 294
+BRDeathSmokeNU: 295
+BRDeathSmokeDT: 296
+BRDeathSpiritS1: 297
+BRDeathSpiritNU: 298
+BRDeathSpiritDT: 299
+MephistoDeathControl: 300
+MephistoFirewallMaker: 301
+MephistoFirewall: 302
+MephistoFlyingRocksBig: 303
+MephistoExplosionBig: 304
+MephistoFlyingRocksSmall: 305
+MephistoExplosionSmall: 306
+MephistoDoNotDraw: 307
+AndyControl0: 308
+AndyFirewallMaker: 309
+AndyFirewall: 310
+AndyColumnFireBase: 311
+AndyColumnFire: 312
+AndyFallingDebris1: 313
+AndyFallingDebris2: 314
+AndyFallingDebris3: 315
+AndyDebrisExplosion1: 316
+AndyDebrisExplosion2: 317
+AndyDebrisExplosion3: 318
+AndyDebrisExplosion4: 319
+AndyDebrisExplosion5: 320
+WillowispLightningBolt: 321
+QueenPoisonCloud: 322
+Dirt Pile: 323
+UndeadMissile1: 324
+UndeadMissile2: 325
+UndeadMissile3: 326
+UndeadMissile4: 327
+BoneSpiritExplode: 328
+DopplezonExplode: 329
+MonBoneSpirit: 330
+TowerMistFade: 331
+CountessFirewall: 332
+TowerChestSpawner: 333
+HellMeteorLaunch1: 334
+HellMeteorLaunch2: 335
+HellMeteorUp: 336
+HellMeteorDown: 337
+HellMeteorBall: 338
+HoradricStaff missile: 339
+HoradricLightning: 340
+HoradricLight: 341
+RegurgitatorCorpse: 342
+RegurgitatorCorpseExplode: 343
+HighPriestLightning 1: 344
+IceBreakSmallMelt: 345
+IceBreakLargeMelt: 346
+LeapKnockBack: 347
+RadamentDeath: 348
+RadamentHandOfGod: 349
+RadamentHolyBolt: 350
+TaintedSunControl: 351
+TaintedSunFlash: 352
+TaintedSunBall: 353
+QueenDeathCenter: 354
+QueenDeathGlob: 355
+QueenDeathSplat1: 356
+QueenDeathSplat2: 357
+HealingBolt: 358
+MephistoHoleDelay: 359
+MephistoHoleBirth: 360
+MephistoHoleNeutral: 361
+MephistoHoleDeath: 362
+MephistoHoleDead: 363
+DurielDeathControl: 364
+DurielDeathRock: 365
+DurielDeathDebris: 366
+DurielDeathSmoke: 367
+MephistoExplosion: 368
+OrbMist: 369
+OrbMistTrail: 370
+OrbMistFade: 371
+Pilum missile: 372
+Diablo Appears: 373
+HFControl: 374
+HFFragment1: 375
+HFFragment2: 376
+HFFragment3: 377
+HFSpirit1: 378
+HFReserved3: 379
+Izual Control: 380
+Izual Mist Loop: 381
+Izual Mist Fade: 382
+Izual Lightning: 383
+Izual Lightning Trail: 384
+Cairn Stones Bolt: 385
+Bomb in Air: 386
+Bomb on Ground: 387
+Bomb Explosion: 388
+Shock Field In Air: 389
+Shock Field On Ground: 390
+ThrowingStar: 391
+AcidSpray: 392
+Blade Creeper: 393
+Distraction: 394
+Distraction Fog: 395
+Distraction Puff: 396
+Distraction Start: 397
+Distraction End: 398
+ImpInfernoFlame1: 399
+ImpInfernoFlame2: 400
+BaalLightningBolt 1: 401
+BaalLightningTrail 1: 402
+BaalLightningBolt 2: 403
+BaalLightningTrail 2: 404
+ImpFireball: 405
+ImpFireballExplode: 406
+CatapultChargedBall On Catapult: 407
+CatapultChargedBall: 408
+CatapultChargedBallBolt: 409
+Imp Spawn Monsters: 410
+Catapult Spike Ball On Catapult: 411
+Catapult Spike Ball: 412
+Catapult Spike In Air: 413
+Catapult Spike On Ground: 414
+Catapult Spike Explosion: 415
+Catapult Cold Ball On Catapult: 416
+Catapult Cold Ball: 417
+Catapult Cold Explosion: 418
+Catapult Plague Ball On Catapult: 419
+Catapult Plague Ball: 420
+Catapult Plague Cloud: 421
+Catapult Meteor Ball On Catapult: 422
+Catapult Meteor Ball: 423
+Catapult Meteor Fire: 424
+Tower Death: 425
+Healing Vortex: 426
+SuicideCorpseExplode: 427
+SuicideFireExplode: 428
+SuicideIceExplode: 429
+ExplodingJavalin: 430
+ExplodingJavalinExplosion: 431
+LightingTrailingJavalin: 432
+LightJavalinTrail: 433
+LightJavalinExplosion: 434
+IceJavalin: 435
+IceJavalinExplode: 436
+PlagueJavelin 2: 437
+PlagueJavlinExplode: 438
+AdvLightTrailingJav 1: 439
+AdvLightTrailingJav 2: 440
+AdvLightJavExplode: 441
+SucFireBall: 442
+SucFireBallExplode: 443
+SucFireBallTrail: 444
+SucShockFieldMissile: 445
+SucShockFieldMissileExp: 446
+SucShockField: 447
+HellFireMissile: 448
+HellFireExA: 449
+HellFireExB: 450
+Imp Charged Bolt: 451
+Imp Teleport: 452
+Moltenboulder: 453
+MoltenBoulderEmerge: 454
+MoltenBoulderExplode: 455
+MoltenBoulderFirePath: 456
+MoltenBoulder FlyingRocks: 457
+FireStorm: 458
+FireStormMaker: 459
+ArcticBlast1: 460
+ArcticBlast2: 461
+Erruption Center: 462
+Erruption Crack 1: 463
+Erruption Crack 2: 464
+Erruption Smoke 1: 465
+Erruption Smoke 2: 466
+Vine Beast Walk 1: 467
+Vine Beast Walk 2: 468
+Vine Beast Neutral: 469
+Vine Beast Attack: 470
+Vine Beast Death: 471
+Vines: 472
+Vines Trail: 473
+Vines Wither: 474
+Plague Vines: 475
+Plague Vines Trail: 476
+Plague Vines Wither: 477
+Twister: 478
+Tornado: 479
+Volcano: 480
+Volcano Overlay Fire: 481
+Volcano Debris 2: 482
+Volcano Explosion: 483
+Volcano Small Fire: 484
+DragonBreath Missile: 485
+LureProjectile: 486
+LureCenter: 487
+LureCloud: 488
+ImpMiss1: 489
+ImpMiss2: 490
+ImpMiss3: 491
+ImpMiss4: 492
+ImpMiss5: 493
+FrozenHorror ArcticBlast1: 494
+FrozenHorror ArcticBlast2: 495
+SentryChargedBolt: 496
+SentrySpikeInAir: 497
+SentrySpikeOnGround: 498
+Recycler Delay: 499
+Recycler Vine: 500
+Recycler Fade: 501
+Recycler Explosion: 502
+Death Mauler missile: 503
+Death Mauler Trail: 504
+Death Mauler Trail Fade: 505
+BladeFury1: 506
+BladeFragment1: 507
+BladeFury2: 508
+BladeFragment2: 509
+BladeFury3: 510
+BladeFragment3: 511
+ShockWave: 512
+LightningTalons: 513
+LightningTalonsTrail: 514
+PhoenixTrail: 515
+RabiesPlague: 516
+RabiesContagion: 517
+Wake of Destruction maker: 518
+Wake of Destruction: 519
+DeathSentryExplode: 520
+TigerFury: 521
+TigerFuryTrail 1: 522
+TigerFuryTrail 2: 523
+Inferno Sentry 1: 524
+Inferno Sentry 2: 525
+Ancient throwing axe: 526
+SentryLightningBolt 1: 527
+SentryLightningHit 1: 528
+Anya Center: 529
+Anya Icicle: 530
+Anya IceImpact: 531
+Anya IceSteam: 532
+Anya IceMagic: 533
+DragonTail Missile: 534
+DragonFlight: 535
+DragonFlightMaker: 536
+Progressive Radius Damage: 537
+Vine Beast Walk 1 Fade: 538
+Vine Beast Walk 2 Fade: 539
+Vine Beast Neutral Fade: 540
+Vine Recycler Delay: 541
+Ancient Death Center: 542
+Ancient Death Cloud: 543
+lightning charge up nova: 544
+ChainLightningCharge up: 545
+Pain Worm Appear: 546
+Baal Taunt Control: 547
+Baal Taunt Lightning: 548
+Baal Taunt Lightning Trail: 549
+Baal Taunt Poison: 550
+Baal Spawn Monsters: 551
+Mindblast Hit: 552
+Blade Shield Missile: 553
+Blade Shield Attachment: 554
+Baal Inferno: 555
+Baal Nova: 556
+FistsOfFireExplode: 557
+FistsOfFireFirewall: 558
+ClawsOfThunderBolt: 559
+ClawsOfThunderNova: 560
+BladesOfIceExplode: 561
+BladesOfIceCubes: 562
+BladesOfIceCubesMelt: 563
+RoyalStrikeMeteor: 564
+RoyalStrikeMeteorCenter: 565
+RoyalStrikeMeteorTail: 566
+RoyalStrikeMeteorExplode: 567
+RoyalStrikeMeteorFire: 568
+RoyalStrikeChainLightning: 569
+RoyalStrikeChaosIce: 570
+World Stone Chip 1: 571
+World Stone Chip 2: 572
+World Stone Chip 3: 573
+World Stone Chip 4: 574
+HighPriestLightning 2: 575
+InfernoFlame 3: 576
+Mindblast Center: 577
+ArmageddonControl: 578
+ArmageddonRock: 579
+ArmageddonTail: 580
+ArmageddonExplosion: 581
+HurricaneSwoosh: 582
+HurricaneCart: 583
+HurricaneRock: 584
+HurricaneSack: 585
+HurricaneTree: 586
+HurricaneVase: 587
+BaalCorpseExplodeDelay: 588
+BaalCorpseExplodeExplosion: 589
+Baal Cold Maker: 590
+Baal Cold Trail: 591
+Baal Spawn Monsters Explode: 592
+ImpMiss21: 593
+ImpMiss22: 594
+ImpMiss23: 595
+ImpMiss24: 596
+ImpMiss25: 597
+AnyaSteam1: 598
+AnyaSteam2: 599
+AncientsGuide: 600
+AncientsMarker: 601
+AncientsControl: 602
+OverseerControl: 603
+Nihlithak1: 604
+Nihlithak2: 605
+Nihlithak3: 606
+NehlithakControl: 607
+NehlithakSwoosh: 608
+NehlithakDebris1: 609
+NehlithakDebris2: 610
+NehlithakDebris3: 611
+NehlithakDebris4: 612
+NehlithakGlow: 613
+BaalTeleport: 614
+BaalCloneDeath: 615
+AnyaSteamVent: 616
+AnyaSteam: 617
+NehlithakHole: 618
+NehlithakHoleLight: 619
+VolcanoFireTrail: 620
+NehlithakGlow2: 621
+NehlithakBoneChips: 622
+BaalCorpseExplodeFade: 623
+ArmageddonFire: 624
+IceSparkle: 625
+BaalFX Control: 626
+BaalFX Spirit 1: 627
+BaalFX Spirit 2: 628
+BaalFX Spirit 3: 629
+BaalFX Spirit 4: 630
+BaalFX Spirit 5: 631
+BaalFX Baal Head Appear: 632
+BaalFX Baal Head 1: 633
+BaalFX Baal Head 2: 634
+BaalFX Baal Head 3: 635
+BaalFX Tyreal Debris 1: 636
+BaalFX Tyreal Debris 2: 637
+BaalFX Tyreal Debris 3: 638
+BaalFX Tyreal Debris Break: 639
+Worldstone shake: 640
+BlessedHammer 2: 641
+SentryLightningBolt 2: 642
+SentryLightningHit 2: 643
+LightningTowerNova: 644
+skbowarrow6: 645
+skbowarrow7: 646
+skbowarrow8: 647
+bighead6: 648
+viper_poisjav: 649
+viper_poisjavcloud: 650
+viper_fire: 651
+viper_firecloud: 652
+viper_bonespear: 653
+countessfirewallmaker: 654
+baal taunt lightning control: 655
+baal taunt poison control: 656
+explodingarrowexp2: 657
+freezingarrowexp3: 658
+pantherjav5: 659
+spike6: 660
+cr_arrow6: 661
+skmagepois: 662
+skmagecold: 663
+skmagefire: 664
+skmageltng: 665
+succubusmiss: 666
+willowisplightningbolt2: 667
+mummyex: 668
+goospitex: 669
+impmissex: 670
+diablogeddoncontrol: 671
+diablogeddonrock: 672
+diablogeddontail: 673
+diablogeddonexplosion: 674
+diablogeddonfire: 675
+megademoninferno: 676
+trapfirebolt 2: 677
+trappoisonjavcloud: 678
+trapnova 2: 679
+mephfrostnova: 680
+mephlight: 681
+
+//** Levels **
+
+Rogue Encampment: 1
+Blood Moor: 2
+Cold Plains: 3
+Stony Field: 4
+Dark Wood: 5
+Black Marsh: 6
+Tamoe Highland: 7
+Den of Evil, Den Evil: 8
+Cave Level 1: 9
+Underground Passage Level 1: 10
+Hole Level 1: 11
+Pit Level 1: 12
+Cave Level 2: 13
+Underground Passage Level 2: 14
+Hole Level 2: 15
+Pit Level 2: 16
+Burial Grounds: 17
+Crypt: 18
+Mausoleum: 19
+Forgotten Tower: 20
+Tower Cellar Level 1: 21
+Tower Cellar Level 2: 22
+Tower Cellar Level 3: 23
+Tower Cellar Level 4: 24
+Tower Cellar Level 5: 25
+Monastery Gate: 26
+Outer Cloister: 27
+Barracks: 28
+Jail Level 1: 29
+Jail Level 2: 30
+Jail Level 3: 31
+Inner Cloister: 32
+Cathedral: 33
+Catacombs Level 1: 34
+Catacombs Level 2: 35
+Catacombs Level 3: 36
+Catacombs Level 4: 37
+Tristram: 38
+The Secret Cow Level, Secret Cow Level: 39
+Lut Gholein: 40
+Rocky Waste: 41
+Dry Hills: 42
+Far Oasis: 43
+Lost City: 44
+Valley of Snakes, Valley Snakes: 45
+Canyon of the Magi, Canyon of Magi, Canyon Magi: 46
+Sewers Level 1: 47
+Sewers Level 2: 48
+Sewers Level 3: 49
+Harem Level 1: 50
+Harem Level 2: 51
+Palace Cellar Level 1: 52
+Palace Cellar Level 2: 53
+Palace Cellar Level 3: 54
+Stony Tomb Level 1: 55
+Halls of the Dead Level 1, Halls of Dead Level 1, Halls Dead Level 1: 56
+Halls of the Dead Level 2, Halls of Dead Level 2, Halls Dead Level 2: 57
+Claw Viper Temple Level 1: 58
+Stony Tomb Level 2: 59
+Halls of the Dead Level 3, Halls of Dead Level 3, Halls Dead Level 3: 60
+Claw Viper Temple Level 2: 61
+Maggot Lair Level 1: 62
+Maggot Lair Level 2: 63
+Maggot Lair Level 3: 64
+Ancient Tunnels: 65
+Tal Rasha's Tomb 1: 66
+Tal Rasha's Tomb 2: 67
+Tal Rasha's Tomb 3: 68
+Tal Rasha's Tomb 4: 69
+Tal Rasha's Tomb 5: 70
+Tal Rasha's Tomb 6: 71
+Tal Rasha's Tomb 7: 72
+Tal Rasha's Chamber: 73
+Arcane Sanctuary: 74
+Kurast Docks: 75
+Spider Forest: 76
+Great Marsh: 77
+Flayer Jungle: 78
+Lower Kurast: 79
+Kurast Bazaar: 80
+Upper Kurast: 81
+Kurast Causeway: 82
+Travincal: 83
+Arachnid Lair: 84
+Spider Cavern: 85
+Swampy Pit Level 1: 86
+Swampy Pit Level 2: 87
+Flayer Dungeon Level 1: 88
+Flayer Dungeon Level 2: 89
+Swampy Pit Level 3: 90
+Flayer Dungeon Level 3: 91
+Kurast Sewers Level 1: 92
+Kurast Sewers Level 2: 93
+Ruined Temple: 94
+Disused Fane: 95
+Forgotten Reliquary: 96
+Forgotten Temple: 97
+Ruined Fane: 98
+Disused Reliquary: 99
+Durance of Hate Level 1, Durance Hate Level 1, Durance Level 1: 100
+Durance of Hate Level 2, Durance Hate Level 2, Durance Level 2: 101
+Durance of Hate Level 3, Durance Hate Level 3, Durance Level 3: 102
+The Pandemonium Fortress, Pandemonium Fortress: 103
+Outer Steppes: 104
+Plains of Despair, Plains Despair: 105
+City of the Damned, City of Damned, City Damned: 106
+River of Flame, River Flame: 107
+Chaos Sanctuary: 108
+Harrogath: 109
+Bloody Foothills: 110
+Frigid Highlands: 111
+Arreat Plateau: 112
+Crystalline Passage: 113
+Frozen River: 114
+Glacial Trail: 115
+Drifter Cavern: 116
+Frozen Tundra: 117
+Ancients' Way: 118
+Icy Cellar: 119
+Arreat Summit: 120
+Nihlathak's Temple: 121
+Halls of Anguish, Halls Anguish: 122
+Halls of Pain, Halls Pain: 123
+Halls of Vaught, Halls Vaught: 124
+Abaddon: 125
+Pit of Acheron, Pit Acheron: 126
+Infernal Pit: 127
+Worldstone Keep Level 1, Worldstone Level 1: 128
+Worldstone Keep Level 2, Worldstone Level 2: 129
+Worldstone Keep Level 3, Worldstone Level 3: 130
+Throne of Destruction, Throne Destruction: 131
+The Worldstone Chamber, Worldstone Chamber: 132
+
+// *Special object names*
+Cairn Stone: 314
+Tree of Inifuss:313
+Horazon's Journal:427
+Izual on Minimap, Minimap Izual: 300
+Anya on Minimap, Minimap Anya: 1468
+Nihlathak on Minimap, Minimap Nihlathak  : 1472
+Hellforg on Minimap,Minimap Hellforg  : 376
+//*Virtual keys*
+VK_LBUTTON: 0x01
+VK_RBUTTON: 0x02
+VK_CANCEL: 0x03
+VK_MBUTTON: 0x04
+VK_XBUTTON1: 0x05
+VK_XBUTTON2: 0x06
+VK_BACK: 0x08
+VK_TAB: 0x09
+VK_CLEAR: 0x0C
+VK_RETURN: 0x0D
+VK_SHIFT: 0x10
+VK_CONTROL: 0x11
+VK_MENU: 0x12
+VK_PAUSE: 0x13
+VK_CAPITAL: 0x14
+VK_KANA, VK_HANGEUL, VK_HANGUL: 0x15
+VK_JUNJA: 0x17
+VK_FINAL: 0x18
+VK_HANJA, VK_KANJI: 0x19
+VK_ESCAPE: 0x1B
+VK_CONVERT: 0x1C
+VK_NONCONVERT: 0x1D
+VK_ACCEPT: 0x1E
+VK_MODECHANGE: 0x1F
+VK_SPACE: 0x20
+VK_PRIOR: 0x21
+VK_NEXT: 0x22
+VK_END: 0x23
+VK_HOME: 0x24
+VK_LEFT: 0x25
+VK_UP: 0x26
+VK_RIGHT: 0x27
+VK_DOWN: 0x28
+VK_SELECT: 0x29
+VK_PRINT: 0x2A
+VK_EXECUTE: 0x2B
+VK_SNAPSHOT: 0x2C
+VK_INSERT: 0x2D
+VK_DELETE: 0x2E
+VK_HELP: 0x2F
+VK_0: 0x30
+VK_1: 0x31
+VK_2: 0x32
+VK_3: 0x33
+VK_4: 0x34
+VK_5: 0x35
+VK_6: 0x36
+VK_7: 0x37
+VK_8: 0x38
+VK_9: 0x39
+VK_A: 0x41
+VK_B: 0x42
+VK_C: 0x43
+VK_D: 0x44
+VK_E: 0x45
+VK_F: 0x46
+VK_G: 0x47
+VK_H: 0x48
+VK_I: 0x49
+VK_J: 0x4A
+VK_K: 0x4B
+VK_L: 0x4C
+VK_M: 0x4D
+VK_N: 0x4E
+VK_O: 0x4F
+VK_P: 0x50
+VK_Q: 0x51
+VK_R: 0x52
+VK_S: 0x53
+VK_T: 0x54
+VK_U: 0x55
+VK_V: 0x56
+VK_W: 0x57
+VK_X: 0x58
+VK_Y: 0x59
+VK_Z: 0x5A
+VK_LWIN: 0x5B
+VK_RWIN: 0x5C
+VK_APPS: 0x5D
+VK_SLEEP: 0x5F
+VK_NUMPAD0: 0x60
+VK_NUMPAD1: 0x61
+VK_NUMPAD2: 0x62
+VK_NUMPAD3: 0x63
+VK_NUMPAD4: 0x64
+VK_NUMPAD5: 0x65
+VK_NUMPAD6: 0x66
+VK_NUMPAD7: 0x67
+VK_NUMPAD8: 0x68
+VK_NUMPAD9: 0x69
+VK_MULTIPLY: 0x6A
+VK_ADD: 0x6B
+VK_SEPARATOR: 0x6C
+VK_SUBTRACT: 0x6D
+VK_DECIMAL: 0x6E
+VK_DIVIDE: 0x6F
+VK_F1: 0x70
+VK_F2: 0x71
+VK_F3: 0x72
+VK_F4: 0x73
+VK_F5: 0x74
+VK_F6: 0x75
+VK_F7: 0x76
+VK_F8: 0x77
+VK_F9: 0x78
+VK_F10: 0x79
+VK_F11: 0x7A
+VK_F12: 0x7B
+VK_F13: 0x7C
+VK_F14: 0x7D
+VK_F15: 0x7E
+VK_F16: 0x7F
+VK_F17: 0x80
+VK_F18: 0x81
+VK_F19: 0x82
+VK_F20: 0x83
+VK_F21: 0x84
+VK_F22: 0x85
+VK_F23: 0x86
+VK_F24: 0x87
+VK_NUMLOCK: 0x90
+VK_SCROLL: 0x91
+VK_OEM_NEC_EQUAL: 0x92 //'=' key on numpad
+VK_OEM_FJ_JISHO: 0x92 //'Dictionary' key
+VK_OEM_FJ_MASSHOU: 0x93 //'Unregister word' key
+VK_OEM_FJ_TOUROKU: 0x94 //'Register word' key
+VK_OEM_FJ_LOYA: 0x95 //'Left OYAYUBI' key
+VK_OEM_FJ_ROYA: 0x96 //'Right OYAYUBI' key
+VK_BROWSER_BACK: 0xA6
+VK_BROWSER_FORWARD: 0xA7
+VK_BROWSER_REFRESH: 0xA8
+VK_BROWSER_STOP: 0xA9
+VK_BROWSER_SEARCH: 0xAA
+VK_BROWSER_FAVORITES: 0xAB
+VK_BROWSER_HOME: 0xAC
+VK_VOLUME_MUTE: 0xAD
+VK_VOLUME_DOWN: 0xAE
+VK_VOLUME_UP: 0xAF
+VK_MEDIA_NEXT_TRACK: 0xB0
+VK_MEDIA_PREV_TRACK: 0xB1
+VK_MEDIA_STOP: 0xB2
+VK_MEDIA_PLAY_PAUSE: 0xB3
+VK_LAUNCH_MAIL: 0xB4
+VK_LAUNCH_MEDIA_SELECT: 0xB5
+VK_LAUNCH_APP1: 0xB6
+VK_LAUNCH_APP2: 0xB7
+VK_OEM_1: 0xBA //';:' for US
+VK_OEM_PLUS: 0xBB //'+' any country
+VK_OEM_COMMA: 0xBC //',' any country
+VK_OEM_MINUS: 0xBD //'-' any country
+VK_OEM_PERIOD: 0xBE //'.' any country
+VK_OEM_2: 0xBF //'/?' for US
+VK_OEM_3: 0xC0 //'`~' for US
+VK_OEM_4: 0xDB //'[{' for US
+VK_OEM_5: 0xDC //'\|' for US
+VK_OEM_6: 0xDD //']}' for US
+VK_OEM_7: 0xDE //''"' for US
+VK_OEM_8: 0xDF
+VK_OEM_AX: 0xE1 //'AX' key on Japanese AX kbd
+VK_OEM_102: 0xE2 //"<>" or "\|" on RT 102-key kbd.
+VK_ICO_HELP: 0xE3 //Help key on ICO
+VK_ICO_00: 0xE4 //00 key on ICO
+VK_PROCESSKEY: 0xE5
+VK_ICO_CLEAR: 0xE6
+VK_PACKET: 0xE7
+VK_OEM_RESET: 0xE9
+VK_OEM_JUMP: 0xEA
+VK_OEM_PA1: 0xEB
+VK_OEM_PA2: 0xEC
+VK_OEM_PA3: 0xED
+VK_OEM_WSCTRL: 0xEE
+VK_OEM_CUSEL: 0xEF
+VK_OEM_ATTN: 0xF0
+VK_OEM_FINISH: 0xF1
+VK_OEM_COPY: 0xF2
+VK_OEM_AUTO: 0xF3
+VK_OEM_ENLW: 0xF4
+VK_OEM_BACKTAB: 0xF5
+VK_ATTN: 0xF6
+VK_CRSEL: 0xF7
+VK_EXSEL: 0xF8
+VK_EREOF: 0xF9
+VK_PLAY: 0xFA
+VK_ZOOM: 0xFB
+VK_NONAME: 0xFC
+VK_PA1: 0xFD
+VK_OEM_CLEAR: 0xFE
+
+All, Everything: 0+
+
+Yes, True, On: 1
+No, False, Off, None, Null: 0
+
+Default: -1
+Hide, No Show: -2
+
+White: 0
+Red: 1
+Green, Green 1: 2
+Blue: 3
+Gold, Gold 1: 4
+Grey: 5
+Black: 6
+Gold 2: 7
+Orange: 8
+Yellow: 9
+Green 2: 10
+Purple: 11
+Green 3: 12
+
+Low Quality, Inferior, Crude, Cracked, Damaged: 1
+Normal: 2
+High Quality, Superior: 3
+Magical, Magic: 4
+Set: 5
+Rare: 6
+Unique: 7
+Crafted, Craft: 8
+
+Not Ethereal, Not Ethreal, Real: 1
+Ethereal, Ethreal, Unreal: 2
+
+Chipped, Lesser: 1
+Flawed, Light: 2
+Flawless, Strong: 4
+Perfect, Greater: 5
+
+Junk: Stamina Potion, Antidote Potion, Thawing Potion-Tome of Identify, Arrows, Bolts-Scroll of Identify, Key, Ear, Rancid Gas Potion-Fulminating Potion, Mephisto's Soulstone, Minor Healing Potion-Greater Healing Potion, Minor Mana Potion-Greater Mana Potion
+Headbands: Circlet-Diadem
+Normal Armor: Cap-Spiked Shield, Wolf Head-Coronet
+Normal Weapons: Hand Axe-Shaft of the Horadric Staff, Katar-Scissors Katar, Eagle Orb-Maiden Javelin
+Normal Items: Normal Armor, Normal Weapons
+Exceptional Armor: War Hat-Barbed Shield, Tiara, Alpha Helm-Heirophant Trophy
+Exceptional Weapons: Hatchet-Chu Ko Nu, Quhab-Scissors Quhab, Glowing Orb-Ceremonial Javelin
+Exceptionals, Exceptional Items: Exceptional Armor, Exceptional Weapons
+Elite Armor: Diadem-Blade Barrier, Blood Spirit-Bloodlord Skull
+Elite Weapons: Suwayyah-Demon Crossbow, Heavenly Stone-Matriarchal Javelin
+Elites, Elite Items: Elite Armor, Elite Weapons
+
+All Arrows: Arrow missile, FireArrow, MagicArrow, IceArrow, Bolt missile, ColdArrow, ExplodingArrow, ImmolationArrow, GuidedArrow, FreezingArrow, MultipleShotArrow, MultipleShotBolt
+
+//*Compatibility*
+Automap Missles Toggle: Automap Missiles Toggle
+Missle Blob File: Missile Blob File
+Hostile Missle Colour: Hostile Missile Colour
+Guided Missle Colour: Guided Missile Colour
+Chicken Hit Points: Chicken Life
+Chicken Hostile Nearby: Chicken Hostile Nearby Toggle
+Item Unitids Toggle: Unit Numbers Toggle
+Corpse Toggle: Hidden Corpse Toggle
+Show Shenk Death Anim: Monster Death Anims[Shenk]
+Rare Item Colour: Item Colours[All][Rare]
+Unique Item Colour: Item Colours[All][Unique]
+Jewel Colour: Item Colours[Jewel]
+View Inventory Key: View Equipment Key
+
+//*35000 item*
+Gold_Armor: Ancient Armor,Tigulated Mail-Mage Plate,Dusk Shroud-Archon Plate
+Gold_Helm: Winged Helm,Grand Crown,Grim Helm,Tiara-Demonhead 2,Bone Visage
+Gold_Shield: Heater-Ward,Troll Nest,Blade Barrier
+Gold_Belt: Spiderweb Sash-Colossus Girdle
+Gold_Boots: Scarabshell Boots-Myrmidon Greaves
+Gold_Gloves: Vambraces-Ogre Gauntlets
+Gold_Class: Totemic Mask,Savage Helmet,Slayer Guard,Guilded Shield,Royal Shield,Heirophant Trophy,Blood Spirit-Bloodlord Skull
+Gold_Items: Gold_Armor,Gold_Helm,Gold_Shield,Gold_Belt,Gold_Boots,Gold_Gloves,Gold_Class
+
+
+//* Pet Armors* 2s-3s eth
+Pet_Armor: Dusk Shroud-Archon Plate
+
+Elite_Sword: Phase Blade,Legend Sword-Colossus Blade
+
+//* 4 socket Armors*  d2x:Archon Plate.d2:Gothic Plate
+Armor_4s: Gothic Plate-Ancient Armor,Embossed Plate-Ornate Plate,Dusk Shroud-Archon Plate
+
+//* 3 socket Helms* d2x:Bone Visage & Demonhead Mask.d2:Death Mask
+Helm_3s: Great Helm-Mask,Winged Helm-Death Mask,Spired Helm-Demonhead 2,Bone Visage
+
+Elite_Polearm: Ogre Axe-Giant Thresher
+Elite_Spears: Hyperion Spear-War Pike
+Act2_Pet_Weapons: Elite_Polearm,Elite_Spears
+
+
+//* Gem *
+LGem: 2050-2052,2055-2057,2060-2062,2065-2067,2070-2072,2075-2077,2090-2092
+HGem: 2053,2054,2058,2059,2063,2064,2068,2069,2073,2074,2078,2079,2093,2094
+Gem Colours:Item Colours[LGem,HGem]
+Gem Colour:Gem Colours
+
+Normal_Color:0xa0 
+Useful_Color:0xd0 
+Nice_Color:0xa4 
+Dreaming_Color:0x63 
+
+fire resist, fr: 1
+cold resist, cr: 2
+lighting resist, lr: 3
+poison resist, pr: 4
+exit game: 1
+back to town: 2
+Quick Back Town Key : QuickBackToTownKey
+Automap Active Room Toggle : Automap Active Rooms Toggle
+Automap Active Room Colour : Automap Active Rooms Colour
+Automap Ready Room Toggle : Automap Ready Rooms Toggle
+Automap Ready Room Colour : Automap Ready Rooms Colour
+Light Radiu Toggle : Light Radius Toggle
+Automap Corpse Toggle : Automap Corpses Toggle
+Monster Corpse Colour : Monster Corpse Colours
+Hidden Corpse Toggle : Hidden Corpses Toggle
+Missile Corpse : Missile Corpses
+Hidden Item Level : Hidden Items Level

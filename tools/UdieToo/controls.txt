@@ -1,0 +1,106 @@
+Name	left	top	width	height	type	text	InvName	InvName1
+ItemBodyPage	0	0	0	0	page		amazon	amazon
+Close	18	385	32	32	button			
+END								
+ItemCubePage	0	0	0	0	page		transmogrify box page 1	transmogrify box page 1
+Close	275	385	32	32	button			
+END								
+ItemDeadPage	0	0	0	0	page		amazon	amazon
+Close	272	385	32	32	button			
+END								
+ItemMercPage	0	0	0	0	page		hireling	hireling
+Close	272	385	32	32	button			
+END								
+ItemStashPage	0	0	0	0	page		big bank page 1	bank page 1
+Close	272	385	32	32	button			
+END								
+ItemStorePage	0	0	0	0	page		monster	monster
+Tab1	0	2	80	16	button	Weapons		
+Tab2	80	2	80	16	button	Armor		
+Tab3	160	2	80	16	button	Misc		
+Tab4	240	2	80	16	button	Sets		
+PageUp	220	385	32	32	button	Page Up		
+PageDn	168	385	32	32	button	Page Down		
+dummy	116	385	32	32	button	Not Used		
+dummy1	15	385	32	32	button			
+Close	272	385	32	32	button			
+END								
+CharPage	0	0	0	0	page			
+Close	18	385	32	32	button			
+END								
+QuestPage	0	0	0	0	page			
+Close	278	390	32	32	button			
+Complete	226	390	32	32	button			
+END								
+SkillPage	0	0	0	0	page			
+Close	171	385	32	32	button			
+END								
+SkillPagea	0	0	0	0	page			
+Tab1	229	111	90	100	button	Javelin\nand Spear\nSkills		
+Tab2	229	214	90	100	button	Passive\nAnd Magic\nSkills		
+Tab3	229	321	90	100	button	Bow and\nCrossbow\nSkills		
+Close1	15	385	32	32	button			
+Close2	100	385	32	32	button			
+Close3	171	385	32	32	button			
+END								
+SkillPageb	0	0	0	0	page			
+Tab1	229	111	90	100	button	Warcries		
+Tab2	229	214	90	100	button	Combat\nMasteries		
+Tab3	229	321	90	100	button	Combat\nSkills		
+Close1	171	385	32	32	button			
+Close2	15	385	32	32	button			
+Close3	171	385	32	32	button			
+END								
+SkillPagen	0	0	0	0	page			
+Tab1	229	111	90	100	button	Summoning\nSpells		
+Tab2	229	214	90	100	button	Poison\nAnd Bone\nSpells		
+Tab3	229	321	90	100	button	Curses		
+Close1	15	385	32	32	button			
+Close2	171	385	32	32	button			
+Close3	15	385	32	32	button			
+END								
+SkillPagep	0	0	0	0	page			
+Tab1	229	111	90	100	button	Defensive\nAuras		
+Tab2	229	214	90	100	button	Offensive\nAuras		
+Tab3	229	321	90	100	button	Combat\nSkills		
+Close1	15	385	32	32	button			
+Close2	100	385	32	32	button			
+Close3	15	385	32	32	button			
+END								
+SkillPages	0	0	0	0	page			
+Tab1	229	111	90	100	button	Cold\nSpells		
+Tab2	229	214	90	100	button	Lightening\nSpells		
+Tab3	229	321	90	100	button	Fire\nSpells		
+Close1	171	385	32	32	button			
+Close2	15	385	32	32	button			
+Close3	15	385	32	32	button			
+END								
+SkillPaged	0	0	0	0	page			
+Tab1	229	111	90	100	button	Elemental		
+Tab2	229	214	90	100	button	Shape\nShifting		
+Tab3	229	321	90	100	button	Summoning		
+Close1	171	385	32	32	button			
+Close2	171	385	32	32	button			
+Close3	171	385	32	32	button			
+END								
+SkillPagei	0	0	0	0	page			
+Tab1	229	111	90	100	button	Martial\nArts		
+Tab2	229	214	90	100	button	Shadow\nDisciplines		
+Tab3	229	321	90	100	button	Traps		
+Close1	15	385	32	32	button			
+Close2	171	385	32	32	button			
+Close3	100	385	32	32	button			
+END								
+StatPage	0	0	0	0	page			
+Close	128	389	32	32	button			
+END								
+WayPage	0	0	0	0	page			
+Close	272	386	32	32	button			
+END								
+NPCPage	0	0	0	0	page			
+Close	278	390	32	32	button			
+Complete	226	390	32	32	button			
+END								
+KeyPage	0	0	0	0	page			
+Close	18	385	32	32	button			
+END								

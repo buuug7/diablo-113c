@@ -1,0 +1,13 @@
+type	name	bits	desc	cond1	condvar1	condval1	cond2	condvar2	condval2	comment
+										x
+WORD	wCharm	12	Charm Bits	0	bIsCharm	1				x
+										x
+BYTE	iTome	5	Spell Id	0	sType	book				x
+										x
+BYTE	iTome	5	Spell Id	0	sType	scro				x
+WORD	iMonster	10	Monster ID	0	sType	body				x
+										x
+										x
+										x
+										x
+										x

@@ -1,0 +1,23 @@
+type	name	bits	desc	cond1	condvar1	condval1	cond2	condvar2	condval2	comment
+WORD	iDef	11	Defence	0	iType	0				
+BYTE	iMaxDur	8	Max Durability	0	bNoDur	0				
+BYTE	iCurDur	9	Durability	1	iMaxDur	0	0	bNoDur	0	
+										
+WORD	iQty	9	Quantity	0	bStack	1				
+BYTE	iSock	4	Number of Sockets	0	bSocketed	1				
+										
+BYTE	bSet1	1	Has Set Property List 1	0	iQual	5				
+BYTE	bSet2	1	Has Set Property List 2	0	iQual	5				
+BYTE	bSet3	1	Has Set Property List 3	0	iQual	5				
+BYTE	bSet4	1	Has Set Property List 4	0	iQual	5				
+BYTE	bSet5	1	Has Set Property List 5	0	iQual	5				
+										
+PROP	prop1	9	Property List							
+										
+PROP	prop2	9	Set Property List 1	0	bSet1	1				
+PROP	prop3	9	Set Property List 2	0	bSet2	1				
+PROP	prop4	9	Set Property List 3	0	bSet3	1				
+PROP	prop5	9	Set Property List 4	0	bSet4	1				
+PROP	prop6	9	Set Property List 5	0	bSet5	1				
+										
+PROP	prop7	9	Rune Word Properties	0	bRuneWord	1				

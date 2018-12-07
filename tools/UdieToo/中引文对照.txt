@@ -1,0 +1,360 @@
+UdieToo中文属性对照表
+Strength 增加力量 ★
+Energy 增加精力 ★
+Dexterity 增加敏捷★
+Vitality 增加体力 ★
+Stat Points 没用
+Skill Points 没用
+Life 没用
+Max Life 增加最大生命 ★
+Mana 没用
+Max Mana 增加最大魔法 ★
+stamina 没用
+Max Stamina 增加最大耐力★
+level 没用
+experience 没用
+gold 没用
+goldbank 没用
+Enhanced Defense % 防御增加百分比 ★
+Enchanced Damage % 伤害增加百分比 ★
+Enchanced Min Dmg % 增加最小伤害百分比 ★
+Attack Rating 增加命中率 ★
+Chance of Blocking % 增加格挡率 ★
+Min 1-handed Dmg 增加单手最小伤害
+Max 1-handed Dmg 增加单手最大伤害
+Min 2-handed Dmg 增加双手最小伤害
+Max 2-handed Dmg 增加双手最大伤害
+Damage % nv 伤害增加百分比★
+Regenerate Mana % nv 法力再生（隐藏）
+Regenerate Mana Plus % 法力再生
+Heal Stemina Plus % 耐力恢复
+lastexp 没用
+nextexp 没用
+Defense 增加防御 ★
+Def vs Missile 增加对近战的防御
+Def vs Melee 增加对远程攻击的防御
+Damage Reduced By 伤害减少 ★
+Magic Dmg Reduced By 魔法伤害减少 ★
+Damage Reduced By % 伤害减少百分比
+Magic Resistance % 魔法抵抗百分比★
+Max Magic Resistance % 增加最大魔法抵抗的百分比
+Fire Resistance % 增加火抗的百分比
+Max Fire Resistance % 增加最大火抗的百分比
+Lightning Resistance % 增加电抗的百分比
+Max Lightning Resistance % 增加最大电抗的百分比
+Cold Resistance % 增加冰抗的百分比
+Max Cold Resistance % 增加最大冰抗的百分比
+Poison Resistance % 增加毒抗的百分比
+Max Poison Resistance % 增加最大毒抗的百分比
+damageaura 没用
+Fire Damage 增加火焰伤害 ★
+Max Fire Damage 增加火焰伤害最大值
+Lightning Damage 增加闪电伤害 ★
+Max Lightning Dmg 增加闪电伤害最大值
+Magic Damage 增加魔法伤害 ★
+Max Magic Damage 增加魔法伤害最大值
+Cold Damage 增加寒冷伤害 ★
+Max Cold Damage 增加寒冷伤害最大值
+Cold Length 冻结目标的时间
+Poison Damage 增加毒伤害 ★
+Max Poison Dmg 增加毒伤害最大值
+Poison Length 目标中毒的持续时间
+Life Stolen Per Hit Min 偷取生命 ★
+Life Stolen Per Hit Max 没用
+Mana Stolen Per Hit Min 偷取法力 ★
+Mana Stolen Per Hit Max 没用
+Stamina Drain Min 没用
+Stamina Drain Max 没用
+Stun Length没用
+Run/Walk Speed % nv 跑步速率增加百分比（隐藏） ★
+Attack Speed % nv 攻击速率增加百分比（隐藏） ★
+other_animrate 没用
+quantity 没用
+value 没用
+Durabilty 没用
+Max Durability 增加装备耐久
+Replenish Life 自行恢复生命值 ★
+Max Durability % 没用
+Life % 增加生命上限% ★
+Mana % 增加法力上限% ★
+Attacker Takes Damage Of 反伤
+Extra Gold From Monsters % 怪掉的钱增加
+Chance Of Getting Magic Items % 这个就是魔法装备暴率 ★
+Knock Back 击退
+Time Duration (未测试)
+Add Class Skill 加单人技能（职业代码为0到6的2进制）
+Unsentparam1 未知属性1
+Add experience 增加百分比得到的经验值
+Heal after kill 加X生命在杀死一只怪物后★
+Reduced prices 降低商人价格%
+Double Herb Duration (未测试)
+Light Radius 增加光照范围 ★
+Light Color nv 光照范围（隐藏）
+Requirements % 物品对基本属性的需求
+Level Require 没用
+Increased Attack Speed 提升攻击速度% ★
+Level Require % 增加等级需求
+Last block frame 格挡有关
+Faster Run/Walk 提升跑步速度%★
+Non Class skill 无职业限制技能
+state 特殊状态,比如头上永远顶个经验祭坛
+Faster Hit Recovery Rate 加快打击恢复
+Monster player count 没用
+Poison override 没用
+Faster Block Rate 快速格挡速度
+Bypass undead 没用
+Bypass demons 没用
+Faster Cast Rate 快速释法速度 ★
+Bypass beasts 没用
+Single Skill 增加职业限制技能
+Rest in peace 杀死怪物后恢复平静★
+Curse resistance 抗诅咒几率
+Poison Length Reduced By % 自己的中毒时间减少
+Damage 增加伤害
+Hit Causes Monster To Flee % 使怪物怪物会逃跑
+Hit Blinds Target 打中的敌人会失明
+Damage To Mana % 受损生命转化为提高法力
+Ignore Target Defense 无视目标防御★
+Target Defense % 减少目标防御%
+Prevent Monster Heal 防止怪物回血
+Half Freeze Duration 自己的冰冻时间减半
+Bonus To Attack Rating % 增加百分比额外的命中率
+Reduce Monster Defense per Hit 每次打中都减少怪物的防御
+Damage To Demons % 增加对恶魔系怪物的伤害
+Damage To Undead % 增加对不死系怪物的伤害
+Attack Rating Against Demons 增加对恶魔系怪物的命中率
+Attack Rating Against Undead 增加最不死系怪物的命中率
+Throwable (未测试)
+Elemental Skill 增加火焰技能
+All Skill Levels 增加所有技能 ★
+Attacker Takes Lightning Dmg Of 攻击者受到电伤害
+ironmaiden_level 没用
+lifetap_level 没用
+thorns_percent 没用
+bonearmor 没用
+bonearmormax 没用
+Attack Freezes Target 冻结目标 ★
+Chance of Open Wounds 撕开伤口的几率 ★
+Chance of Crushing Blow 压碎攻击的几率 ★
+Kick Damage 增加脚踢伤害
+Mana After Each Kill 加法力在杀死一只怪物后
+Life After Each Demon Kill 加生命在杀死恶魔系怪物后
+Extra Blood 没用
+Chance of Deadly Strike 致命攻击的几率★
+Fire Absorbs % 火焰吸收%
+Fire Absorbs 火焰吸收
+Lightning Absorbs % 闪电吸收%
+Lightning Absorbs 闪电吸收
+Magic Absorbs % 魔法吸收%
+Magic Absorbs 魔法吸收
+Cold Absorbs % 冰冷吸收%
+Cold Absorbs 冰冷吸收
+Slows Target By % 使目标减缓%
+Aura 灵气赐予
+Indestructible 装备无法破坏★
+Cannot be Frozen 不会被冻结 ★
+Slower Stamina Drain % 减缓耐力消耗
+ReAnimate 杀死怪物后复活为
+Pierce Attack % 穿透攻击
+Fire Magic Arrows or Bolts 射出魔法箭
+Fire Explosive Arrows or Bolts 射出爆炸箭
+Min Throw Dmg nv 增加百分比最小远程攻击
+Max Throw Dmg nv 增加百分比最大远程攻击
+UnCoded 未知属性
+UnCoded
+UnCoded
+UnCoded
+UnCoded
+UnCoded
+UnCoded
+UnCoded
+UnCoded
+UnCoded
+UnCoded
+UnCoded
+UnCoded
+UnCoded
+UnCoded
+UnCoded
+UnCoded
+UnCoded
+Attack Vs Monster 对特定怪物增加命中率
+Damage Vs Monster 对特定怪物增加伤害
+fade 身体透明化
+Armor override % 没用
+Unused183 …
+Unused184 …
+Unused185 …
+Unused186 …
+Unused187 …
+Add Skill Tab 加入单系技能
+Unused189 没用
+Unused190 …
+Unused191 …
+Unused192 …
+Unused193 …
+Increased Sockets 增加凹槽（需先激活）
+Skill On Attack 攻击时释放特定魔法
+Skill On Kill 杀死怪物时释放特定魔法
+Skill On Death 自己死亡时放特定魔法
+Skill On Hit 打中时释放特定魔法
+Skill On Levelup 升级时释放特定魔法
+Unused200 没用
+Skill On Get Hit 被打中时释放特定魔法
+Unused202 没用
+Unused203 …
+Charged Skill 特定聚气技能
+Unused205 没用…
+Unused206 …
+Unused207 …
+Unused208 …
+Unused209 …
+Unused210 ..
+Unused211 …
+Unused212 ..
+Unused213 …
+Defense (on Lvl) 按等级增加防御
+Enhanced Defense (on Lvl) 按等级提高防御
+Life (on Lvl) 按等级提高生命值
+Mana (on Lvl) 按等级提高魔法值
+Maximum Damage (on Lvl) 按等级提高最大伤害
+Enhanced MaxDmg (on Lvl) 按等级提高最大伤害
+Strength (on Lvl) 按等级增加力量
+Dexterity (on Lvl) 按等级增加敏捷
+Energy (on Lvl) 按等级增加精力
+Vitality (on Lvl) 按等级增加体力
+Att Rating (on Lvl) 按等级增加命中率
+Bonus to Att Rating % (on Lvl) 按等级提高额外的命中率
+Maximum Cold Dmg (on Lvl) 按等级增加最大寒冷伤害
+Maximum Fire Dmg (on Lvl) 按等级增加最大火伤害
+Maximum Lightning Dmg (on Lvl) 按等级增加最大闪电伤害
+Maximum Poison Dmg (on Lvl) 按等级增加最大毒伤害
+Cold Resistance % (on Lvl) 按等级增加百分比冰抗
+Fire Resistance % (on Lvl) 按等级增加百分比火抗
+Lightning Resistance % (on Lvl) 按等级增加百分比电抗
+Poison Resistance % (on Lvl) 按等级增加百分比毒抗
+Absorbs Cold Damage (on Lvl) 按等级提高吸收寒冷伤害能力
+Absorbs Fire Damage (on Lvl) 按等级吸收火伤害能力
+Absorbs Lightning Damage (on Lvl) 按等级吸收闪电伤害能力
+Absorbs Poison (per lvl) "很诱惑的属性,不过没用"
+Attacker Takes Damage of (on Lvl) 按等级反伤
+Extra Gold From Monsters % (on Lvl)按等级提高怪掉的钱
+Chance of Getting Magic Items % (on Lvl) 按等级提高魔法装备暴率
+Heal Stamina Plus % (on Lvl)按等级耐力恢复速度提高
+Maximum Stamina (on Lvl) 按等级增加耐力最大值
+Damage to Demons % (on Lvl) 没用
+Damage to Undead % (on Lvl) 没用
+Att Rating against Demons (on Lvl) 没用
+Att Rating against Undead (on Lvl) 没用
+Chance of Crushing Blow (on Lvl) 按等级提高压碎攻击的几率
+Chance of Open Wounds (on Lvl) 按等级提高撕开伤口的几率
+Kick Damage (on Lvl) 按等级提高踢伤害
+Chance of Deadly Strike (on Lvl) 按等级提高致命攻击几率
+Find Gems per level 没用
+Repair 1 Durability In Seconds 按时间恢复耐久
+Replenish 1 Quantity In Seconds 回复数量
+Increased Stack Size 增加数量
+UnCoded 没用
+UnCoded …
+UnCoded …
+UnCoded …
+UnCoded …
+UnCoded …
+UnCoded ..
+UnCoded …
+UnCoded .
+UnCoded ..
+UnCoded .
+UnCoded .
+UnCoded .
+Defense (by Time) [1] 以下为属性/时间
+Defense (by Time) [2]
+Life (by Time)
+Mana (by Time)
+Max Damage (by Time) [1]
+Max Damage (by Time) [2]
+Strength (by Time)
+Dexterity (by Time)
+Energy (by Time)
+Vitality (by Time)
+Attack Rating (by Time) [1]
+Attack Rating (by Time) [2]
+Max Cold Dmg (by Time)
+Max Fire Dmg (by Time)
+Max Lightning Dmg (by Time)
+Max Poison Dmg (by Time)
+Cold Resistance % (by Time)
+Fire Resistance % (by Time)
+Lightning Resistance % (by Time)
+Poison Resistance % (by Time)
+Absorbs Cold Damage (by Time)
+Absorbs Fire Damage (by Time)
+Absorbs Lightning Damage (by Time)
+Blessed Aim
+Gold From Monsters % (by Time)
+Find Magic Items % (by Time)
+Heal Stamina Plus % (by Time)
+Max Stamina (by Time)
+Damage vs Demon % (by Time)
+Damage vs Undead % (by Time)
+Attack Rating vs Demon (by Time)
+Attack Rating vs Undead (by Time)
+Chance of Crushing Blow (by Time)
+Chance of Open Wounds (by Time)
+Kick Damage (by Time)
+Chance of Deadly Strike (by Time)
+item_find_gems_bytime 没用
+item_pierce_cold 减少敌人对冰技能抵抗%
+item_pierce_fire 减少敌人对火技能抵抗%
+item_pierce_ltng 减少对闪电技能抵抗%
+item_pierce_pois 减少对毒素技能的抵抗%
+item_damage_vs_monster 没用
+item_damage_percent_vs_monster …
+item_tohit_vs_monster …
+item_tohit_percent_vs_monster …
+item_ac_vs_monster …
+item_ac_percent_vs_monster …
+firelength …
+burningmin …
+burningmax …
+progressive_damage …
+progressive_steal ..
+progressive_other ..
+progressive_fire …
+progressive_cold …
+progressive_lightning …
+item_extra_charges …
+progressive_tohit …
+poison_count …
+damage_framerate …
+pierce_idx …
+passive_fire_mastery 增加百分比火技能伤害
+passive_ltng_mastery ……闪电技能伤害
+passive_cold_mastery ……寒冷技能伤害
+passive_pois_mastery ……毒素伤害
+passive_fire_pierce 减敌人对火技能抗性（测试效果为增加元素伤害上限）
+passive_ltng_pierce ……对闪电技能抗性
+passive_cold_pierce ……对寒冷技能抗性
+passive_pois_pierce ……对毒素技能抗性
+passive_critical_strike 不清楚
+passive_dodge 三闪之一
+passive_avoid 三闪……
+passive_evade 三闪……
+passive_warmth 热情
+passive_mastery_melee_th 未测试
+passive_mastery_melee_dmg …
+passive_mastery_melee_crit …
+passive_mastery_throw_th …
+passive_mastery_throw_dmg …
+passive_mastery_throw_crit …
+passive_weaponblock …
+passive_summon_resist …
+modifierlist_skill 没用
+modifierlist_level 没用
+last_sent_hp_pct 没用
+source_unit_type 没用
+source_unit_id 没用
+shortparami 未测试
+questitemdifficulty 未测试
+passive_mag_mastery 未测试
+passive_mag_pierce 未测试
