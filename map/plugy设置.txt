@@ -1,0 +1,86 @@
+plugy.ini为暗黑破坏神2辅助类插件plugy的配置文件，可直接打开进行配置。
+
+[GENERAL] 总设置　
+　
+ActivePlugin=1 激活插件(0为取消) 　　
+ActiveLogFile=0 激活Log文件(0为取消) 　　
+DllToLoad= 读取额外的dll文件(MOD使用) 　　
+DllToLoad2= 同上(MOD使用) 　　
+ActiveCommands=1 激活命令(0为取消) 　　
+ActiveCheckMemory=1 激活扫描内存(进不了游戏就改成0) 
+
+语言　　ENG|ESP|DEU|FRA|POR|ITA|JPN|KOR|SIN|CHI|POL|RUS 
+　　
+ActiveChangeLanguage=0 激活切换语言(0为取消) 　　
+SelectedLanguage=ENG 选择语言(ENG是英语,CHI是中文,以此类推)
+
+[SAVEPATH] 存档路径　　
+ActiveSavePathChange=0 激活修改存档路径(0为取消) 　　
+SavePath=save\PlugY Only\ 存档路径(后面就是新的你设定的地址)
+
+[MAIN SCREEN] 主窗口　　
+ActiveVersionTextChange=0 激活修改版本号文字(0为取消) 　　
+VersionText=v 1.11 版本号文字(暗黑版本号文字) 　　
+ColorOfVersionText=0 版本号文字的颜色(数字是颜色代码) 　　
+ActivePrintPlugYVersion=1 激活显示PlugY版本号(0为禁止) 　　
+ColorOfPlugYVersion=4 版本号颜色(数字是颜色代码) 
+
+储物箱　　
+ActiveBigStash=1 激活大储物箱(0为取消) 　　
+ActiveMultiPageStash=1 激活多页储物箱(0为取消) 　　
+NbPagesPerIndex=10 Nb点击一次的页面数 　　
+NbPagesPerIndex2=100 同上(按SHIFT后的效果) 　　
+MaxPersonnalPages=0 最大个人储物箱的页数(0为不限制) 　　
+ActiveSharedStash=1 激活分享储物箱(0为取消) 　　
+SeparateHardcoreStash=1 分离HC和SC的储物箱(0为否) 　　
+displaySharedSetItemNameInGreen=1 显示分享储物箱中的套装绿色名字(0为禁止) 　　
+MaxSharedPages=0 最大共享储物箱页数(0为不限制) 　　
+ActiveSharedGold=1 激活分享金币(0为取消) 
+
+属性点　　
+ActiveStatsUnassignment=1 激活属性重分配(0为取消) 　　
+KeyUsed=18 使用键编号(不要随意修改,此为Alt) 　　
+ActiveShiftClickLimit=1 激活Shift加点限制(0为取消) 　　
+LimitValueToShiftClick=5 Shift加点数值(随意输入)
+
+升级属性点　　
+ActiveStatPerLevelUp=0 激活修改升级属性点(0为取消) 　　
+StatPerLevelUp=5 升级属性点(随意输入)
+
+技能点　　
+ActiveSkillsUnassignment=1 激活技能点重分配(0为取消)
+
+[SKILL ON LEVEL UP] 升级技能点　　
+ActiveSkillPerLevelUp=0 激活修改升级技能点(0为取消) 　　
+SkillPerLevelUp=1 升级技能点(随意输入)
+
+[WORLD EVENT] WE　　
+ActiveWorldEvent=1 激活WE(0为取消) 　　
+ShowCounterInAllDifficulty=0 在所有难度显示计数器(0为否) 　　
+ItemsToSell=The Stone of Jordan 触发道具(不要随意修改!默认为SOJ) 　　
+MonsterID=333 怪物代码(不要随意修改!默认为DClone) 　　
+OwnSOJSoldChargeFor=100 卖1个SOJ刷新的数值(随意修改) 　　
+InititalSOJSoldMin=200 默认最小贩卖数(无修改必要) 　　
+InititalSOJSoldMax=3000 默认最大贩卖数(无修改必要) 　　
+TriggerAtEachSOJSoldMin=75 触发WE的SOJ最小数值(随意修改) 　　
+TriggerAtEachSOJSoldMax=125 触发WE的SOJ最大数值(随意修改) 　　
+ActiveAutoSell=1 激活让游戏自动贩卖(0为取消) 　　
+TimeBeforeAutoSellMin=0 自动贩卖最小时间(随意修改) 　　
+TimeBeforeAutoSellMax=1200 自动贩卖最大时间(随意修改) 
+
+终级任务　　
+ActiveUberQuest=1 激活终级任务(0为取消) 
+
+界面　　
+ActiveNewStatsInterface=1 激活新的属性点界面(0为取消) 　　
+SelectMainPageOnOpenning=1 开启时显示主页面(0为否)
+
+其他　　
+ActiveLaunchAnyNumberOfLOD=1 激活在任意数量LOD下兼容(0为取消) 　　
+AlwaysRegenMapInSP=1单人游戏始终刷新地图(0为否) 　　
+NBPlayersByDefault=0 设置默认玩家个数(0为不设置) 　　
+ActiveDisplayItemLevel=1 激活显示物品等级(0为取消) 　　
+AlwaysDisplayLifeAndManaValues=1 始终显示Life和Mana值(0为禁止) 　　
+EnabledTXTFilesWhenMSExcelOpenIt=1 允许使用MSExcel修改过的TXT文件(0为禁止) 　　ActiveDisplayBaseStatsValue=1 显示物品价值(0为取消) 　　
+ActiveLadderRunewords=1激活天梯符文之语(0为取消) 　　
+ActiveCowPortalWhenCowKingWasKilled=1 杀死牛王也可以进入牛关(0为取消)
