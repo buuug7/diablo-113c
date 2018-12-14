@@ -1,0 +1,36 @@
+---------------------------------------------------------------
+DESKTOP-1JG305K Realm startup at 2018-12-13 12:51:53.492
+---------------------------------------------------------------
+12:51:53.492  ------------------------------------------------------
+12:51:53.492  2018-12-13 12:51:53
+12:51:53.492  Diablo II running under Windows XP (Version 5.010)
+12:51:53.492  Vendor:  Intel
+12:51:53.492  Version: Pentium III (no brand) (Type 0, Family 6, Model D, Stepping 4, Brand 0)
+12:51:53.502  Speed: Approx. 2195 MHz
+12:51:53.502  Total Physical Memory: 1024.00MB
+12:51:53.502  Application Path: D:\diablo-113c
+12:51:53.714  Local IP: 172.18.48.1
+12:51:53.714  Computer name: DESKTOP-1JG305K
+12:51:53.714  ------------------------------------------------------
+12:51:53.714  
+12:51:53.714  imagehlp.dll loaded for better stack crawls.
+12:51:57.041  ........DirectSound progress: 0 buffers available is less than min needed 16 buffers for 3d sound
+12:51:57.055  ........DirectSound progress: 0 buffers available is less than min needed 16 buffers for 3d sound
+---------------------------------------------------------------
+DESKTOP-1JG305K Realm startup at 2018-12-13 18:41:42.827
+---------------------------------------------------------------
+18:41:42.827  ------------------------------------------------------
+18:41:42.827  2018-12-13 18:41:42
+18:41:42.827  Diablo II running under Windows XP (Version 5.010)
+18:41:42.827  Vendor:  Intel
+18:41:42.827  Version: Pentium III (no brand) (Type 0, Family 6, Model D, Stepping 4, Brand 0)
+18:41:42.830  Speed: Approx. 2195 MHz
+18:41:42.830  Total Physical Memory: 1024.00MB
+18:41:42.830  Application Path: D:\diablo-113c
+18:41:42.960  Local IP: 172.18.48.1
+18:41:42.960  Computer name: DESKTOP-1JG305K
+18:41:42.960  ------------------------------------------------------
+18:41:42.960  
+18:41:42.960  imagehlp.dll loaded for better stack crawls.
+18:41:46.016  ........DirectSound progress: 0 buffers available is less than min needed 16 buffers for 3d sound
+18:41:46.030  ........DirectSound progress: 0 buffers available is less than min needed 16 buffers for 3d sound
